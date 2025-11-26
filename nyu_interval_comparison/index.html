@@ -1,0 +1,1443 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Multi-Model Comparison Index</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .info {
+            text-align: center;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            max-width: 800px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .models {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+        .model-badge {
+            background: #3498db;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        table {
+            width: 100%;
+            max-width: 1200px;
+            margin: 20px auto;
+            background: white;
+            border-collapse: collapse;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        th {
+            background: #3498db;
+            color: white;
+            padding: 15px;
+            text-align: left;
+        }
+        td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #ddd;
+        }
+        tr:hover {
+            background: #f5f5f5;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 20px 0;
+        }
+        .stat-box {
+            background: white;
+            padding: 15px 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .stat-number {
+            font-size: 32px;
+            font-weight: bold;
+            color: #3498db;
+        }
+        .stat-label {
+            color: #666;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔍 Multi-Model Depth Estimation Comparison</h1>
+    
+    <div class="info">
+        <h2>Models Compared</h2>
+        <div class="models">
+            <div class="model-badge">dav1-vitb</div>
+            <div class="model-badge">dav2-severe</div>
+            <div class="model-badge">dav2-vitb</div>
+            <div class="model-badge">marigold</div>
+            <div class="model-badge">zoedepth-nk</div>
+        </div>
+        
+        <div class="stats">
+            <div class="stat-box">
+                <div class="stat-number">145</div>
+                <div class="stat-label">Comparisons</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Models</div>
+            </div>
+        </div>
+    </div>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Index</th>
+                <th>Image Name</th>
+                <th>Best Model</th>
+                <th>Best δ1</th>
+                <th>Worst δ1</th>
+                <th>Δ (Range)</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>0000</td>
+                <td>0000</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.9950</td>
+                <td style="color: red;">0.9105</td>
+                <td>0.0845</td>
+                <td><a href="0000_0000/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0010</td>
+                <td>0010</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.9997</td>
+                <td style="color: red;">0.9539</td>
+                <td>0.0458</td>
+                <td><a href="0010_0010/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0020</td>
+                <td>0020</td>
+                <td><strong>dav2-vitb</strong></td>
+                <td style="color: green;">0.8862</td>
+                <td style="color: red;">0.6141</td>
+                <td>0.2721</td>
+                <td><a href="0020_0020/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0030</td>
+                <td>0030</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.9781</td>
+                <td style="color: red;">0.6140</td>
+                <td>0.3641</td>
+                <td><a href="0030_0030/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0040</td>
+                <td>0040</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.9300</td>
+                <td style="color: red;">0.6296</td>
+                <td>0.3004</td>
+                <td><a href="0040_0040/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0050</td>
+                <td>0050</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.9961</td>
+                <td style="color: red;">0.5588</td>
+                <td>0.4373</td>
+                <td><a href="0050_0050/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0060</td>
+                <td>0060</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.9912</td>
+                <td style="color: red;">0.7685</td>
+                <td>0.2227</td>
+                <td><a href="0060_0060/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0070</td>
+                <td>0070</td>
+                <td><strong>marigold</strong></td>
+                <td style="color: green;">0.9548</td>
+                <td style="color: red;">0.7825</td>
+                <td>0.1723</td>
+                <td><a href="0070_0070/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0080</td>
+                <td>0080</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.9454</td>
+                <td style="color: red;">0.7593</td>
+                <td>0.1861</td>
+                <td><a href="0080_0080/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0090</td>
+                <td>0090</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.6619</td>
+                <td style="color: red;">0.2596</td>
+                <td>0.4023</td>
+                <td><a href="0090_0090/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0100</td>
+                <td>0100</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.5656</td>
+                <td style="color: red;">0.0973</td>
+                <td>0.4683</td>
+                <td><a href="0100_0100/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0110</td>
+                <td>0110</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.6128</td>
+                <td style="color: red;">0.3378</td>
+                <td>0.2750</td>
+                <td><a href="0110_0110/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0120</td>
+                <td>0120</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.8427</td>
+                <td style="color: red;">0.5138</td>
+                <td>0.3289</td>
+                <td><a href="0120_0120/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0130</td>
+                <td>0130</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.9560</td>
+                <td style="color: red;">0.7324</td>
+                <td>0.2236</td>
+                <td><a href="0130_0130/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0140</td>
+                <td>0140</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.9575</td>
+                <td style="color: red;">0.7483</td>
+                <td>0.2092</td>
+                <td><a href="0140_0140/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0150</td>
+                <td>0150</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.9508</td>
+                <td style="color: red;">0.6448</td>
+                <td>0.3060</td>
+                <td><a href="0150_0150/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0160</td>
+                <td>0160</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.9356</td>
+                <td style="color: red;">0.5565</td>
+                <td>0.3791</td>
+                <td><a href="0160_0160/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0170</td>
+                <td>0170</td>
+                <td><strong>marigold</strong></td>
+                <td style="color: green;">0.6934</td>
+                <td style="color: red;">0.4057</td>
+                <td>0.2877</td>
+                <td><a href="0170_0170/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0180</td>
+                <td>0180</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.9543</td>
+                <td style="color: red;">0.5187</td>
+                <td>0.4356</td>
+                <td><a href="0180_0180/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0190</td>
+                <td>0190</td>
+                <td><strong>dav2-vitb</strong></td>
+                <td style="color: green;">0.9262</td>
+                <td style="color: red;">0.8594</td>
+                <td>0.0668</td>
+                <td><a href="0190_0190/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0200</td>
+                <td>0200</td>
+                <td><strong>marigold</strong></td>
+                <td style="color: green;">0.6845</td>
+                <td style="color: red;">0.4379</td>
+                <td>0.2466</td>
+                <td><a href="0200_0200/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0210</td>
+                <td>0210</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.9111</td>
+                <td style="color: red;">0.5842</td>
+                <td>0.3269</td>
+                <td><a href="0210_0210/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0220</td>
+                <td>0220</td>
+                <td><strong>marigold</strong></td>
+                <td style="color: green;">0.9617</td>
+                <td style="color: red;">0.6010</td>
+                <td>0.3607</td>
+                <td><a href="0220_0220/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0230</td>
+                <td>0230</td>
+                <td><strong>marigold</strong></td>
+                <td style="color: green;">0.8016</td>
+                <td style="color: red;">0.4854</td>
+                <td>0.3162</td>
+                <td><a href="0230_0230/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0240</td>
+                <td>0240</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.9485</td>
+                <td style="color: red;">0.7516</td>
+                <td>0.1969</td>
+                <td><a href="0240_0240/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0250</td>
+                <td>0250</td>
+                <td><strong>marigold</strong></td>
+                <td style="color: green;">0.7000</td>
+                <td style="color: red;">0.4160</td>
+                <td>0.2840</td>
+                <td><a href="0250_0250/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0260</td>
+                <td>0260</td>
+                <td><strong>marigold</strong></td>
+                <td style="color: green;">0.9550</td>
+                <td style="color: red;">0.7844</td>
+                <td>0.1706</td>
+                <td><a href="0260_0260/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0270</td>
+                <td>0270</td>
+                <td><strong>marigold</strong></td>
+                <td style="color: green;">0.8732</td>
+                <td style="color: red;">0.6105</td>
+                <td>0.2627</td>
+                <td><a href="0270_0270/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0280</td>
+                <td>0280</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.9765</td>
+                <td style="color: red;">0.5530</td>
+                <td>0.4235</td>
+                <td><a href="0280_0280/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0290</td>
+                <td>0290</td>
+                <td><strong>marigold</strong></td>
+                <td style="color: green;">0.9289</td>
+                <td style="color: red;">0.7197</td>
+                <td>0.2092</td>
+                <td><a href="0290_0290/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0300</td>
+                <td>0300</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.8112</td>
+                <td style="color: red;">0.4065</td>
+                <td>0.4047</td>
+                <td><a href="0300_0300/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0310</td>
+                <td>0310</td>
+                <td><strong>marigold</strong></td>
+                <td style="color: green;">0.8957</td>
+                <td style="color: red;">0.4752</td>
+                <td>0.4205</td>
+                <td><a href="0310_0310/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0320</td>
+                <td>0320</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.8673</td>
+                <td style="color: red;">0.2544</td>
+                <td>0.6129</td>
+                <td><a href="0320_0320/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0330</td>
+                <td>0330</td>
+                <td><strong>marigold</strong></td>
+                <td style="color: green;">0.8695</td>
+                <td style="color: red;">0.5851</td>
+                <td>0.2844</td>
+                <td><a href="0330_0330/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0340</td>
+                <td>0340</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.9578</td>
+                <td style="color: red;">0.5236</td>
+                <td>0.4342</td>
+                <td><a href="0340_0340/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0350</td>
+                <td>0350</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.8648</td>
+                <td style="color: red;">0.5362</td>
+                <td>0.3286</td>
+                <td><a href="0350_0350/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0360</td>
+                <td>0360</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.9474</td>
+                <td style="color: red;">0.3842</td>
+                <td>0.5632</td>
+                <td><a href="0360_0360/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0370</td>
+                <td>0370</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.8296</td>
+                <td style="color: red;">0.4368</td>
+                <td>0.3928</td>
+                <td><a href="0370_0370/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0380</td>
+                <td>0380</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.8848</td>
+                <td style="color: red;">0.3916</td>
+                <td>0.4932</td>
+                <td><a href="0380_0380/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0390</td>
+                <td>0390</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.5395</td>
+                <td style="color: red;">0.2456</td>
+                <td>0.2939</td>
+                <td><a href="0390_0390/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0400</td>
+                <td>0400</td>
+                <td><strong>marigold</strong></td>
+                <td style="color: green;">0.8454</td>
+                <td style="color: red;">0.5098</td>
+                <td>0.3356</td>
+                <td><a href="0400_0400/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0410</td>
+                <td>0410</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.8189</td>
+                <td style="color: red;">0.5145</td>
+                <td>0.3044</td>
+                <td><a href="0410_0410/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0420</td>
+                <td>0420</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.9621</td>
+                <td style="color: red;">0.5643</td>
+                <td>0.3978</td>
+                <td><a href="0420_0420/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0430</td>
+                <td>0430</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.9112</td>
+                <td style="color: red;">0.4715</td>
+                <td>0.4397</td>
+                <td><a href="0430_0430/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0440</td>
+                <td>0440</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.9472</td>
+                <td style="color: red;">0.6069</td>
+                <td>0.3403</td>
+                <td><a href="0440_0440/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0450</td>
+                <td>0450</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">1.0000</td>
+                <td style="color: red;">0.9691</td>
+                <td>0.0309</td>
+                <td><a href="0450_0450/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0460</td>
+                <td>0460</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.9914</td>
+                <td style="color: red;">0.7639</td>
+                <td>0.2275</td>
+                <td><a href="0460_0460/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0470</td>
+                <td>0470</td>
+                <td><strong>marigold</strong></td>
+                <td style="color: green;">0.6429</td>
+                <td style="color: red;">0.2644</td>
+                <td>0.3785</td>
+                <td><a href="0470_0470/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0480</td>
+                <td>0480</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">1.0000</td>
+                <td style="color: red;">0.9884</td>
+                <td>0.0116</td>
+                <td><a href="0480_0480/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0490</td>
+                <td>0490</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.7547</td>
+                <td style="color: red;">0.2952</td>
+                <td>0.4595</td>
+                <td><a href="0490_0490/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0500</td>
+                <td>0500</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.9538</td>
+                <td style="color: red;">0.7820</td>
+                <td>0.1718</td>
+                <td><a href="0500_0500/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0510</td>
+                <td>0510</td>
+                <td><strong>marigold</strong></td>
+                <td style="color: green;">0.7298</td>
+                <td style="color: red;">0.4153</td>
+                <td>0.3145</td>
+                <td><a href="0510_0510/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0520</td>
+                <td>0520</td>
+                <td><strong>marigold</strong></td>
+                <td style="color: green;">0.8859</td>
+                <td style="color: red;">0.6859</td>
+                <td>0.2000</td>
+                <td><a href="0520_0520/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0530</td>
+                <td>0530</td>
+                <td><strong>dav2-vitb</strong></td>
+                <td style="color: green;">0.9470</td>
+                <td style="color: red;">0.6554</td>
+                <td>0.2916</td>
+                <td><a href="0530_0530/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0540</td>
+                <td>0540</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.9947</td>
+                <td style="color: red;">0.8430</td>
+                <td>0.1517</td>
+                <td><a href="0540_0540/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0550</td>
+                <td>0550</td>
+                <td><strong>dav2-vitb</strong></td>
+                <td style="color: green;">0.9260</td>
+                <td style="color: red;">0.7016</td>
+                <td>0.2244</td>
+                <td><a href="0550_0550/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0560</td>
+                <td>0560</td>
+                <td><strong>dav2-vitb</strong></td>
+                <td style="color: green;">0.8736</td>
+                <td style="color: red;">0.4961</td>
+                <td>0.3775</td>
+                <td><a href="0560_0560/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0570</td>
+                <td>0570</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.9166</td>
+                <td style="color: red;">0.7018</td>
+                <td>0.2148</td>
+                <td><a href="0570_0570/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0580</td>
+                <td>0580</td>
+                <td><strong>dav2-vitb</strong></td>
+                <td style="color: green;">0.9443</td>
+                <td style="color: red;">0.6355</td>
+                <td>0.3088</td>
+                <td><a href="0580_0580/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0590</td>
+                <td>0590</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.9935</td>
+                <td style="color: red;">0.8181</td>
+                <td>0.1754</td>
+                <td><a href="0590_0590/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0600</td>
+                <td>0600</td>
+                <td><strong>marigold</strong></td>
+                <td style="color: green;">0.9522</td>
+                <td style="color: red;">0.4023</td>
+                <td>0.5499</td>
+                <td><a href="0600_0600/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0610</td>
+                <td>0610</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.9285</td>
+                <td style="color: red;">0.5917</td>
+                <td>0.3368</td>
+                <td><a href="0610_0610/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0620</td>
+                <td>0620</td>
+                <td><strong>dav2-vitb</strong></td>
+                <td style="color: green;">0.8751</td>
+                <td style="color: red;">0.5829</td>
+                <td>0.2922</td>
+                <td><a href="0620_0620/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0630</td>
+                <td>0630</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.8195</td>
+                <td style="color: red;">0.5940</td>
+                <td>0.2255</td>
+                <td><a href="0630_0630/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0640</td>
+                <td>0640</td>
+                <td><strong>marigold</strong></td>
+                <td style="color: green;">0.7756</td>
+                <td style="color: red;">0.3611</td>
+                <td>0.4145</td>
+                <td><a href="0640_0640/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0650</td>
+                <td>0650</td>
+                <td><strong>marigold</strong></td>
+                <td style="color: green;">0.9558</td>
+                <td style="color: red;">0.8635</td>
+                <td>0.0923</td>
+                <td><a href="0650_0650/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0660</td>
+                <td>0660</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.8772</td>
+                <td style="color: red;">0.6876</td>
+                <td>0.1896</td>
+                <td><a href="0660_0660/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0670</td>
+                <td>0670</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.6791</td>
+                <td style="color: red;">0.2725</td>
+                <td>0.4066</td>
+                <td><a href="0670_0670/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0680</td>
+                <td>0680</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.9704</td>
+                <td style="color: red;">0.7638</td>
+                <td>0.2066</td>
+                <td><a href="0680_0680/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0690</td>
+                <td>0690</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.8905</td>
+                <td style="color: red;">0.6636</td>
+                <td>0.2269</td>
+                <td><a href="0690_0690/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0700</td>
+                <td>0700</td>
+                <td><strong>marigold</strong></td>
+                <td style="color: green;">0.9810</td>
+                <td style="color: red;">0.6853</td>
+                <td>0.2957</td>
+                <td><a href="0700_0700/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0710</td>
+                <td>0710</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.7522</td>
+                <td style="color: red;">0.4805</td>
+                <td>0.2717</td>
+                <td><a href="0710_0710/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0720</td>
+                <td>0720</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.6265</td>
+                <td style="color: red;">0.3917</td>
+                <td>0.2348</td>
+                <td><a href="0720_0720/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0730</td>
+                <td>0730</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.6090</td>
+                <td style="color: red;">0.3715</td>
+                <td>0.2375</td>
+                <td><a href="0730_0730/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0740</td>
+                <td>0740</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.9492</td>
+                <td style="color: red;">0.6476</td>
+                <td>0.3016</td>
+                <td><a href="0740_0740/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0750</td>
+                <td>0750</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.9081</td>
+                <td style="color: red;">0.7139</td>
+                <td>0.1942</td>
+                <td><a href="0750_0750/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0760</td>
+                <td>0760</td>
+                <td><strong>dav2-vitb</strong></td>
+                <td style="color: green;">0.7849</td>
+                <td style="color: red;">0.5873</td>
+                <td>0.1976</td>
+                <td><a href="0760_0760/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0770</td>
+                <td>0770</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.9875</td>
+                <td style="color: red;">0.8048</td>
+                <td>0.1827</td>
+                <td><a href="0770_0770/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0780</td>
+                <td>0780</td>
+                <td><strong>dav2-vitb</strong></td>
+                <td style="color: green;">0.8443</td>
+                <td style="color: red;">0.4914</td>
+                <td>0.3529</td>
+                <td><a href="0780_0780/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0790</td>
+                <td>0790</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.8993</td>
+                <td style="color: red;">0.6097</td>
+                <td>0.2896</td>
+                <td><a href="0790_0790/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0800</td>
+                <td>0800</td>
+                <td><strong>marigold</strong></td>
+                <td style="color: green;">0.3830</td>
+                <td style="color: red;">0.1659</td>
+                <td>0.2171</td>
+                <td><a href="0800_0800/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0810</td>
+                <td>0810</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.7923</td>
+                <td style="color: red;">0.3199</td>
+                <td>0.4724</td>
+                <td><a href="0810_0810/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0820</td>
+                <td>0820</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.6590</td>
+                <td style="color: red;">0.3940</td>
+                <td>0.2650</td>
+                <td><a href="0820_0820/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0830</td>
+                <td>0830</td>
+                <td><strong>marigold</strong></td>
+                <td style="color: green;">0.8895</td>
+                <td style="color: red;">0.4834</td>
+                <td>0.4061</td>
+                <td><a href="0830_0830/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0840</td>
+                <td>0840</td>
+                <td><strong>marigold</strong></td>
+                <td style="color: green;">0.6223</td>
+                <td style="color: red;">0.0654</td>
+                <td>0.5569</td>
+                <td><a href="0840_0840/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0850</td>
+                <td>0850</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.6577</td>
+                <td style="color: red;">0.3122</td>
+                <td>0.3455</td>
+                <td><a href="0850_0850/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0860</td>
+                <td>0860</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.5213</td>
+                <td style="color: red;">0.0850</td>
+                <td>0.4363</td>
+                <td><a href="0860_0860/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0870</td>
+                <td>0870</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.9885</td>
+                <td style="color: red;">0.8505</td>
+                <td>0.1380</td>
+                <td><a href="0870_0870/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0880</td>
+                <td>0880</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.7127</td>
+                <td style="color: red;">0.1864</td>
+                <td>0.5263</td>
+                <td><a href="0880_0880/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0890</td>
+                <td>0890</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.5626</td>
+                <td style="color: red;">0.4485</td>
+                <td>0.1141</td>
+                <td><a href="0890_0890/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0900</td>
+                <td>0900</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.6823</td>
+                <td style="color: red;">0.3867</td>
+                <td>0.2956</td>
+                <td><a href="0900_0900/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0910</td>
+                <td>0910</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.9196</td>
+                <td style="color: red;">0.7624</td>
+                <td>0.1572</td>
+                <td><a href="0910_0910/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0920</td>
+                <td>0920</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.9929</td>
+                <td style="color: red;">0.8381</td>
+                <td>0.1548</td>
+                <td><a href="0920_0920/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0930</td>
+                <td>0930</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.9672</td>
+                <td style="color: red;">0.7275</td>
+                <td>0.2397</td>
+                <td><a href="0930_0930/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0940</td>
+                <td>0940</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.8835</td>
+                <td style="color: red;">0.5492</td>
+                <td>0.3343</td>
+                <td><a href="0940_0940/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0950</td>
+                <td>0950</td>
+                <td><strong>marigold</strong></td>
+                <td style="color: green;">0.8466</td>
+                <td style="color: red;">0.2587</td>
+                <td>0.5879</td>
+                <td><a href="0950_0950/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0960</td>
+                <td>0960</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.9990</td>
+                <td style="color: red;">0.9416</td>
+                <td>0.0574</td>
+                <td><a href="0960_0960/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0970</td>
+                <td>0970</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.9393</td>
+                <td style="color: red;">0.7470</td>
+                <td>0.1923</td>
+                <td><a href="0970_0970/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0980</td>
+                <td>0980</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.7188</td>
+                <td style="color: red;">0.2841</td>
+                <td>0.4347</td>
+                <td><a href="0980_0980/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>0990</td>
+                <td>0990</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.8850</td>
+                <td style="color: red;">0.7119</td>
+                <td>0.1731</td>
+                <td><a href="0990_0990/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1000</td>
+                <td>1000</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.8685</td>
+                <td style="color: red;">0.5119</td>
+                <td>0.3566</td>
+                <td><a href="1000_1000/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1010</td>
+                <td>1010</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.9508</td>
+                <td style="color: red;">0.8331</td>
+                <td>0.1177</td>
+                <td><a href="1010_1010/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1020</td>
+                <td>1020</td>
+                <td><strong>dav2-vitb</strong></td>
+                <td style="color: green;">0.7836</td>
+                <td style="color: red;">0.3504</td>
+                <td>0.4332</td>
+                <td><a href="1020_1020/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1030</td>
+                <td>1030</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.9456</td>
+                <td style="color: red;">0.7071</td>
+                <td>0.2385</td>
+                <td><a href="1030_1030/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1040</td>
+                <td>1040</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.6831</td>
+                <td style="color: red;">0.2946</td>
+                <td>0.3885</td>
+                <td><a href="1040_1040/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1050</td>
+                <td>1050</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.7002</td>
+                <td style="color: red;">0.2491</td>
+                <td>0.4511</td>
+                <td><a href="1050_1050/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1060</td>
+                <td>1060</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.9814</td>
+                <td style="color: red;">0.5196</td>
+                <td>0.4618</td>
+                <td><a href="1060_1060/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1070</td>
+                <td>1070</td>
+                <td><strong>dav2-vitb</strong></td>
+                <td style="color: green;">0.9809</td>
+                <td style="color: red;">0.7841</td>
+                <td>0.1968</td>
+                <td><a href="1070_1070/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1080</td>
+                <td>1080</td>
+                <td><strong>marigold</strong></td>
+                <td style="color: green;">0.8496</td>
+                <td style="color: red;">0.3485</td>
+                <td>0.5011</td>
+                <td><a href="1080_1080/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1090</td>
+                <td>1090</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.9093</td>
+                <td style="color: red;">0.2711</td>
+                <td>0.6382</td>
+                <td><a href="1090_1090/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1100</td>
+                <td>1100</td>
+                <td><strong>marigold</strong></td>
+                <td style="color: green;">0.9213</td>
+                <td style="color: red;">0.3815</td>
+                <td>0.5398</td>
+                <td><a href="1100_1100/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1110</td>
+                <td>1110</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.9289</td>
+                <td style="color: red;">0.6641</td>
+                <td>0.2648</td>
+                <td><a href="1110_1110/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1120</td>
+                <td>1120</td>
+                <td><strong>dav2-vitb</strong></td>
+                <td style="color: green;">0.9188</td>
+                <td style="color: red;">0.7055</td>
+                <td>0.2133</td>
+                <td><a href="1120_1120/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1130</td>
+                <td>1130</td>
+                <td><strong>marigold</strong></td>
+                <td style="color: green;">0.9796</td>
+                <td style="color: red;">0.7059</td>
+                <td>0.2737</td>
+                <td><a href="1130_1130/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1140</td>
+                <td>1140</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.8439</td>
+                <td style="color: red;">0.5289</td>
+                <td>0.3150</td>
+                <td><a href="1140_1140/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1150</td>
+                <td>1150</td>
+                <td><strong>marigold</strong></td>
+                <td style="color: green;">0.9752</td>
+                <td style="color: red;">0.7402</td>
+                <td>0.2350</td>
+                <td><a href="1150_1150/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1160</td>
+                <td>1160</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.9983</td>
+                <td style="color: red;">0.8031</td>
+                <td>0.1952</td>
+                <td><a href="1160_1160/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1170</td>
+                <td>1170</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.9787</td>
+                <td style="color: red;">0.7990</td>
+                <td>0.1797</td>
+                <td><a href="1170_1170/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1180</td>
+                <td>1180</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.7358</td>
+                <td style="color: red;">0.4638</td>
+                <td>0.2720</td>
+                <td><a href="1180_1180/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1190</td>
+                <td>1190</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.9788</td>
+                <td style="color: red;">0.7257</td>
+                <td>0.2531</td>
+                <td><a href="1190_1190/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1200</td>
+                <td>1200</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.9061</td>
+                <td style="color: red;">0.7984</td>
+                <td>0.1077</td>
+                <td><a href="1200_1200/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1210</td>
+                <td>1210</td>
+                <td><strong>dav2-vitb</strong></td>
+                <td style="color: green;">0.7664</td>
+                <td style="color: red;">0.4617</td>
+                <td>0.3047</td>
+                <td><a href="1210_1210/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1220</td>
+                <td>1220</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.9815</td>
+                <td style="color: red;">0.7791</td>
+                <td>0.2024</td>
+                <td><a href="1220_1220/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1230</td>
+                <td>1230</td>
+                <td><strong>dav2-vitb</strong></td>
+                <td style="color: green;">0.7762</td>
+                <td style="color: red;">0.4644</td>
+                <td>0.3118</td>
+                <td><a href="1230_1230/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1240</td>
+                <td>1240</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.4666</td>
+                <td style="color: red;">0.3003</td>
+                <td>0.1663</td>
+                <td><a href="1240_1240/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1250</td>
+                <td>1250</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.8730</td>
+                <td style="color: red;">0.7673</td>
+                <td>0.1057</td>
+                <td><a href="1250_1250/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1260</td>
+                <td>1260</td>
+                <td><strong>marigold</strong></td>
+                <td style="color: green;">0.8638</td>
+                <td style="color: red;">0.4346</td>
+                <td>0.4292</td>
+                <td><a href="1260_1260/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1270</td>
+                <td>1270</td>
+                <td><strong>marigold</strong></td>
+                <td style="color: green;">0.8942</td>
+                <td style="color: red;">0.4863</td>
+                <td>0.4079</td>
+                <td><a href="1270_1270/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1280</td>
+                <td>1280</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.8407</td>
+                <td style="color: red;">0.4809</td>
+                <td>0.3598</td>
+                <td><a href="1280_1280/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1290</td>
+                <td>1290</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.8532</td>
+                <td style="color: red;">0.3760</td>
+                <td>0.4772</td>
+                <td><a href="1290_1290/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1300</td>
+                <td>1300</td>
+                <td><strong>dav2-vitb</strong></td>
+                <td style="color: green;">0.9813</td>
+                <td style="color: red;">0.7456</td>
+                <td>0.2357</td>
+                <td><a href="1300_1300/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1310</td>
+                <td>1310</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.9235</td>
+                <td style="color: red;">0.6245</td>
+                <td>0.2990</td>
+                <td><a href="1310_1310/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1320</td>
+                <td>1320</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.9300</td>
+                <td style="color: red;">0.8482</td>
+                <td>0.0818</td>
+                <td><a href="1320_1320/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1330</td>
+                <td>1330</td>
+                <td><strong>marigold</strong></td>
+                <td style="color: green;">0.9627</td>
+                <td style="color: red;">0.4320</td>
+                <td>0.5307</td>
+                <td><a href="1330_1330/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1340</td>
+                <td>1340</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.7821</td>
+                <td style="color: red;">0.3465</td>
+                <td>0.4356</td>
+                <td><a href="1340_1340/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1350</td>
+                <td>1350</td>
+                <td><strong>marigold</strong></td>
+                <td style="color: green;">0.8819</td>
+                <td style="color: red;">0.3229</td>
+                <td>0.5590</td>
+                <td><a href="1350_1350/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1360</td>
+                <td>1360</td>
+                <td><strong>marigold</strong></td>
+                <td style="color: green;">0.8723</td>
+                <td style="color: red;">0.5898</td>
+                <td>0.2825</td>
+                <td><a href="1360_1360/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1370</td>
+                <td>1370</td>
+                <td><strong>marigold</strong></td>
+                <td style="color: green;">0.8704</td>
+                <td style="color: red;">0.3641</td>
+                <td>0.5063</td>
+                <td><a href="1370_1370/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1380</td>
+                <td>1380</td>
+                <td><strong>marigold</strong></td>
+                <td style="color: green;">0.8472</td>
+                <td style="color: red;">0.4938</td>
+                <td>0.3534</td>
+                <td><a href="1380_1380/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1390</td>
+                <td>1390</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.9890</td>
+                <td style="color: red;">0.8531</td>
+                <td>0.1359</td>
+                <td><a href="1390_1390/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1400</td>
+                <td>1400</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.7604</td>
+                <td style="color: red;">0.2744</td>
+                <td>0.4860</td>
+                <td><a href="1400_1400/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1410</td>
+                <td>1410</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.9993</td>
+                <td style="color: red;">0.9468</td>
+                <td>0.0525</td>
+                <td><a href="1410_1410/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1420</td>
+                <td>1420</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.9354</td>
+                <td style="color: red;">0.7591</td>
+                <td>0.1763</td>
+                <td><a href="1420_1420/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1430</td>
+                <td>1430</td>
+                <td><strong>dav1-vitb</strong></td>
+                <td style="color: green;">0.7861</td>
+                <td style="color: red;">0.4523</td>
+                <td>0.3338</td>
+                <td><a href="1430_1430/comparison.html">View Comparison →</a></td>
+            </tr>
+            <tr>
+                <td>1440</td>
+                <td>1440</td>
+                <td><strong>zoedepth-nk</strong></td>
+                <td style="color: green;">0.8291</td>
+                <td style="color: red;">0.3468</td>
+                <td>0.4823</td>
+                <td><a href="1440_1440/comparison.html">View Comparison →</a></td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <div style="text-align: center; margin: 40px 0; color: #666;">
+        <p>Click "View Comparison" to see side-by-side visualizations for each image</p>
+    </div>
+</body>
+</html>
