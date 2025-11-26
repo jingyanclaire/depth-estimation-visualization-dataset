@@ -1,0 +1,37 @@
+================================================================================
+KITTI VISUALIZATION ORGANIZATION SUMMARY
+================================================================================
+
+Output directory: kitti_visualizations_organized
+Organization mode: copy
+
+Models processed: 5
+  - dav2-vitb-kitti
+    Source: /root/Depth-Anything-V2/kitti_eval_results/dav2-vitb-kitti
+  - dav2-vitb-kitti-median
+    Source: /root/Depth-Anything-V2/kitti_eval_results/dav2-vitb-kitti-median
+  - zoedepth-k
+    Source: /root/ZoeDepth/kitti_eval_results/zoedepth-k
+  - zoedepth-k-d1-60
+    Source: /root/ZoeDepth/kitti_eval_results/zoedepth-k-d1
+  - dav1-vits-kitti
+    Source: /root/Depth-Anything/kitti_eval_results/dav1-vits-kitti
+
+Total images organized: 148
+Total visualizations: 740
+
+Directory structure:
+  kitti_visualizations_organized/
+    {sequence}_{image}/
+      dav2-vitb-kitti.png
+      dav2-vitb-kitti-median.png
+      zoedepth-k.png
+      zoedepth-k-d1-60.png
+      dav1-vits-kitti.png
+
+Example directories (first 5):
+  - 2011_09_26_drive_0009_sync_0000000016/
+  - 2011_09_26_drive_0009_sync_0000000064/
+  - 2011_09_26_drive_0009_sync_0000000112/
+  - 2011_09_26_drive_0009_sync_0000000160/
+  - 2011_09_26_drive_0009_sync_0000000212/
