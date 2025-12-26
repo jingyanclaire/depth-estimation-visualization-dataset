@@ -1,0 +1,34 @@
+================================================================================
+ETH3D FOREST VISUALIZATION ORGANIZATION SUMMARY
+================================================================================
+
+Output directory: forest_organized_visualizations
+Organization mode: symlink
+
+Models processed: 4
+  - marigold
+    Source: /root/Marigold/forest_eval_results/marigold
+  - depth-anything-v1-vitl
+    Source: /root/Depth-Anything/forest_eval_results/depth-anything-v1-vitl
+  - zoedepth-nk
+    Source: /root/ZoeDepth/forest_eval_results/zoedepth-nk
+  - depth-anything-v2-vitb
+    Source: /root/Depth-Anything-V2/forest_eval_results/depth-anything-v2-vitb
+
+Total images organized: 147
+Total visualizations: 588
+
+Directory structure:
+  forest_organized_visualizations/
+    {camera}_{timestamp}/
+      marigold.png
+      depth-anything-v1-vitl.png
+      zoedepth-nk.png
+      depth-anything-v2-vitb.png
+
+Example directories (first 5):
+  - cam4_1474982922508971972/
+  - cam4_1474982923025067972/
+  - cam4_1474982923541163972/
+  - cam4_1474982924057259972/
+  - cam4_1474982924573355972/
