@@ -1,0 +1,4519 @@
+{
+  "metadata": {
+    "task_type": "depth_estimation",
+    "dataset": "NYU Depth V2",
+    "model_info": {
+      "model_id": "dav1-vitb",
+      "model_path": "LiheYoung/depth_anything_vitb14",
+      "model_architecture": "Depth Anything V1 (vitb)",
+      "pretrained_on": "Multiple datasets",
+      "alignment_method": "scale_and_shift",
+      "max_depth": 10.0
+    },
+    "metrics_definition": {
+      "d1": {
+        "name": "Delta 1",
+        "formula": "percentage of pixels where max(gt/pred, pred/gt) < 1.25",
+        "unit": "percentage",
+        "higher_is_better": true
+      }
+    }
+  },
+  "images": [
+    {
+      "image_name": "0000",
+      "image_id": 0,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0000.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0000.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "excellent",
+      "metrics": {
+        "d1": 0.9934895833333334
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.026008954271674156,
+        "shift": 3.395467519760132
+      },
+      "depth_range": {
+        "gt_min": 1.7979999780654907,
+        "gt_max": 3.615000009536743,
+        "gt_mean": 2.8790652751922607,
+        "pred_min": 1.533867597579956,
+        "pred_max": 3.28185772895813,
+        "pred_mean": 2.8790652751922607
+      }
+    },
+    {
+      "image_name": "0010",
+      "image_id": 1,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0010.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0010.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "excellent",
+      "metrics": {
+        "d1": 0.9996907552083333
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.018562449142336845,
+        "shift": 2.4083871841430664
+      },
+      "depth_range": {
+        "gt_min": 1.253000020980835,
+        "gt_max": 2.628999948501587,
+        "gt_mean": 1.9353151321411133,
+        "pred_min": 1.1003448963165283,
+        "pred_max": 2.4063589572906494,
+        "pred_mean": 1.9353153705596924
+      }
+    },
+    {
+      "image_name": "0020",
+      "image_id": 2,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0020.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0020.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "average",
+      "metrics": {
+        "d1": 0.8736360677083334
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.051004908978939056,
+        "shift": 4.164822578430176
+      },
+      "depth_range": {
+        "gt_min": 1.4429999589920044,
+        "gt_max": 5.934999942779541,
+        "gt_mean": 2.481016159057617,
+        "pred_min": 0.8036656379699707,
+        "pred_max": 4.114043235778809,
+        "pred_mean": 2.481015920639038
+      }
+    },
+    {
+      "image_name": "0030",
+      "image_id": 3,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0030.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0030.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "excellent",
+      "metrics": {
+        "d1": 0.9781217447916667
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.05450115352869034,
+        "shift": 4.029290199279785
+      },
+      "depth_range": {
+        "gt_min": 0.906000018119812,
+        "gt_max": 4.203000068664551,
+        "gt_mean": 2.906144857406616,
+        "pred_min": 0.8348758220672607,
+        "pred_max": 3.972339391708374,
+        "pred_mean": 2.9061450958251953
+      }
+    },
+    {
+      "image_name": "0040",
+      "image_id": 4,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0040.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0040.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "average",
+      "metrics": {
+        "d1": 0.877392578125
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.03853790462017059,
+        "shift": 3.1753242015838623
+      },
+      "depth_range": {
+        "gt_min": 1.0470000505447388,
+        "gt_max": 3.375,
+        "gt_mean": 2.5655300617218018,
+        "pred_min": 0.38733816146850586,
+        "pred_max": 3.0481343269348145,
+        "pred_mean": 2.565530300140381
+      }
+    },
+    {
+      "image_name": "0050",
+      "image_id": 5,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0050.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0050.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "excellent",
+      "metrics": {
+        "d1": 0.9961263020833333
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.040073931217193604,
+        "shift": 2.946223497390747
+      },
+      "depth_range": {
+        "gt_min": 1.2380000352859497,
+        "gt_max": 3.0269999504089355,
+        "gt_mean": 2.1336922645568848,
+        "pred_min": 1.0781259536743164,
+        "pred_max": 2.844316244125366,
+        "pred_mean": 2.1336920261383057
+      }
+    },
+    {
+      "image_name": "0060",
+      "image_id": 6,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0060.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0060.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "excellent",
+      "metrics": {
+        "d1": 0.9911881510416667
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.021601738408207893,
+        "shift": 2.434554100036621
+      },
+      "depth_range": {
+        "gt_min": 1.222000002861023,
+        "gt_max": 2.740000009536743,
+        "gt_mean": 1.9669244289398193,
+        "pred_min": 1.0564119815826416,
+        "pred_max": 2.3523764610290527,
+        "pred_mean": 1.9669244289398193
+      }
+    },
+    {
+      "image_name": "0070",
+      "image_id": 7,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0070.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0070.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "excellent",
+      "metrics": {
+        "d1": 0.9526399739583333
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.028898701071739197,
+        "shift": 2.9057254791259766
+      },
+      "depth_range": {
+        "gt_min": 0.9100000262260437,
+        "gt_max": 3.197000026702881,
+        "gt_mean": 2.2226057052612305,
+        "pred_min": 0.7268638610839844,
+        "pred_max": 2.8606135845184326,
+        "pred_mean": 2.222604990005493
+      }
+    },
+    {
+      "image_name": "0080",
+      "image_id": 8,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0080.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0080.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "good",
+      "metrics": {
+        "d1": 0.9454166666666667
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.025196261703968048,
+        "shift": 2.584681749343872
+      },
+      "depth_range": {
+        "gt_min": 0.9959999918937683,
+        "gt_max": 2.9630000591278076,
+        "gt_mean": 2.089660882949829,
+        "pred_min": 0.9763166904449463,
+        "pred_max": 2.5244979858398438,
+        "pred_mean": 2.089660406112671
+      }
+    },
+    {
+      "image_name": "0090",
+      "image_id": 9,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0090.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0090.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "poor",
+      "metrics": {
+        "d1": 0.469453125
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.092572420835495,
+        "shift": 6.8376784324646
+      },
+      "depth_range": {
+        "gt_min": 0.7139999866485596,
+        "gt_max": 9.980999946594238,
+        "gt_mean": 4.539557933807373,
+        "pred_min": -4.308321475982666,
+        "pred_max": 6.7473578453063965,
+        "pred_mean": 4.539557933807373
+      }
+    },
+    {
+      "image_name": "0100",
+      "image_id": 10,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0100.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0100.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "poor",
+      "metrics": {
+        "d1": 0.5656184895833334
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.06362840533256531,
+        "shift": 3.6232972145080566
+      },
+      "depth_range": {
+        "gt_min": 0.7749999761581421,
+        "gt_max": 9.970000267028809,
+        "gt_mean": 1.9809685945510864,
+        "pred_min": -0.048935890197753906,
+        "pred_max": 3.5414412021636963,
+        "pred_mean": 1.9809688329696655
+      }
+    },
+    {
+      "image_name": "0110",
+      "image_id": 11,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0110.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0110.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "poor",
+      "metrics": {
+        "d1": 0.6128059895833333
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.09425332397222519,
+        "shift": 7.176828861236572
+      },
+      "depth_range": {
+        "gt_min": 1.0080000162124634,
+        "gt_max": 9.967000007629395,
+        "gt_mean": 5.018248081207275,
+        "pred_min": -1.4144682884216309,
+        "pred_max": 7.123502731323242,
+        "pred_mean": 5.018248081207275
+      }
+    },
+    {
+      "image_name": "0120",
+      "image_id": 12,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0120.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0120.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "fair",
+      "metrics": {
+        "d1": 0.8427278645833334
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.05869876593351364,
+        "shift": 3.9744784832000732
+      },
+      "depth_range": {
+        "gt_min": 1.0640000104904175,
+        "gt_max": 9.220000267028809,
+        "gt_mean": 2.6884543895721436,
+        "pred_min": 0.6540822982788086,
+        "pred_max": 3.7613062858581543,
+        "pred_mean": 2.6884541511535645
+      }
+    },
+    {
+      "image_name": "0130",
+      "image_id": 13,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0130.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0130.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "good",
+      "metrics": {
+        "d1": 0.928310546875
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.02736453153192997,
+        "shift": 2.4064550399780273
+      },
+      "depth_range": {
+        "gt_min": 0.7279999852180481,
+        "gt_max": 2.7669999599456787,
+        "gt_mean": 1.8627468347549438,
+        "pred_min": 0.3589775562286377,
+        "pred_max": 2.3601062297821045,
+        "pred_mean": 1.8627468347549438
+      }
+    },
+    {
+      "image_name": "0140",
+      "image_id": 14,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0140.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0140.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "average",
+      "metrics": {
+        "d1": 0.882275390625
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.014789571054279804,
+        "shift": 1.6613739728927612
+      },
+      "depth_range": {
+        "gt_min": 0.7129999995231628,
+        "gt_max": 1.8320000171661377,
+        "gt_mean": 1.3221230506896973,
+        "pred_min": 0.38276195526123047,
+        "pred_max": 1.547788381576538,
+        "pred_mean": 1.3221230506896973
+      }
+    },
+    {
+      "image_name": "0150",
+      "image_id": 15,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0150.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0150.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "fair",
+      "metrics": {
+        "d1": 0.8325390625
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.042193297296762466,
+        "shift": 3.526642322540283
+      },
+      "depth_range": {
+        "gt_min": 1.4670000076293945,
+        "gt_max": 5.531000137329102,
+        "gt_mean": 2.640089511871338,
+        "pred_min": 1.1792948246002197,
+        "pred_max": 3.452362060546875,
+        "pred_mean": 2.640089511871338
+      }
+    },
+    {
+      "image_name": "0160",
+      "image_id": 16,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0160.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0160.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "good",
+      "metrics": {
+        "d1": 0.9355598958333333
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.05170014500617981,
+        "shift": 4.251467704772949
+      },
+      "depth_range": {
+        "gt_min": 1.4199999570846558,
+        "gt_max": 5.5320000648498535,
+        "gt_mean": 2.9566104412078857,
+        "pred_min": 1.018873929977417,
+        "pred_max": 4.251467704772949,
+        "pred_mean": 2.9566099643707275
+      }
+    },
+    {
+      "image_name": "0170",
+      "image_id": 17,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0170.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0170.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "poor",
+      "metrics": {
+        "d1": 0.45852864583333336
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.06251969933509827,
+        "shift": 4.200013637542725
+      },
+      "depth_range": {
+        "gt_min": 1.1649999618530273,
+        "gt_max": 6.947000026702881,
+        "gt_mean": 2.8750805854797363,
+        "pred_min": -0.42272424697875977,
+        "pred_max": 4.077518939971924,
+        "pred_mean": 2.875079870223999
+      }
+    },
+    {
+      "image_name": "0180",
+      "image_id": 18,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0180.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0180.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "excellent",
+      "metrics": {
+        "d1": 0.9543098958333334
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.028134705498814583,
+        "shift": 2.8551650047302246
+      },
+      "depth_range": {
+        "gt_min": 0.8949999809265137,
+        "gt_max": 3.3329999446868896,
+        "gt_mean": 2.1574666500091553,
+        "pred_min": 0.5019710063934326,
+        "pred_max": 2.749941110610962,
+        "pred_mean": 2.1574666500091553
+      }
+    },
+    {
+      "image_name": "0190",
+      "image_id": 19,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0190.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0190.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "good",
+      "metrics": {
+        "d1": 0.9246484375
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.011929617263376713,
+        "shift": 1.8258322477340698
+      },
+      "depth_range": {
+        "gt_min": 1.159000039100647,
+        "gt_max": 2.2790000438690186,
+        "gt_mean": 1.5795689821243286,
+        "pred_min": 1.0268917083740234,
+        "pred_max": 1.7762653827667236,
+        "pred_mean": 1.5795687437057495
+      }
+    },
+    {
+      "image_name": "0200",
+      "image_id": 20,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0200.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0200.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "poor",
+      "metrics": {
+        "d1": 0.6371158854166666
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.04728775843977928,
+        "shift": 3.790278196334839
+      },
+      "depth_range": {
+        "gt_min": 0.7129999995231628,
+        "gt_max": 9.916999816894531,
+        "gt_mean": 2.6753506660461426,
+        "pred_min": -0.4157369136810303,
+        "pred_max": 3.767820119857788,
+        "pred_mean": 2.6753506660461426
+      }
+    },
+    {
+      "image_name": "0210",
+      "image_id": 21,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0210.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0210.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "good",
+      "metrics": {
+        "d1": 0.9110872395833334
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.037903908640146255,
+        "shift": 3.5870590209960938
+      },
+      "depth_range": {
+        "gt_min": 0.9610000252723694,
+        "gt_max": 5.070000171661377,
+        "gt_mean": 2.729358434677124,
+        "pred_min": 0.5454421043395996,
+        "pred_max": 3.5092923641204834,
+        "pred_mean": 2.729358196258545
+      }
+    },
+    {
+      "image_name": "0220",
+      "image_id": 22,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0220.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0220.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "acceptable",
+      "metrics": {
+        "d1": 0.705341796875
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.047024961560964584,
+        "shift": 4.515921115875244
+      },
+      "depth_range": {
+        "gt_min": 1.2359999418258667,
+        "gt_max": 7.638000011444092,
+        "gt_mean": 3.4355220794677734,
+        "pred_min": 0.5098628997802734,
+        "pred_max": 4.422484874725342,
+        "pred_mean": 3.4355216026306152
+      }
+    },
+    {
+      "image_name": "0230",
+      "image_id": 23,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0230.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0230.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "acceptable",
+      "metrics": {
+        "d1": 0.7576529947916667
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.09526423364877701,
+        "shift": 6.911301136016846
+      },
+      "depth_range": {
+        "gt_min": 1.5679999589920044,
+        "gt_max": 9.119000434875488,
+        "gt_mean": 5.019994258880615,
+        "pred_min": -0.014243602752685547,
+        "pred_max": 6.8443450927734375,
+        "pred_mean": 5.019994258880615
+      }
+    },
+    {
+      "image_name": "0240",
+      "image_id": 24,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0240.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0240.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "good",
+      "metrics": {
+        "d1": 0.9484700520833333
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.06106401979923248,
+        "shift": 5.853371620178223
+      },
+      "depth_range": {
+        "gt_min": 1.9570000171661377,
+        "gt_max": 7.322000026702881,
+        "gt_mean": 4.44240665435791,
+        "pred_min": 1.701796531677246,
+        "pred_max": 5.720165252685547,
+        "pred_mean": 4.442406177520752
+      }
+    },
+    {
+      "image_name": "0250",
+      "image_id": 25,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0250.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0250.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "poor",
+      "metrics": {
+        "d1": 0.4894140625
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.04485459253191948,
+        "shift": 3.5814661979675293
+      },
+      "depth_range": {
+        "gt_min": 0.7129999995231628,
+        "gt_max": 7.809999942779541,
+        "gt_mean": 2.09264874458313,
+        "pred_min": -0.2580571174621582,
+        "pred_max": 3.5814661979675293,
+        "pred_mean": 2.0926482677459717
+      }
+    },
+    {
+      "image_name": "0260",
+      "image_id": 26,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0260.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0260.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "good",
+      "metrics": {
+        "d1": 0.9461197916666667
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.05401233211159706,
+        "shift": 4.327686309814453
+      },
+      "depth_range": {
+        "gt_min": 1.3559999465942383,
+        "gt_max": 4.593999862670898,
+        "gt_mean": 2.91093111038208,
+        "pred_min": 0.7867293357849121,
+        "pred_max": 4.154299736022949,
+        "pred_mean": 2.91093111038208
+      }
+    },
+    {
+      "image_name": "0270",
+      "image_id": 27,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0270.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0270.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "fair",
+      "metrics": {
+        "d1": 0.8363899739583334
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.04003888741135597,
+        "shift": 4.077233791351318
+      },
+      "depth_range": {
+        "gt_min": 0.9430000185966492,
+        "gt_max": 4.708000183105469,
+        "gt_mean": 3.182619333267212,
+        "pred_min": -0.018011093139648438,
+        "pred_max": 3.938812255859375,
+        "pred_mean": 3.182619333267212
+      }
+    },
+    {
+      "image_name": "0280",
+      "image_id": 28,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0280.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0280.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "excellent",
+      "metrics": {
+        "d1": 0.961201171875
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.035729896277189255,
+        "shift": 3.6004600524902344
+      },
+      "depth_range": {
+        "gt_min": 1.7050000429153442,
+        "gt_max": 4.6519999504089355,
+        "gt_mean": 2.889082431793213,
+        "pred_min": 0.5010130405426025,
+        "pred_max": 3.5508151054382324,
+        "pred_mean": 2.88908314704895
+      }
+    },
+    {
+      "image_name": "0290",
+      "image_id": 29,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0290.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0290.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "acceptable",
+      "metrics": {
+        "d1": 0.7923763020833333
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.05615313723683357,
+        "shift": 4.698485851287842
+      },
+      "depth_range": {
+        "gt_min": 0.9509999752044678,
+        "gt_max": 5.955999851226807,
+        "gt_mean": 3.569343328475952,
+        "pred_min": 0.06981325149536133,
+        "pred_max": 4.622607231140137,
+        "pred_mean": 3.5693421363830566
+      }
+    },
+    {
+      "image_name": "0300",
+      "image_id": 30,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0300.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0300.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "acceptable",
+      "metrics": {
+        "d1": 0.760322265625
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.08647096157073975,
+        "shift": 6.682680130004883
+      },
+      "depth_range": {
+        "gt_min": 1.2289999723434448,
+        "gt_max": 8.357999801635742,
+        "gt_mean": 4.542977333068848,
+        "pred_min": -1.0744681358337402,
+        "pred_max": 6.648522853851318,
+        "pred_mean": 4.542977809906006
+      }
+    },
+    {
+      "image_name": "0310",
+      "image_id": 31,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0310.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0310.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "poor",
+      "metrics": {
+        "d1": 0.5128190104166667
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.10094596445560455,
+        "shift": 6.131147861480713
+      },
+      "depth_range": {
+        "gt_min": 1.7610000371932983,
+        "gt_max": 9.859999656677246,
+        "gt_mean": 3.776378870010376,
+        "pred_min": 0.6365513801574707,
+        "pred_max": 5.951280117034912,
+        "pred_mean": 3.776379346847534
+      }
+    },
+    {
+      "image_name": "0320",
+      "image_id": 32,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0320.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0320.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "average",
+      "metrics": {
+        "d1": 0.8672591145833334
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.09178560227155685,
+        "shift": 5.776529312133789
+      },
+      "depth_range": {
+        "gt_min": 1.2999999523162842,
+        "gt_max": 6.74399995803833,
+        "gt_mean": 3.953876495361328,
+        "pred_min": -0.7407779693603516,
+        "pred_max": 5.620481491088867,
+        "pred_mean": 3.953876495361328
+      }
+    },
+    {
+      "image_name": "0330",
+      "image_id": 33,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0330.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0330.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "acceptable",
+      "metrics": {
+        "d1": 0.763671875
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.10671951621770859,
+        "shift": 7.2553791999816895
+      },
+      "depth_range": {
+        "gt_min": 1.1610000133514404,
+        "gt_max": 9.607000350952148,
+        "gt_mean": 5.189812660217285,
+        "pred_min": -0.3742070198059082,
+        "pred_max": 7.218847274780273,
+        "pred_mean": 5.189813137054443
+      }
+    },
+    {
+      "image_name": "0340",
+      "image_id": 34,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0340.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0340.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "fair",
+      "metrics": {
+        "d1": 0.8133951822916666
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.030886610969901085,
+        "shift": 3.1017773151397705
+      },
+      "depth_range": {
+        "gt_min": 0.8130000233650208,
+        "gt_max": 5.214000225067139,
+        "gt_mean": 2.2334275245666504,
+        "pred_min": 0.38485264778137207,
+        "pred_max": 3.0828356742858887,
+        "pred_mean": 2.2334272861480713
+      }
+    },
+    {
+      "image_name": "0350",
+      "image_id": 35,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0350.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0350.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "acceptable",
+      "metrics": {
+        "d1": 0.7289778645833334
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.07874386012554169,
+        "shift": 5.662098407745361
+      },
+      "depth_range": {
+        "gt_min": 1.9900000095367432,
+        "gt_max": 9.975000381469727,
+        "gt_mean": 3.863029718399048,
+        "pred_min": 0.32927370071411133,
+        "pred_max": 5.633216857910156,
+        "pred_mean": 3.863030195236206
+      }
+    },
+    {
+      "image_name": "0360",
+      "image_id": 36,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0360.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0360.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "good",
+      "metrics": {
+        "d1": 0.9018717447916667
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.021952565759420395,
+        "shift": 2.047470808029175
+      },
+      "depth_range": {
+        "gt_min": 0.7289999723434448,
+        "gt_max": 2.38100004196167,
+        "gt_mean": 1.4287385940551758,
+        "pred_min": 0.5583137273788452,
+        "pred_max": 1.9390714168548584,
+        "pred_mean": 1.4287384748458862
+      }
+    },
+    {
+      "image_name": "0370",
+      "image_id": 37,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0370.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0370.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "poor",
+      "metrics": {
+        "d1": 0.48048502604166665
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.04220827296376228,
+        "shift": 3.8607242107391357
+      },
+      "depth_range": {
+        "gt_min": 0.9340000152587891,
+        "gt_max": 5.494999885559082,
+        "gt_mean": 2.7911291122436523,
+        "pred_min": 0.33133435249328613,
+        "pred_max": 3.7889223098754883,
+        "pred_mean": 2.7911295890808105
+      }
+    },
+    {
+      "image_name": "0380",
+      "image_id": 38,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0380.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0380.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "average",
+      "metrics": {
+        "d1": 0.884794921875
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.0714024230837822,
+        "shift": 5.048718452453613
+      },
+      "depth_range": {
+        "gt_min": 1.3140000104904175,
+        "gt_max": 6.314000129699707,
+        "gt_mean": 3.615215301513672,
+        "pred_min": 0.5093021392822266,
+        "pred_max": 4.920206069946289,
+        "pred_mean": 3.615215301513672
+      }
+    },
+    {
+      "image_name": "0390",
+      "image_id": 39,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0390.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0390.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "poor",
+      "metrics": {
+        "d1": 0.4472786458333333
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.03957804664969444,
+        "shift": 3.5208373069763184
+      },
+      "depth_range": {
+        "gt_min": 0.8299999833106995,
+        "gt_max": 5.11899995803833,
+        "gt_mean": 2.3751144409179688,
+        "pred_min": 0.3037395477294922,
+        "pred_max": 3.396350145339966,
+        "pred_mean": 2.3751144409179688
+      }
+    },
+    {
+      "image_name": "0400",
+      "image_id": 40,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0400.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0400.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "acceptable",
+      "metrics": {
+        "d1": 0.7771647135416667
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.04668779298663139,
+        "shift": 3.8531618118286133
+      },
+      "depth_range": {
+        "gt_min": 1.2079999446868896,
+        "gt_max": 4.640999794006348,
+        "gt_mean": 2.7805593013763428,
+        "pred_min": 0.6143312454223633,
+        "pred_max": 3.8394792079925537,
+        "pred_mean": 2.7805588245391846
+      }
+    },
+    {
+      "image_name": "0410",
+      "image_id": 41,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0410.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0410.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "acceptable",
+      "metrics": {
+        "d1": 0.747900390625
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.06466318666934967,
+        "shift": 4.7108073234558105
+      },
+      "depth_range": {
+        "gt_min": 1.1449999809265137,
+        "gt_max": 5.796000003814697,
+        "gt_mean": 3.3862829208374023,
+        "pred_min": -0.12997817993164062,
+        "pred_max": 4.664126873016357,
+        "pred_mean": 3.3862829208374023
+      }
+    },
+    {
+      "image_name": "0420",
+      "image_id": 42,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0420.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0420.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "excellent",
+      "metrics": {
+        "d1": 0.962119140625
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.04090027138590813,
+        "shift": 3.2711474895477295
+      },
+      "depth_range": {
+        "gt_min": 1.6890000104904175,
+        "gt_max": 3.8350000381469727,
+        "gt_mean": 2.549884796142578,
+        "pred_min": 1.3981411457061768,
+        "pred_max": 3.178650140762329,
+        "pred_mean": 2.549884557723999
+      }
+    },
+    {
+      "image_name": "0430",
+      "image_id": 43,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0430.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0430.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "poor",
+      "metrics": {
+        "d1": 0.6877701822916666
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.06735498458147049,
+        "shift": 5.532058238983154
+      },
+      "depth_range": {
+        "gt_min": 1.715000033378601,
+        "gt_max": 7.888000011444092,
+        "gt_mean": 3.800447702407837,
+        "pred_min": 0.5376615524291992,
+        "pred_max": 5.39670991897583,
+        "pred_mean": 3.800447702407837
+      }
+    },
+    {
+      "image_name": "0440",
+      "image_id": 44,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0440.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0440.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "average",
+      "metrics": {
+        "d1": 0.890224609375
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.035562217235565186,
+        "shift": 3.3835971355438232
+      },
+      "depth_range": {
+        "gt_min": 1.2970000505447388,
+        "gt_max": 5.995999813079834,
+        "gt_mean": 2.4759066104888916,
+        "pred_min": 0.9232597351074219,
+        "pred_max": 3.2717087268829346,
+        "pred_mean": 2.4759061336517334
+      }
+    },
+    {
+      "image_name": "0450",
+      "image_id": 45,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0450.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0450.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "excellent",
+      "metrics": {
+        "d1": 0.9999609375
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.035079967230558395,
+        "shift": 3.1760971546173096
+      },
+      "depth_range": {
+        "gt_min": 1.74399995803833,
+        "gt_max": 3.3519999980926514,
+        "gt_mean": 2.3671185970306396,
+        "pred_min": 1.6378895044326782,
+        "pred_max": 2.991884231567383,
+        "pred_mean": 2.3671188354492188
+      }
+    },
+    {
+      "image_name": "0460",
+      "image_id": 46,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0460.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0460.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "excellent",
+      "metrics": {
+        "d1": 0.991435546875
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.03481808304786682,
+        "shift": 3.2190253734588623
+      },
+      "depth_range": {
+        "gt_min": 1.7209999561309814,
+        "gt_max": 3.6070001125335693,
+        "gt_mean": 2.4735896587371826,
+        "pred_min": 1.272857427597046,
+        "pred_max": 3.0623905658721924,
+        "pred_mean": 2.473590135574341
+      }
+    },
+    {
+      "image_name": "0470",
+      "image_id": 47,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0470.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0470.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "poor",
+      "metrics": {
+        "d1": 0.6295279947916667
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.05277737230062485,
+        "shift": 3.272648572921753
+      },
+      "depth_range": {
+        "gt_min": 0.7850000262260437,
+        "gt_max": 3.496999979019165,
+        "gt_mean": 2.1407976150512695,
+        "pred_min": 0.3580310344696045,
+        "pred_max": 3.125511646270752,
+        "pred_mean": 2.1407971382141113
+      }
+    },
+    {
+      "image_name": "0480",
+      "image_id": 48,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0480.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0480.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "excellent",
+      "metrics": {
+        "d1": 0.9999967447916667
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.020631061866879463,
+        "shift": 2.211742877960205
+      },
+      "depth_range": {
+        "gt_min": 1.312000036239624,
+        "gt_max": 2.3359999656677246,
+        "gt_mean": 1.7462797164916992,
+        "pred_min": 1.2293182611465454,
+        "pred_max": 2.080547571182251,
+        "pred_mean": 1.7462794780731201
+      }
+    },
+    {
+      "image_name": "0490",
+      "image_id": 49,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0490.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0490.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "acceptable",
+      "metrics": {
+        "d1": 0.75474609375
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.06806337088346481,
+        "shift": 5.3711442947387695
+      },
+      "depth_range": {
+        "gt_min": 1.2130000591278076,
+        "gt_max": 7.711999893188477,
+        "gt_mean": 3.4740054607391357,
+        "pred_min": 0.002407550811767578,
+        "pred_max": 5.312708377838135,
+        "pred_mean": 3.4740054607391357
+      }
+    },
+    {
+      "image_name": "0500",
+      "image_id": 50,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0500.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0500.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "good",
+      "metrics": {
+        "d1": 0.9473372395833334
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.023599248379468918,
+        "shift": 2.4941446781158447
+      },
+      "depth_range": {
+        "gt_min": 1.2979999780654907,
+        "gt_max": 5.256999969482422,
+        "gt_mean": 2.025259494781494,
+        "pred_min": 1.436155080795288,
+        "pred_max": 2.3606209754943848,
+        "pred_mean": 2.0252599716186523
+      }
+    },
+    {
+      "image_name": "0510",
+      "image_id": 51,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0510.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0510.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "poor",
+      "metrics": {
+        "d1": 0.5653125
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.02620123140513897,
+        "shift": 2.592705011367798
+      },
+      "depth_range": {
+        "gt_min": 0.7129999995231628,
+        "gt_max": 3.4230000972747803,
+        "gt_mean": 1.7563714981079102,
+        "pred_min": 0.11965823173522949,
+        "pred_max": 2.51428484916687,
+        "pred_mean": 1.7563714981079102
+      }
+    },
+    {
+      "image_name": "0520",
+      "image_id": 52,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0520.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0520.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "fair",
+      "metrics": {
+        "d1": 0.81728515625
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.028600379824638367,
+        "shift": 2.908029317855835
+      },
+      "depth_range": {
+        "gt_min": 1.0800000429153442,
+        "gt_max": 3.7850000858306885,
+        "gt_mean": 2.213892936706543,
+        "pred_min": 0.7637200355529785,
+        "pred_max": 2.8555853366851807,
+        "pred_mean": 2.213892936706543
+      }
+    },
+    {
+      "image_name": "0530",
+      "image_id": 53,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0530.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0530.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "good",
+      "metrics": {
+        "d1": 0.9216438802083333
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.029334429651498795,
+        "shift": 2.8999245166778564
+      },
+      "depth_range": {
+        "gt_min": 0.9120000004768372,
+        "gt_max": 3.2980000972747803,
+        "gt_mean": 2.193897008895874,
+        "pred_min": 0.4751758575439453,
+        "pred_max": 2.8400111198425293,
+        "pred_mean": 2.193897008895874
+      }
+    },
+    {
+      "image_name": "0540",
+      "image_id": 54,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0540.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0540.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "excellent",
+      "metrics": {
+        "d1": 0.9946614583333333
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.034522753208875656,
+        "shift": 3.5542242527008057
+      },
+      "depth_range": {
+        "gt_min": 1.3669999837875366,
+        "gt_max": 4.013000011444092,
+        "gt_mean": 2.7408437728881836,
+        "pred_min": 1.1390259265899658,
+        "pred_max": 3.4679994583129883,
+        "pred_mean": 2.7408440113067627
+      }
+    },
+    {
+      "image_name": "0550",
+      "image_id": 55,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0550.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0550.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "good",
+      "metrics": {
+        "d1": 0.9208333333333333
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.05393698439002037,
+        "shift": 3.5255446434020996
+      },
+      "depth_range": {
+        "gt_min": 1.1950000524520874,
+        "gt_max": 4.02400016784668,
+        "gt_mean": 2.4071435928344727,
+        "pred_min": 0.9339561462402344,
+        "pred_max": 3.344303846359253,
+        "pred_mean": 2.4071435928344727
+      }
+    },
+    {
+      "image_name": "0560",
+      "image_id": 56,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0560.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0560.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "fair",
+      "metrics": {
+        "d1": 0.8385221354166666
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.02442106604576111,
+        "shift": 1.9678956270217896
+      },
+      "depth_range": {
+        "gt_min": 0.7129999995231628,
+        "gt_max": 2.7330000400543213,
+        "gt_mean": 1.2952529191970825,
+        "pred_min": 0.1769658327102661,
+        "pred_max": 1.954878330230713,
+        "pred_mean": 1.295252799987793
+      }
+    },
+    {
+      "image_name": "0570",
+      "image_id": 57,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0570.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0570.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "good",
+      "metrics": {
+        "d1": 0.91658203125
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.026219995692372322,
+        "shift": 2.570486545562744
+      },
+      "depth_range": {
+        "gt_min": 0.8399999737739563,
+        "gt_max": 2.8580000400543213,
+        "gt_mean": 1.8925715684890747,
+        "pred_min": 0.6587752103805542,
+        "pred_max": 2.4403460025787354,
+        "pred_mean": 1.892572045326233
+      }
+    },
+    {
+      "image_name": "0580",
+      "image_id": 58,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0580.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0580.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "good",
+      "metrics": {
+        "d1": 0.914462890625
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.04978334531188011,
+        "shift": 4.134729862213135
+      },
+      "depth_range": {
+        "gt_min": 1.3550000190734863,
+        "gt_max": 5.195000171661377,
+        "gt_mean": 3.0050289630889893,
+        "pred_min": 1.1151580810546875,
+        "pred_max": 4.088199138641357,
+        "pred_mean": 3.005028009414673
+      }
+    },
+    {
+      "image_name": "0590",
+      "image_id": 59,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0590.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0590.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "excellent",
+      "metrics": {
+        "d1": 0.99345703125
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.028604157269001007,
+        "shift": 3.212491750717163
+      },
+      "depth_range": {
+        "gt_min": 1.2259999513626099,
+        "gt_max": 3.7809998989105225,
+        "gt_mean": 2.57344388961792,
+        "pred_min": 1.0715878009796143,
+        "pred_max": 3.0613322257995605,
+        "pred_mean": 2.5734431743621826
+      }
+    },
+    {
+      "image_name": "0600",
+      "image_id": 60,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0600.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0600.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "average",
+      "metrics": {
+        "d1": 0.8941373697916667
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.07167281210422516,
+        "shift": 5.358702182769775
+      },
+      "depth_range": {
+        "gt_min": 1.9359999895095825,
+        "gt_max": 7.394999980926514,
+        "gt_mean": 3.609729528427124,
+        "pred_min": 0.731529712677002,
+        "pred_max": 5.358702182769775,
+        "pred_mean": 3.609729528427124
+      }
+    },
+    {
+      "image_name": "0610",
+      "image_id": 61,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0610.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0610.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "average",
+      "metrics": {
+        "d1": 0.88544921875
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.01923956163227558,
+        "shift": 1.9194705486297607
+      },
+      "depth_range": {
+        "gt_min": 0.7129999995231628,
+        "gt_max": 2.2980000972747803,
+        "gt_mean": 1.3913393020629883,
+        "pred_min": 0.4136272668838501,
+        "pred_max": 1.8195909261703491,
+        "pred_mean": 1.3913391828536987
+      }
+    },
+    {
+      "image_name": "0620",
+      "image_id": 62,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0620.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0620.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "fair",
+      "metrics": {
+        "d1": 0.843603515625
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.021033868193626404,
+        "shift": 2.2636606693267822
+      },
+      "depth_range": {
+        "gt_min": 0.7829999923706055,
+        "gt_max": 2.7119998931884766,
+        "gt_mean": 1.794759750366211,
+        "pred_min": 0.4945582151412964,
+        "pred_max": 2.2338948249816895,
+        "pred_mean": 1.794759750366211
+      }
+    },
+    {
+      "image_name": "0630",
+      "image_id": 63,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0630.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0630.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "acceptable",
+      "metrics": {
+        "d1": 0.7674283854166667
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.07365506887435913,
+        "shift": 6.064301490783691
+      },
+      "depth_range": {
+        "gt_min": 1.5240000486373901,
+        "gt_max": 9.95300006866455,
+        "gt_mean": 4.314098358154297,
+        "pred_min": 0.26817846298217773,
+        "pred_max": 6.064301490783691,
+        "pred_mean": 4.314098358154297
+      }
+    },
+    {
+      "image_name": "0640",
+      "image_id": 64,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0640.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0640.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "poor",
+      "metrics": {
+        "d1": 0.64869140625
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.10536085069179535,
+        "shift": 6.721462249755859
+      },
+      "depth_range": {
+        "gt_min": 1.7960000038146973,
+        "gt_max": 8.428000450134277,
+        "gt_mean": 4.380444049835205,
+        "pred_min": 0.6023006439208984,
+        "pred_max": 6.426342964172363,
+        "pred_mean": 4.380444526672363
+      }
+    },
+    {
+      "image_name": "0650",
+      "image_id": 65,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0650.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0650.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "good",
+      "metrics": {
+        "d1": 0.9071907552083334
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.009700501337647438,
+        "shift": 1.8476160764694214
+      },
+      "depth_range": {
+        "gt_min": 0.9589999914169312,
+        "gt_max": 2.1589999198913574,
+        "gt_mean": 1.6257516145706177,
+        "pred_min": 1.1582058668136597,
+        "pred_max": 1.7710905075073242,
+        "pred_mean": 1.6257517337799072
+      }
+    },
+    {
+      "image_name": "0660",
+      "image_id": 66,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0660.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0660.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "average",
+      "metrics": {
+        "d1": 0.8771940104166667
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.031440719962120056,
+        "shift": 3.042949676513672
+      },
+      "depth_range": {
+        "gt_min": 0.8730000257492065,
+        "gt_max": 3.4159998893737793,
+        "gt_mean": 2.5626072883605957,
+        "pred_min": 0.48845362663269043,
+        "pred_max": 2.972407341003418,
+        "pred_mean": 2.562607526779175
+      }
+    },
+    {
+      "image_name": "0670",
+      "image_id": 67,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0670.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0670.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "poor",
+      "metrics": {
+        "d1": 0.43790364583333335
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.05138469859957695,
+        "shift": 3.6697182655334473
+      },
+      "depth_range": {
+        "gt_min": 1.0850000381469727,
+        "gt_max": 6.164000034332275,
+        "gt_mean": 2.4692139625549316,
+        "pred_min": 0.36061930656433105,
+        "pred_max": 3.540799379348755,
+        "pred_mean": 2.4692137241363525
+      }
+    },
+    {
+      "image_name": "0680",
+      "image_id": 68,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0680.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0680.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "excellent",
+      "metrics": {
+        "d1": 0.97041015625
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.030559414997696877,
+        "shift": 2.7509517669677734
+      },
+      "depth_range": {
+        "gt_min": 1.1660000085830688,
+        "gt_max": 3.01200008392334,
+        "gt_mean": 2.1854135990142822,
+        "pred_min": 0.40472841262817383,
+        "pred_max": 2.6235804557800293,
+        "pred_mean": 2.185413122177124
+      }
+    },
+    {
+      "image_name": "0690",
+      "image_id": 69,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0690.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0690.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "average",
+      "metrics": {
+        "d1": 0.8904915364583333
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.02032732218503952,
+        "shift": 1.7792282104492188
+      },
+      "depth_range": {
+        "gt_min": 0.7129999995231628,
+        "gt_max": 2.6489999294281006,
+        "gt_mean": 1.293005108833313,
+        "pred_min": 0.17870593070983887,
+        "pred_max": 1.7792282104492188,
+        "pred_mean": 1.293005108833313
+      }
+    },
+    {
+      "image_name": "0700",
+      "image_id": 70,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0700.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0700.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "excellent",
+      "metrics": {
+        "d1": 0.9523014322916666
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.013978589326143265,
+        "shift": 1.4007607698440552
+      },
+      "depth_range": {
+        "gt_min": 0.7129999995231628,
+        "gt_max": 1.684000015258789,
+        "gt_mean": 1.069036841392517,
+        "pred_min": 0.5344692468643188,
+        "pred_max": 1.3932994604110718,
+        "pred_mean": 1.0690367221832275
+      }
+    },
+    {
+      "image_name": "0710",
+      "image_id": 71,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0710.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0710.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "acceptable",
+      "metrics": {
+        "d1": 0.75220703125
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.0387440025806427,
+        "shift": 2.692392349243164
+      },
+      "depth_range": {
+        "gt_min": 0.8040000200271606,
+        "gt_max": 3.796999931335449,
+        "gt_mean": 1.6498578786849976,
+        "pred_min": 0.1909012794494629,
+        "pred_max": 2.692392349243164,
+        "pred_mean": 1.6498581171035767
+      }
+    },
+    {
+      "image_name": "0720",
+      "image_id": 72,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0720.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0720.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "poor",
+      "metrics": {
+        "d1": 0.6264583333333333
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.041116997599601746,
+        "shift": 3.48248028755188
+      },
+      "depth_range": {
+        "gt_min": 0.8370000123977661,
+        "gt_max": 5.5929999351501465,
+        "gt_mean": 2.4265336990356445,
+        "pred_min": -0.09166765213012695,
+        "pred_max": 3.4095964431762695,
+        "pred_mean": 2.4265336990356445
+      }
+    },
+    {
+      "image_name": "0730",
+      "image_id": 73,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0730.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0730.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "poor",
+      "metrics": {
+        "d1": 0.5758984375
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.03330785408616066,
+        "shift": 2.752683639526367
+      },
+      "depth_range": {
+        "gt_min": 0.7129999995231628,
+        "gt_max": 4.453999996185303,
+        "gt_mean": 1.9799991846084595,
+        "pred_min": 0.14869093894958496,
+        "pred_max": 2.7308855056762695,
+        "pred_mean": 1.9799995422363281
+      }
+    },
+    {
+      "image_name": "0740",
+      "image_id": 74,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0740.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0740.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "average",
+      "metrics": {
+        "d1": 0.868291015625
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.03331105411052704,
+        "shift": 2.6313071250915527
+      },
+      "depth_range": {
+        "gt_min": 0.8080000281333923,
+        "gt_max": 2.9590001106262207,
+        "gt_mean": 2.036412000656128,
+        "pred_min": 0.06821680068969727,
+        "pred_max": 2.5365946292877197,
+        "pred_mean": 2.036412000656128
+      }
+    },
+    {
+      "image_name": "0750",
+      "image_id": 75,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0750.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0750.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "good",
+      "metrics": {
+        "d1": 0.90806640625
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.02545374445617199,
+        "shift": 3.183468818664551
+      },
+      "depth_range": {
+        "gt_min": 0.9679999947547913,
+        "gt_max": 3.6659998893737793,
+        "gt_mean": 2.7009201049804688,
+        "pred_min": 0.019377946853637695,
+        "pred_max": 3.1121408939361572,
+        "pred_mean": 2.700920820236206
+      }
+    },
+    {
+      "image_name": "0760",
+      "image_id": 76,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0760.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0760.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "acceptable",
+      "metrics": {
+        "d1": 0.7843522135416666
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.03309374302625656,
+        "shift": 2.7876710891723633
+      },
+      "depth_range": {
+        "gt_min": 0.7129999995231628,
+        "gt_max": 3.8989999294281006,
+        "gt_mean": 1.9829021692276,
+        "pred_min": 0.3830986022949219,
+        "pred_max": 2.712799310684204,
+        "pred_mean": 1.9829021692276
+      }
+    },
+    {
+      "image_name": "0770",
+      "image_id": 77,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0770.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0770.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "excellent",
+      "metrics": {
+        "d1": 0.9874869791666666
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.030193118378520012,
+        "shift": 2.428877353668213
+      },
+      "depth_range": {
+        "gt_min": 1.2280000448226929,
+        "gt_max": 5.183000087738037,
+        "gt_mean": 1.8292683362960815,
+        "pred_min": 1.0622154474258423,
+        "pred_max": 2.345541000366211,
+        "pred_mean": 1.8292690515518188
+      }
+    },
+    {
+      "image_name": "0780",
+      "image_id": 78,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0780.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0780.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "fair",
+      "metrics": {
+        "d1": 0.8225032552083333
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.056887753307819366,
+        "shift": 4.465146064758301
+      },
+      "depth_range": {
+        "gt_min": 0.8100000023841858,
+        "gt_max": 7.89300012588501,
+        "gt_mean": 2.919870615005493,
+        "pred_min": -0.24875974655151367,
+        "pred_max": 4.43620491027832,
+        "pred_mean": 2.919870615005493
+      }
+    },
+    {
+      "image_name": "0790",
+      "image_id": 79,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0790.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0790.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "average",
+      "metrics": {
+        "d1": 0.899326171875
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.056548651307821274,
+        "shift": 4.727886199951172
+      },
+      "depth_range": {
+        "gt_min": 1.0019999742507935,
+        "gt_max": 5.442999839782715,
+        "gt_mean": 3.3823041915893555,
+        "pred_min": 0.10991716384887695,
+        "pred_max": 4.577507972717285,
+        "pred_mean": 3.3823041915893555
+      }
+    },
+    {
+      "image_name": "0800",
+      "image_id": 80,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0800.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0800.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "poor",
+      "metrics": {
+        "d1": 0.30354166666666665
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.11262978613376617,
+        "shift": 6.524749279022217
+      },
+      "depth_range": {
+        "gt_min": 1.3380000591278076,
+        "gt_max": 9.986000061035156,
+        "gt_mean": 3.9593586921691895,
+        "pred_min": -0.6020994186401367,
+        "pred_max": 6.43372917175293,
+        "pred_mean": 3.9593586921691895
+      }
+    },
+    {
+      "image_name": "0810",
+      "image_id": 81,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0810.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0810.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "acceptable",
+      "metrics": {
+        "d1": 0.7287760416666667
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.08618931472301483,
+        "shift": 5.855750560760498
+      },
+      "depth_range": {
+        "gt_min": 1.1360000371932983,
+        "gt_max": 8.225000381469727,
+        "gt_mean": 3.8830461502075195,
+        "pred_min": -0.04155254364013672,
+        "pred_max": 5.791378021240234,
+        "pred_mean": 3.8830456733703613
+      }
+    },
+    {
+      "image_name": "0820",
+      "image_id": 82,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0820.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0820.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "poor",
+      "metrics": {
+        "d1": 0.6590462239583333
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.04785343259572983,
+        "shift": 3.751255512237549
+      },
+      "depth_range": {
+        "gt_min": 0.7850000262260437,
+        "gt_max": 6.126999855041504,
+        "gt_mean": 2.5835840702056885,
+        "pred_min": -0.28686952590942383,
+        "pred_max": 3.6160755157470703,
+        "pred_mean": 2.5835835933685303
+      }
+    },
+    {
+      "image_name": "0830",
+      "image_id": 83,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0830.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0830.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "poor",
+      "metrics": {
+        "d1": 0.634560546875
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.04639699310064316,
+        "shift": 3.5683794021606445
+      },
+      "depth_range": {
+        "gt_min": 0.8849999904632568,
+        "gt_max": 5.258999824523926,
+        "gt_mean": 2.1531968116760254,
+        "pred_min": 0.0951542854309082,
+        "pred_max": 3.558997392654419,
+        "pred_mean": 2.1531972885131836
+      }
+    },
+    {
+      "image_name": "0840",
+      "image_id": 84,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0840.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0840.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "poor",
+      "metrics": {
+        "d1": 0.247587890625
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.06406566500663757,
+        "shift": 3.9310221672058105
+      },
+      "depth_range": {
+        "gt_min": 0.7139999866485596,
+        "gt_max": 5.203000068664551,
+        "gt_mean": 2.22184157371521,
+        "pred_min": -0.5768680572509766,
+        "pred_max": 3.8188533782958984,
+        "pred_mean": 2.221841335296631
+      }
+    },
+    {
+      "image_name": "0850",
+      "image_id": 85,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0850.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0850.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "poor",
+      "metrics": {
+        "d1": 0.6577018229166667
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.06274984776973724,
+        "shift": 4.108240604400635
+      },
+      "depth_range": {
+        "gt_min": 1.0470000505447388,
+        "gt_max": 6.803999900817871,
+        "gt_mean": 2.6527864933013916,
+        "pred_min": 0.014425277709960938,
+        "pred_max": 3.996537685394287,
+        "pred_mean": 2.6527864933013916
+      }
+    },
+    {
+      "image_name": "0860",
+      "image_id": 86,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0860.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0860.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "poor",
+      "metrics": {
+        "d1": 0.15623697916666668
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.08802700787782669,
+        "shift": 4.564322471618652
+      },
+      "depth_range": {
+        "gt_min": 0.7129999995231628,
+        "gt_max": 7.539000034332275,
+        "gt_mean": 2.556936740875244,
+        "pred_min": -1.3148422241210938,
+        "pred_max": 4.323866844177246,
+        "pred_mean": 2.556936502456665
+      }
+    },
+    {
+      "image_name": "0870",
+      "image_id": 87,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0870.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0870.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "excellent",
+      "metrics": {
+        "d1": 0.9884700520833334
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.03330717235803604,
+        "shift": 2.9159953594207764
+      },
+      "depth_range": {
+        "gt_min": 1.1920000314712524,
+        "gt_max": 3.2109999656677246,
+        "gt_mean": 1.9056309461593628,
+        "pred_min": 0.8863537311553955,
+        "pred_max": 2.7372848987579346,
+        "pred_mean": 1.9056310653686523
+      }
+    },
+    {
+      "image_name": "0880",
+      "image_id": 88,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0880.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0880.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "poor",
+      "metrics": {
+        "d1": 0.3978515625
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.06434714049100876,
+        "shift": 4.932336807250977
+      },
+      "depth_range": {
+        "gt_min": 0.7200000286102295,
+        "gt_max": 6.956999778747559,
+        "gt_mean": 3.179460287094116,
+        "pred_min": 0.5808343887329102,
+        "pred_max": 4.916971683502197,
+        "pred_mean": 3.1794593334198
+      }
+    },
+    {
+      "image_name": "0890",
+      "image_id": 89,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0890.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0890.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "poor",
+      "metrics": {
+        "d1": 0.562568359375
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.045476991683244705,
+        "shift": 3.7823681831359863
+      },
+      "depth_range": {
+        "gt_min": 0.7129999995231628,
+        "gt_max": 9.98799991607666,
+        "gt_mean": 2.68571400642395,
+        "pred_min": -0.24689292907714844,
+        "pred_max": 3.7457668781280518,
+        "pred_mean": 2.685713529586792
+      }
+    },
+    {
+      "image_name": "0900",
+      "image_id": 90,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0900.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0900.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "poor",
+      "metrics": {
+        "d1": 0.6823372395833334
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.07564567774534225,
+        "shift": 5.89651346206665
+      },
+      "depth_range": {
+        "gt_min": 0.9290000200271606,
+        "gt_max": 7.920000076293945,
+        "gt_mean": 4.1511359214782715,
+        "pred_min": -1.137620449066162,
+        "pred_max": 5.803874492645264,
+        "pred_mean": 4.151137351989746
+      }
+    },
+    {
+      "image_name": "0910",
+      "image_id": 91,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0910.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0910.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "good",
+      "metrics": {
+        "d1": 0.9196158854166666
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.036580827087163925,
+        "shift": 3.7406551837921143
+      },
+      "depth_range": {
+        "gt_min": 1.1390000581741333,
+        "gt_max": 5.52400016784668,
+        "gt_mean": 2.9087860584259033,
+        "pred_min": 0.818228006362915,
+        "pred_max": 3.5849673748016357,
+        "pred_mean": 2.908785820007324
+      }
+    },
+    {
+      "image_name": "0920",
+      "image_id": 92,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0920.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0920.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "excellent",
+      "metrics": {
+        "d1": 0.9928841145833334
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.037856586277484894,
+        "shift": 4.3370795249938965
+      },
+      "depth_range": {
+        "gt_min": 1.9140000343322754,
+        "gt_max": 5.683000087738037,
+        "gt_mean": 3.409576416015625,
+        "pred_min": 1.6779124736785889,
+        "pred_max": 4.2876667976379395,
+        "pred_mean": 3.4095773696899414
+      }
+    },
+    {
+      "image_name": "0930",
+      "image_id": 93,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0930.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0930.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "excellent",
+      "metrics": {
+        "d1": 0.9529166666666666
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.034565847367048264,
+        "shift": 3.7811436653137207
+      },
+      "depth_range": {
+        "gt_min": 1.3259999752044678,
+        "gt_max": 4.651000022888184,
+        "gt_mean": 2.886101722717285,
+        "pred_min": 0.8546669483184814,
+        "pred_max": 3.7219860553741455,
+        "pred_mean": 2.886101007461548
+      }
+    },
+    {
+      "image_name": "0940",
+      "image_id": 94,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0940.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0940.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "average",
+      "metrics": {
+        "d1": 0.8641731770833333
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.032477006316185,
+        "shift": 3.3846819400787354
+      },
+      "depth_range": {
+        "gt_min": 0.9559999704360962,
+        "gt_max": 5.013000011444092,
+        "gt_mean": 2.527101755142212,
+        "pred_min": 0.6248331069946289,
+        "pred_max": 3.269287347793579,
+        "pred_mean": 2.52710223197937
+      }
+    },
+    {
+      "image_name": "0950",
+      "image_id": 95,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0950.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0950.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "poor",
+      "metrics": {
+        "d1": 0.6217545572916666
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.0303236935287714,
+        "shift": 3.061286687850952
+      },
+      "depth_range": {
+        "gt_min": 0.8259999752044678,
+        "gt_max": 9.51200008392334,
+        "gt_mean": 2.2049107551574707,
+        "pred_min": 0.023083209991455078,
+        "pred_max": 2.980090856552124,
+        "pred_mean": 2.20491099357605
+      }
+    },
+    {
+      "image_name": "0960",
+      "image_id": 96,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0960.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0960.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "excellent",
+      "metrics": {
+        "d1": 0.9989811197916667
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.03875900059938431,
+        "shift": 3.7815167903900146
+      },
+      "depth_range": {
+        "gt_min": 2.0759999752044678,
+        "gt_max": 3.7799999713897705,
+        "gt_mean": 2.848968744277954,
+        "pred_min": 1.7761425971984863,
+        "pred_max": 3.517108678817749,
+        "pred_mean": 2.848968505859375
+      }
+    },
+    {
+      "image_name": "0970",
+      "image_id": 97,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0970.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0970.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "good",
+      "metrics": {
+        "d1": 0.9393229166666667
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.06100882589817047,
+        "shift": 4.523725509643555
+      },
+      "depth_range": {
+        "gt_min": 1.5169999599456787,
+        "gt_max": 4.840000152587891,
+        "gt_mean": 3.424086093902588,
+        "pred_min": 1.429555892944336,
+        "pred_max": 4.380316257476807,
+        "pred_mean": 3.424086809158325
+      }
+    },
+    {
+      "image_name": "0980",
+      "image_id": 98,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0980.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0980.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "poor",
+      "metrics": {
+        "d1": 0.6308463541666667
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.06579817086458206,
+        "shift": 5.106072425842285
+      },
+      "depth_range": {
+        "gt_min": 1.0839999914169312,
+        "gt_max": 5.686999797821045,
+        "gt_mean": 3.1630899906158447,
+        "pred_min": -0.10802316665649414,
+        "pred_max": 4.958658218383789,
+        "pred_mean": 3.163090705871582
+      }
+    },
+    {
+      "image_name": "0990",
+      "image_id": 99,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/0990.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/0990.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "average",
+      "metrics": {
+        "d1": 0.885048828125
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.061005160212516785,
+        "shift": 4.1424479484558105
+      },
+      "depth_range": {
+        "gt_min": 0.9100000262260437,
+        "gt_max": 8.375,
+        "gt_mean": 2.9843850135803223,
+        "pred_min": 0.25803327560424805,
+        "pred_max": 4.014689922332764,
+        "pred_mean": 2.9843854904174805
+      }
+    },
+    {
+      "image_name": "1000",
+      "image_id": 100,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1000.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1000.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "average",
+      "metrics": {
+        "d1": 0.8685481770833333
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.04394734650850296,
+        "shift": 3.6279172897338867
+      },
+      "depth_range": {
+        "gt_min": 0.7129999995231628,
+        "gt_max": 4.015999794006348,
+        "gt_mean": 2.6384127140045166,
+        "pred_min": -0.3386807441711426,
+        "pred_max": 3.5654923915863037,
+        "pred_mean": 2.6384127140045166
+      }
+    },
+    {
+      "image_name": "1010",
+      "image_id": 101,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1010.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1010.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "excellent",
+      "metrics": {
+        "d1": 0.9508430989583333
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.04482423514127731,
+        "shift": 3.5071115493774414
+      },
+      "depth_range": {
+        "gt_min": 0.7590000033378601,
+        "gt_max": 4.813000202178955,
+        "gt_mean": 2.4931702613830566,
+        "pred_min": -0.08125805854797363,
+        "pred_max": 3.4064340591430664,
+        "pred_mean": 2.4931704998016357
+      }
+    },
+    {
+      "image_name": "1020",
+      "image_id": 102,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1020.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1020.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "acceptable",
+      "metrics": {
+        "d1": 0.7253938802083333
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.04415959492325783,
+        "shift": 3.6528308391571045
+      },
+      "depth_range": {
+        "gt_min": 0.8740000128746033,
+        "gt_max": 4.578000068664551,
+        "gt_mean": 2.6854076385498047,
+        "pred_min": 0.7884135246276855,
+        "pred_max": 3.5362424850463867,
+        "pred_mean": 2.6854076385498047
+      }
+    },
+    {
+      "image_name": "1030",
+      "image_id": 103,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1030.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1030.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "average",
+      "metrics": {
+        "d1": 0.88171875
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.048589617013931274,
+        "shift": 4.667016506195068
+      },
+      "depth_range": {
+        "gt_min": 1.7769999504089355,
+        "gt_max": 7.440000057220459,
+        "gt_mean": 3.400998115539551,
+        "pred_min": 1.1392617225646973,
+        "pred_max": 4.653820991516113,
+        "pred_mean": 3.4009978771209717
+      }
+    },
+    {
+      "image_name": "1040",
+      "image_id": 104,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1040.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1040.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "poor",
+      "metrics": {
+        "d1": 0.6830989583333333
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.03763957694172859,
+        "shift": 3.460273027420044
+      },
+      "depth_range": {
+        "gt_min": 0.718999981880188,
+        "gt_max": 4.359000205993652,
+        "gt_mean": 2.445256233215332,
+        "pred_min": -0.20988225936889648,
+        "pred_max": 3.4397590160369873,
+        "pred_mean": 2.4452571868896484
+      }
+    },
+    {
+      "image_name": "1050",
+      "image_id": 105,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1050.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1050.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "acceptable",
+      "metrics": {
+        "d1": 0.7001953125
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.053282156586647034,
+        "shift": 3.1855340003967285
+      },
+      "depth_range": {
+        "gt_min": 0.7179999947547913,
+        "gt_max": 6.541999816894531,
+        "gt_mean": 1.6237707138061523,
+        "pred_min": 0.2652559280395508,
+        "pred_max": 3.1855340003967285,
+        "pred_mean": 1.623771071434021
+      }
+    },
+    {
+      "image_name": "1060",
+      "image_id": 106,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1060.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1060.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "average",
+      "metrics": {
+        "d1": 0.864765625
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.04197032377123833,
+        "shift": 4.03519344329834
+      },
+      "depth_range": {
+        "gt_min": 1.4359999895095825,
+        "gt_max": 5.886000156402588,
+        "gt_mean": 2.937425374984741,
+        "pred_min": 0.4336409568786621,
+        "pred_max": 4.000470161437988,
+        "pred_mean": 2.9374256134033203
+      }
+    },
+    {
+      "image_name": "1070",
+      "image_id": 107,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1070.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1070.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "good",
+      "metrics": {
+        "d1": 0.9470768229166666
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.041270624846220016,
+        "shift": 3.992030143737793
+      },
+      "depth_range": {
+        "gt_min": 1.6729999780654907,
+        "gt_max": 5.255000114440918,
+        "gt_mean": 2.950251817703247,
+        "pred_min": 1.158879041671753,
+        "pred_max": 3.9446611404418945,
+        "pred_mean": 2.950251817703247
+      }
+    },
+    {
+      "image_name": "1080",
+      "image_id": 108,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1080.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1080.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "poor",
+      "metrics": {
+        "d1": 0.678125
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.0414070188999176,
+        "shift": 4.34466028213501
+      },
+      "depth_range": {
+        "gt_min": 0.722000002861023,
+        "gt_max": 6.210000038146973,
+        "gt_mean": 2.954892635345459,
+        "pred_min": 0.3482081890106201,
+        "pred_max": 4.320293426513672,
+        "pred_mean": 2.954893112182617
+      }
+    },
+    {
+      "image_name": "1090",
+      "image_id": 109,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1090.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1090.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "average",
+      "metrics": {
+        "d1": 0.882373046875
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.041873276233673096,
+        "shift": 3.5124671459198
+      },
+      "depth_range": {
+        "gt_min": 1.1979999542236328,
+        "gt_max": 3.880000114440918,
+        "gt_mean": 2.510397434234619,
+        "pred_min": 0.8285799026489258,
+        "pred_max": 3.4540035724639893,
+        "pred_mean": 2.510397434234619
+      }
+    },
+    {
+      "image_name": "1100",
+      "image_id": 110,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1100.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1100.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "acceptable",
+      "metrics": {
+        "d1": 0.7313216145833333
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.0560225173830986,
+        "shift": 4.14249324798584
+      },
+      "depth_range": {
+        "gt_min": 0.8489999771118164,
+        "gt_max": 5.198999881744385,
+        "gt_mean": 2.9936623573303223,
+        "pred_min": -0.27255964279174805,
+        "pred_max": 4.0302228927612305,
+        "pred_mean": 2.9936625957489014
+      }
+    },
+    {
+      "image_name": "1110",
+      "image_id": 111,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1110.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1110.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "good",
+      "metrics": {
+        "d1": 0.92892578125
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.04617087543010712,
+        "shift": 4.351081371307373
+      },
+      "depth_range": {
+        "gt_min": 1.3480000495910645,
+        "gt_max": 8.890999794006348,
+        "gt_mean": 3.470547676086426,
+        "pred_min": 0.505683422088623,
+        "pred_max": 4.213890075683594,
+        "pred_mean": 3.470547676086426
+      }
+    },
+    {
+      "image_name": "1120",
+      "image_id": 112,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1120.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1120.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "good",
+      "metrics": {
+        "d1": 0.9108658854166667
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.04158177971839905,
+        "shift": 3.3378946781158447
+      },
+      "depth_range": {
+        "gt_min": 1.2680000066757202,
+        "gt_max": 3.7809998989105225,
+        "gt_mean": 2.2946360111236572,
+        "pred_min": 0.9495975971221924,
+        "pred_max": 3.255549669265747,
+        "pred_mean": 2.2946360111236572
+      }
+    },
+    {
+      "image_name": "1130",
+      "image_id": 113,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1130.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1130.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "excellent",
+      "metrics": {
+        "d1": 0.955244140625
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.026922063902020454,
+        "shift": 3.2363691329956055
+      },
+      "depth_range": {
+        "gt_min": 1.0700000524520874,
+        "gt_max": 3.3940000534057617,
+        "gt_mean": 2.5181119441986084,
+        "pred_min": 0.6692156791687012,
+        "pred_max": 3.122122049331665,
+        "pred_mean": 2.5181119441986084
+      }
+    },
+    {
+      "image_name": "1140",
+      "image_id": 114,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1140.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1140.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "fair",
+      "metrics": {
+        "d1": 0.8252083333333333
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.03746948391199112,
+        "shift": 3.2268989086151123
+      },
+      "depth_range": {
+        "gt_min": 0.7129999995231628,
+        "gt_max": 3.7929999828338623,
+        "gt_mean": 2.3875153064727783,
+        "pred_min": -0.5711977481842041,
+        "pred_max": 3.1031899452209473,
+        "pred_mean": 2.3875153064727783
+      }
+    },
+    {
+      "image_name": "1150",
+      "image_id": 115,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1150.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1150.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "good",
+      "metrics": {
+        "d1": 0.9041276041666667
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.04878875985741615,
+        "shift": 4.470584869384766
+      },
+      "depth_range": {
+        "gt_min": 1.4910000562667847,
+        "gt_max": 5.818999767303467,
+        "gt_mean": 3.2746806144714355,
+        "pred_min": 1.094202995300293,
+        "pred_max": 4.383539199829102,
+        "pred_mean": 3.2746806144714355
+      }
+    },
+    {
+      "image_name": "1160",
+      "image_id": 116,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1160.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1160.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "excellent",
+      "metrics": {
+        "d1": 0.9983235677083333
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.03039798140525818,
+        "shift": 2.9483139514923096
+      },
+      "depth_range": {
+        "gt_min": 1.6449999809265137,
+        "gt_max": 3.384999990463257,
+        "gt_mean": 2.3305158615112305,
+        "pred_min": 1.4839122295379639,
+        "pred_max": 2.8370413780212402,
+        "pred_mean": 2.3305156230926514
+      }
+    },
+    {
+      "image_name": "1170",
+      "image_id": 117,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1170.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1170.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "excellent",
+      "metrics": {
+        "d1": 0.9529459635416667
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.03467133641242981,
+        "shift": 3.2604820728302
+      },
+      "depth_range": {
+        "gt_min": 1.343000054359436,
+        "gt_max": 3.5999999046325684,
+        "gt_mean": 2.474907875061035,
+        "pred_min": 0.9212839603424072,
+        "pred_max": 3.1418416500091553,
+        "pred_mean": 2.4749081134796143
+      }
+    },
+    {
+      "image_name": "1180",
+      "image_id": 118,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1180.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1180.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "acceptable",
+      "metrics": {
+        "d1": 0.7358203125
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.08313567191362381,
+        "shift": 5.227409362792969
+      },
+      "depth_range": {
+        "gt_min": 1.4019999504089355,
+        "gt_max": 8.63599967956543,
+        "gt_mean": 2.7914130687713623,
+        "pred_min": 0.444368839263916,
+        "pred_max": 5.227409362792969,
+        "pred_mean": 2.7914130687713623
+      }
+    },
+    {
+      "image_name": "1190",
+      "image_id": 119,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1190.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1190.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "excellent",
+      "metrics": {
+        "d1": 0.9787955729166666
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.042116276919841766,
+        "shift": 3.591837167739868
+      },
+      "depth_range": {
+        "gt_min": 0.9850000143051147,
+        "gt_max": 4.254000186920166,
+        "gt_mean": 2.696730375289917,
+        "pred_min": 1.0848829746246338,
+        "pred_max": 3.479154109954834,
+        "pred_mean": 2.6967296600341797
+      }
+    },
+    {
+      "image_name": "1200",
+      "image_id": 120,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1200.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1200.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "good",
+      "metrics": {
+        "d1": 0.9061295572916667
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.022146958857774734,
+        "shift": 2.789120674133301
+      },
+      "depth_range": {
+        "gt_min": 0.7369999885559082,
+        "gt_max": 3.7170000076293945,
+        "gt_mean": 2.2872865200042725,
+        "pred_min": 1.1263712644577026,
+        "pred_max": 2.72426700592041,
+        "pred_mean": 2.2872867584228516
+      }
+    },
+    {
+      "image_name": "1210",
+      "image_id": 121,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1210.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1210.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "acceptable",
+      "metrics": {
+        "d1": 0.7334212239583333
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.06308015435934067,
+        "shift": 4.634068012237549
+      },
+      "depth_range": {
+        "gt_min": 1.2130000591278076,
+        "gt_max": 7.889999866485596,
+        "gt_mean": 3.067566156387329,
+        "pred_min": -0.07459783554077148,
+        "pred_max": 4.632279396057129,
+        "pred_mean": 3.067566156387329
+      }
+    },
+    {
+      "image_name": "1220",
+      "image_id": 122,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1220.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1220.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "average",
+      "metrics": {
+        "d1": 0.8896419270833333
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.05273892730474472,
+        "shift": 5.404554843902588
+      },
+      "depth_range": {
+        "gt_min": 2.1730000972747803,
+        "gt_max": 6.2170000076293945,
+        "gt_mean": 3.872140407562256,
+        "pred_min": 1.5532846450805664,
+        "pred_max": 5.317163944244385,
+        "pred_mean": 3.872141122817993
+      }
+    },
+    {
+      "image_name": "1230",
+      "image_id": 123,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1230.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1230.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "acceptable",
+      "metrics": {
+        "d1": 0.7047037760416667
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.05725514516234398,
+        "shift": 3.769397735595703
+      },
+      "depth_range": {
+        "gt_min": 1.2730000019073486,
+        "gt_max": 4.803999900817871,
+        "gt_mean": 2.524512529373169,
+        "pred_min": 0.9403502941131592,
+        "pred_max": 3.580981731414795,
+        "pred_mean": 2.524512529373169
+      }
+    },
+    {
+      "image_name": "1240",
+      "image_id": 124,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1240.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1240.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "poor",
+      "metrics": {
+        "d1": 0.389609375
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.09314527362585068,
+        "shift": 7.033351421356201
+      },
+      "depth_range": {
+        "gt_min": 1.4040000438690186,
+        "gt_max": 9.982000350952148,
+        "gt_mean": 4.516300201416016,
+        "pred_min": -0.25699615478515625,
+        "pred_max": 6.867889404296875,
+        "pred_mean": 4.516300678253174
+      }
+    },
+    {
+      "image_name": "1250",
+      "image_id": 125,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1250.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1250.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "average",
+      "metrics": {
+        "d1": 0.8729817708333333
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.06618759781122208,
+        "shift": 5.569131374359131
+      },
+      "depth_range": {
+        "gt_min": 1.309999942779541,
+        "gt_max": 9.930000305175781,
+        "gt_mean": 4.396509647369385,
+        "pred_min": 0.8223667144775391,
+        "pred_max": 5.497779846191406,
+        "pred_mean": 4.396510124206543
+      }
+    },
+    {
+      "image_name": "1260",
+      "image_id": 126,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1260.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1260.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "acceptable",
+      "metrics": {
+        "d1": 0.7807454427083333
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.04875282570719719,
+        "shift": 5.08708381652832
+      },
+      "depth_range": {
+        "gt_min": 0.9660000205039978,
+        "gt_max": 6.215000152587891,
+        "gt_mean": 3.8330931663513184,
+        "pred_min": -0.2464752197265625,
+        "pred_max": 4.972384452819824,
+        "pred_mean": 3.8330931663513184
+      }
+    },
+    {
+      "image_name": "1270",
+      "image_id": 127,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1270.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1270.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "poor",
+      "metrics": {
+        "d1": 0.6669856770833333
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.04941515997052193,
+        "shift": 4.322361946105957
+      },
+      "depth_range": {
+        "gt_min": 0.7620000243186951,
+        "gt_max": 5.159999847412109,
+        "gt_mean": 3.1486523151397705,
+        "pred_min": -0.5623364448547363,
+        "pred_max": 4.300204753875732,
+        "pred_mean": 3.1486518383026123
+      }
+    },
+    {
+      "image_name": "1280",
+      "image_id": 128,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1280.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1280.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "fair",
+      "metrics": {
+        "d1": 0.820947265625
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.07031068205833435,
+        "shift": 5.584085941314697
+      },
+      "depth_range": {
+        "gt_min": 1.6519999504089355,
+        "gt_max": 9.940999984741211,
+        "gt_mean": 4.0046820640563965,
+        "pred_min": 0.7503728866577148,
+        "pred_max": 5.478492736816406,
+        "pred_mean": 4.004682540893555
+      }
+    },
+    {
+      "image_name": "1290",
+      "image_id": 129,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1290.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1290.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "fair",
+      "metrics": {
+        "d1": 0.8294563802083333
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.06897734850645065,
+        "shift": 5.519439697265625
+      },
+      "depth_range": {
+        "gt_min": 1.2979999780654907,
+        "gt_max": 9.765999794006348,
+        "gt_mean": 3.692460536956787,
+        "pred_min": 0.41663694381713867,
+        "pred_max": 5.337895393371582,
+        "pred_mean": 3.6924610137939453
+      }
+    },
+    {
+      "image_name": "1300",
+      "image_id": 130,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1300.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1300.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "excellent",
+      "metrics": {
+        "d1": 0.968212890625
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.04463804513216019,
+        "shift": 3.47099232673645
+      },
+      "depth_range": {
+        "gt_min": 1.4910000562667847,
+        "gt_max": 4.046999931335449,
+        "gt_mean": 2.56966495513916,
+        "pred_min": 1.2507765293121338,
+        "pred_max": 3.3830556869506836,
+        "pred_mean": 2.56966495513916
+      }
+    },
+    {
+      "image_name": "1310",
+      "image_id": 131,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1310.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1310.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "fair",
+      "metrics": {
+        "d1": 0.8213997395833333
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.06611480563879013,
+        "shift": 4.992019176483154
+      },
+      "depth_range": {
+        "gt_min": 1.6779999732971191,
+        "gt_max": 9.961000442504883,
+        "gt_mean": 3.287336587905884,
+        "pred_min": 0.6941256523132324,
+        "pred_max": 4.801548004150391,
+        "pred_mean": 3.2873361110687256
+      }
+    },
+    {
+      "image_name": "1320",
+      "image_id": 132,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1320.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1320.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "good",
+      "metrics": {
+        "d1": 0.9299837239583333
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.04041692242026329,
+        "shift": 3.185579538345337
+      },
+      "depth_range": {
+        "gt_min": 1.2940000295639038,
+        "gt_max": 3.744999885559082,
+        "gt_mean": 2.484875202178955,
+        "pred_min": 1.2461134195327759,
+        "pred_max": 3.08364200592041,
+        "pred_mean": 2.484875202178955
+      }
+    },
+    {
+      "image_name": "1330",
+      "image_id": 133,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1330.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1330.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "good",
+      "metrics": {
+        "d1": 0.9222135416666667
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.06016279011964798,
+        "shift": 5.191164016723633
+      },
+      "depth_range": {
+        "gt_min": 1.7999999523162842,
+        "gt_max": 6.5289998054504395,
+        "gt_mean": 3.8514745235443115,
+        "pred_min": 1.0196270942687988,
+        "pred_max": 5.116286277770996,
+        "pred_mean": 3.8514750003814697
+      }
+    },
+    {
+      "image_name": "1340",
+      "image_id": 134,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1340.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1340.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "poor",
+      "metrics": {
+        "d1": 0.3573860677083333
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.07127851992845535,
+        "shift": 5.242921829223633
+      },
+      "depth_range": {
+        "gt_min": 0.968999981880188,
+        "gt_max": 9.10200023651123,
+        "gt_mean": 3.496265172958374,
+        "pred_min": -0.9245390892028809,
+        "pred_max": 5.212161540985107,
+        "pred_mean": 3.4962642192840576
+      }
+    },
+    {
+      "image_name": "1350",
+      "image_id": 135,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1350.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1350.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "fair",
+      "metrics": {
+        "d1": 0.8240266927083333
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.04720807075500488,
+        "shift": 3.746539831161499
+      },
+      "depth_range": {
+        "gt_min": 1.3650000095367432,
+        "gt_max": 4.631999969482422,
+        "gt_mean": 2.783663511276245,
+        "pred_min": 0.570812463760376,
+        "pred_max": 3.708996057510376,
+        "pred_mean": 2.7836642265319824
+      }
+    },
+    {
+      "image_name": "1360",
+      "image_id": 136,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1360.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1360.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "fair",
+      "metrics": {
+        "d1": 0.8149576822916667
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.08543039113283157,
+        "shift": 5.853838920593262
+      },
+      "depth_range": {
+        "gt_min": 1.9739999771118164,
+        "gt_max": 8.793000221252441,
+        "gt_mean": 4.287656307220459,
+        "pred_min": 1.215184211730957,
+        "pred_max": 5.800976753234863,
+        "pred_mean": 4.287656307220459
+      }
+    },
+    {
+      "image_name": "1370",
+      "image_id": 137,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1370.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1370.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "poor",
+      "metrics": {
+        "d1": 0.6541080729166666
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.0481119304895401,
+        "shift": 4.108235836029053
+      },
+      "depth_range": {
+        "gt_min": 0.8949999809265137,
+        "gt_max": 5.605000019073486,
+        "gt_mean": 2.908170461654663,
+        "pred_min": 0.13419842720031738,
+        "pred_max": 4.108235836029053,
+        "pred_mean": 2.908170461654663
+      }
+    },
+    {
+      "image_name": "1380",
+      "image_id": 138,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1380.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1380.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "acceptable",
+      "metrics": {
+        "d1": 0.7699479166666666
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.08800527453422546,
+        "shift": 5.789247035980225
+      },
+      "depth_range": {
+        "gt_min": 1.8250000476837158,
+        "gt_max": 8.567999839782715,
+        "gt_mean": 3.8600947856903076,
+        "pred_min": 0.44086217880249023,
+        "pred_max": 5.783262252807617,
+        "pred_mean": 3.8600947856903076
+      }
+    },
+    {
+      "image_name": "1390",
+      "image_id": 139,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1390.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1390.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "excellent",
+      "metrics": {
+        "d1": 0.9890169270833333
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.03674948215484619,
+        "shift": 3.7129364013671875
+      },
+      "depth_range": {
+        "gt_min": 1.7350000143051147,
+        "gt_max": 4.199999809265137,
+        "gt_mean": 3.013827323913574,
+        "pred_min": 1.4759321212768555,
+        "pred_max": 3.661735773086548,
+        "pred_mean": 3.013826847076416
+      }
+    },
+    {
+      "image_name": "1400",
+      "image_id": 140,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1400.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1400.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "poor",
+      "metrics": {
+        "d1": 0.5472102864583334
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.059111420065164566,
+        "shift": 4.277765274047852
+      },
+      "depth_range": {
+        "gt_min": 0.7129999995231628,
+        "gt_max": 8.588000297546387,
+        "gt_mean": 2.7484583854675293,
+        "pred_min": -0.010128498077392578,
+        "pred_max": 4.277765274047852,
+        "pred_mean": 2.748459577560425
+      }
+    },
+    {
+      "image_name": "1410",
+      "image_id": 141,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1410.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1410.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "excellent",
+      "metrics": {
+        "d1": 0.99931640625
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.022114749997854233,
+        "shift": 2.612269163131714
+      },
+      "depth_range": {
+        "gt_min": 1.4980000257492065,
+        "gt_max": 2.9059998989105225,
+        "gt_mean": 2.093263864517212,
+        "pred_min": 1.587782859802246,
+        "pred_max": 2.544442892074585,
+        "pred_mean": 2.093263626098633
+      }
+    },
+    {
+      "image_name": "1420",
+      "image_id": 142,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1420.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1420.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "average",
+      "metrics": {
+        "d1": 0.8796223958333333
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.061383213847875595,
+        "shift": 4.771610260009766
+      },
+      "depth_range": {
+        "gt_min": 1.9520000219345093,
+        "gt_max": 8.6850004196167,
+        "gt_mean": 3.3789374828338623,
+        "pred_min": 1.316408395767212,
+        "pred_max": 4.584445476531982,
+        "pred_mean": 3.3789374828338623
+      }
+    },
+    {
+      "image_name": "1430",
+      "image_id": 143,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1430.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1430.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "acceptable",
+      "metrics": {
+        "d1": 0.7861328125
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.04175446182489395,
+        "shift": 3.757596015930176
+      },
+      "depth_range": {
+        "gt_min": 0.7129999995231628,
+        "gt_max": 5.59499979019165,
+        "gt_mean": 2.820798397064209,
+        "pred_min": 0.2776312828063965,
+        "pred_max": 3.674370288848877,
+        "pred_mean": 2.820798635482788
+      }
+    },
+    {
+      "image_name": "1440",
+      "image_id": 144,
+      "source_info": {
+        "rgb_path": "/root/Depth-Anything-V2/nyu_images/rgb/1440.png",
+        "depth_path": "/root/Depth-Anything-V2/nyu_images/depth/1440.png",
+        "image_shape": [
+          640,
+          480,
+          3
+        ]
+      },
+      "scene": "indoor",
+      "category": "poor",
+      "metrics": {
+        "d1": 0.6780501302083334
+      },
+      "alignment": {
+        "method": "scale_and_shift",
+        "scale": -0.06356820464134216,
+        "shift": 4.338079929351807
+      },
+      "depth_range": {
+        "gt_min": 0.7129999995231628,
+        "gt_max": 8.52299976348877,
+        "gt_mean": 2.8090708255767822,
+        "pred_min": -0.3976469039916992,
+        "pred_max": 4.338079929351807,
+        "pred_mean": 2.8090708255767822
+      }
+    }
+  ]
+}
