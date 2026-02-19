@@ -1,0 +1,1280 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>KITTI Multi-Model Comparison Index</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .alert {
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            color: #155724;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 20px auto;
+            max-width: 800px;
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            max-width: 1400px;
+            margin: 20px auto;
+            background: white;
+            border-collapse: collapse;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        th {
+            background: #3498db;
+            color: white;
+            padding: 15px;
+            text-align: left;
+        }
+        td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #ddd;
+        }
+        tr:hover {
+            background: #f5f5f5;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .stat-box {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            display: inline-block;
+            margin: 10px;
+        }
+        .stat-number {
+            font-size: 36px;
+            font-weight: bold;
+            color: #3498db;
+        }
+        .dataset-badge {
+            background: #e74c3c;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 4px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🚗 KITTI Multi-Model Depth Estimation Comparison <span class="dataset-badge">KITTI Dataset</span></h1>
+    
+    <div class="alert">
+        ✅ All comparisons shown below have <strong>metrically consistent</strong> rankings<br>
+        📊 Dataset: KITTI Eigen Split (Outdoor Driving Scenes)
+    </div>
+    
+    <div style="text-align: center; margin: 20px;">
+        <div class="stat-box">
+            <div class="stat-number">{len(groups)}</div>
+            <div>Comparisons</div>
+        </div>
+    </div>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Index</th>
+                <th>Image</th>
+                <th>Best Model</th>
+                <th>Best Score</th>
+                <th>Worst Score</th>
+                <th>Range</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>0000</td>
+                <td>2011_09_26_drive_0009_sync_0000000016</td>
+                <td><strong>marigold-kitti</strong></td>
+                <td style="color: green;">14.3</td>
+                <td style="color: red;">10.8</td>
+                <td>3.5</td>
+                <td><a href="0000_2011_09_26_drive_0009_sync_0000000016/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0002</td>
+                <td>2011_09_26_drive_0009_sync_0000000048</td>
+                <td><strong>marigold-kitti</strong></td>
+                <td style="color: green;">15.8</td>
+                <td style="color: red;">8.9</td>
+                <td>6.9</td>
+                <td><a href="0002_2011_09_26_drive_0009_sync_0000000048/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0006</td>
+                <td>2011_09_26_drive_0009_sync_0000000112</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">13.6</td>
+                <td style="color: red;">9.1</td>
+                <td>4.5</td>
+                <td><a href="0006_2011_09_26_drive_0009_sync_0000000112/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0016</td>
+                <td>2011_09_26_drive_0009_sync_0000000276</td>
+                <td><strong>marigold-kitti</strong></td>
+                <td style="color: green;">14.5</td>
+                <td style="color: red;">9.2</td>
+                <td>5.3</td>
+                <td><a href="0016_2011_09_26_drive_0009_sync_0000000276/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0022</td>
+                <td>2011_09_26_drive_0009_sync_0000000372</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">14.0</td>
+                <td style="color: red;">10.5</td>
+                <td>3.5</td>
+                <td><a href="0022_2011_09_26_drive_0009_sync_0000000372/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0024</td>
+                <td>2011_09_26_drive_0027_sync_0000000077</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">18.0</td>
+                <td style="color: red;">11.6</td>
+                <td>6.4</td>
+                <td><a href="0024_2011_09_26_drive_0027_sync_0000000077/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0030</td>
+                <td>2011_09_26_drive_0027_sync_0000000042</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">16.8</td>
+                <td style="color: red;">12.1</td>
+                <td>4.7</td>
+                <td><a href="0030_2011_09_26_drive_0027_sync_0000000042/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0032</td>
+                <td>2011_09_26_drive_0027_sync_0000000133</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">17.7</td>
+                <td style="color: red;">12.3</td>
+                <td>5.4</td>
+                <td><a href="0032_2011_09_26_drive_0027_sync_0000000133/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0038</td>
+                <td>2011_09_26_drive_0027_sync_0000000084</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">18.2</td>
+                <td style="color: red;">13.4</td>
+                <td>4.8</td>
+                <td><a href="0038_2011_09_26_drive_0027_sync_0000000084/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0040</td>
+                <td>2011_09_26_drive_0027_sync_0000000049</td>
+                <td><strong>marigold-kitti</strong></td>
+                <td style="color: green;">14.3</td>
+                <td style="color: red;">11.8</td>
+                <td>2.5</td>
+                <td><a href="0040_2011_09_26_drive_0027_sync_0000000049/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0046</td>
+                <td>2011_09_26_drive_0027_sync_0000000119</td>
+                <td><strong>marigold-kitti</strong></td>
+                <td style="color: green;">17.3</td>
+                <td style="color: red;">13.9</td>
+                <td>3.4</td>
+                <td><a href="0046_2011_09_26_drive_0027_sync_0000000119/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0048</td>
+                <td>2011_09_26_drive_0029_sync_0000000380</td>
+                <td><strong>marigold-kitti</strong></td>
+                <td style="color: green;">13.8</td>
+                <td style="color: red;">11.9</td>
+                <td>1.9</td>
+                <td><a href="0048_2011_09_26_drive_0029_sync_0000000380/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0050</td>
+                <td>2011_09_26_drive_0029_sync_0000000324</td>
+                <td><strong>dav2-vitb-kitti</strong></td>
+                <td style="color: green;">12.1</td>
+                <td style="color: red;">6.2</td>
+                <td>5.8</td>
+                <td><a href="0050_2011_09_26_drive_0029_sync_0000000324/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0054</td>
+                <td>2011_09_26_drive_0029_sync_0000000014</td>
+                <td><strong>dav2-vitb-kitti</strong></td>
+                <td style="color: green;">16.6</td>
+                <td style="color: red;">9.0</td>
+                <td>7.7</td>
+                <td><a href="0054_2011_09_26_drive_0029_sync_0000000014/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0058</td>
+                <td>2011_09_26_drive_0029_sync_0000000196</td>
+                <td><strong>marigold-kitti</strong></td>
+                <td style="color: green;">14.0</td>
+                <td style="color: red;">7.4</td>
+                <td>6.6</td>
+                <td><a href="0058_2011_09_26_drive_0029_sync_0000000196/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0062</td>
+                <td>2011_09_26_drive_0029_sync_0000000112</td>
+                <td><strong>dav2-vitb-kitti</strong></td>
+                <td style="color: green;">17.4</td>
+                <td style="color: red;">10.4</td>
+                <td>7.0</td>
+                <td><a href="0062_2011_09_26_drive_0029_sync_0000000112/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0064</td>
+                <td>2011_09_26_drive_0029_sync_0000000126</td>
+                <td><strong>marigold-kitti</strong></td>
+                <td style="color: green;">17.4</td>
+                <td style="color: red;">10.6</td>
+                <td>6.8</td>
+                <td><a href="0064_2011_09_26_drive_0029_sync_0000000126/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0068</td>
+                <td>2011_09_26_drive_0029_sync_0000000098</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">16.2</td>
+                <td style="color: red;">9.9</td>
+                <td>6.3</td>
+                <td><a href="0068_2011_09_26_drive_0029_sync_0000000098/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0070</td>
+                <td>2011_09_26_drive_0029_sync_0000000042</td>
+                <td><strong>marigold-kitti</strong></td>
+                <td style="color: green;">17.5</td>
+                <td style="color: red;">10.8</td>
+                <td>6.7</td>
+                <td><a href="0070_2011_09_26_drive_0029_sync_0000000042/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0074</td>
+                <td>2011_09_26_drive_0046_sync_0000000015</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">13.6</td>
+                <td style="color: red;">8.3</td>
+                <td>5.3</td>
+                <td><a href="0074_2011_09_26_drive_0046_sync_0000000015/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0076</td>
+                <td>2011_09_26_drive_0046_sync_0000000025</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">14.8</td>
+                <td style="color: red;">5.8</td>
+                <td>9.0</td>
+                <td><a href="0076_2011_09_26_drive_0046_sync_0000000025/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0078</td>
+                <td>2011_09_26_drive_0046_sync_0000000035</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">9.9</td>
+                <td style="color: red;">4.5</td>
+                <td>5.4</td>
+                <td><a href="0078_2011_09_26_drive_0046_sync_0000000035/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0080</td>
+                <td>2011_09_26_drive_0046_sync_0000000045</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">9.8</td>
+                <td style="color: red;">5.1</td>
+                <td>4.7</td>
+                <td><a href="0080_2011_09_26_drive_0046_sync_0000000045/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0082</td>
+                <td>2011_09_26_drive_0046_sync_0000000055</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">11.4</td>
+                <td style="color: red;">4.6</td>
+                <td>6.8</td>
+                <td><a href="0082_2011_09_26_drive_0046_sync_0000000055/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0084</td>
+                <td>2011_09_26_drive_0046_sync_0000000065</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">17.8</td>
+                <td style="color: red;">6.8</td>
+                <td>11.0</td>
+                <td><a href="0084_2011_09_26_drive_0046_sync_0000000065/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0086</td>
+                <td>2011_09_26_drive_0046_sync_0000000075</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">14.1</td>
+                <td style="color: red;">6.5</td>
+                <td>7.6</td>
+                <td><a href="0086_2011_09_26_drive_0046_sync_0000000075/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0090</td>
+                <td>2011_09_26_drive_0046_sync_0000000095</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">17.3</td>
+                <td style="color: red;">7.4</td>
+                <td>9.8</td>
+                <td><a href="0090_2011_09_26_drive_0046_sync_0000000095/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0094</td>
+                <td>2011_09_26_drive_0046_sync_0000000115</td>
+                <td><strong>marigold-kitti</strong></td>
+                <td style="color: green;">11.9</td>
+                <td style="color: red;">7.6</td>
+                <td>4.3</td>
+                <td><a href="0094_2011_09_26_drive_0046_sync_0000000115/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0096</td>
+                <td>2011_09_26_drive_0048_sync_0000000006</td>
+                <td><strong>dav2-vitb-kitti</strong></td>
+                <td style="color: green;">15.1</td>
+                <td style="color: red;">8.9</td>
+                <td>6.2</td>
+                <td><a href="0096_2011_09_26_drive_0048_sync_0000000006/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0098</td>
+                <td>2011_09_26_drive_0048_sync_0000000008</td>
+                <td><strong>dav2-vitb-kitti</strong></td>
+                <td style="color: green;">17.7</td>
+                <td style="color: red;">7.5</td>
+                <td>10.2</td>
+                <td><a href="0098_2011_09_26_drive_0048_sync_0000000008/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0100</td>
+                <td>2011_09_26_drive_0048_sync_0000000010</td>
+                <td><strong>dav2-vitb-kitti</strong></td>
+                <td style="color: green;">16.9</td>
+                <td style="color: red;">8.0</td>
+                <td>8.8</td>
+                <td><a href="0100_2011_09_26_drive_0048_sync_0000000010/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0102</td>
+                <td>2011_09_26_drive_0048_sync_0000000012</td>
+                <td><strong>dav2-vitb-kitti</strong></td>
+                <td style="color: green;">17.4</td>
+                <td style="color: red;">7.6</td>
+                <td>9.8</td>
+                <td><a href="0102_2011_09_26_drive_0048_sync_0000000012/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0104</td>
+                <td>2011_09_26_drive_0048_sync_0000000014</td>
+                <td><strong>dav2-vitb-kitti</strong></td>
+                <td style="color: green;">16.9</td>
+                <td style="color: red;">7.5</td>
+                <td>9.4</td>
+                <td><a href="0104_2011_09_26_drive_0048_sync_0000000014/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0106</td>
+                <td>2011_09_26_drive_0048_sync_0000000016</td>
+                <td><strong>dav2-vitb-kitti</strong></td>
+                <td style="color: green;">16.0</td>
+                <td style="color: red;">7.4</td>
+                <td>8.6</td>
+                <td><a href="0106_2011_09_26_drive_0048_sync_0000000016/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0110</td>
+                <td>2011_09_26_drive_0052_sync_0000000028</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">11.6</td>
+                <td style="color: red;">7.3</td>
+                <td>4.3</td>
+                <td><a href="0110_2011_09_26_drive_0052_sync_0000000028/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0112</td>
+                <td>2011_09_26_drive_0052_sync_0000000050</td>
+                <td><strong>dav2-vitb-kitti</strong></td>
+                <td style="color: green;">16.3</td>
+                <td style="color: red;">7.6</td>
+                <td>8.7</td>
+                <td><a href="0112_2011_09_26_drive_0052_sync_0000000050/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0116</td>
+                <td>2011_09_26_drive_0052_sync_0000000044</td>
+                <td><strong>dav2-vitb-kitti</strong></td>
+                <td style="color: green;">12.7</td>
+                <td style="color: red;">6.8</td>
+                <td>5.9</td>
+                <td><a href="0116_2011_09_26_drive_0052_sync_0000000044/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0118</td>
+                <td>2011_09_26_drive_0052_sync_0000000032</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">14.6</td>
+                <td style="color: red;">6.6</td>
+                <td>7.9</td>
+                <td><a href="0118_2011_09_26_drive_0052_sync_0000000032/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0122</td>
+                <td>2011_09_26_drive_0052_sync_0000000048</td>
+                <td><strong>dav2-vitb-kitti</strong></td>
+                <td style="color: green;">17.1</td>
+                <td style="color: red;">6.1</td>
+                <td>11.0</td>
+                <td><a href="0122_2011_09_26_drive_0052_sync_0000000048/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0124</td>
+                <td>2011_09_26_drive_0052_sync_0000000006</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">14.1</td>
+                <td style="color: red;">6.8</td>
+                <td>7.3</td>
+                <td><a href="0124_2011_09_26_drive_0052_sync_0000000006/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0128</td>
+                <td>2011_09_26_drive_0052_sync_0000000022</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">11.0</td>
+                <td style="color: red;">5.5</td>
+                <td>5.6</td>
+                <td><a href="0128_2011_09_26_drive_0052_sync_0000000022/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0130</td>
+                <td>2011_09_26_drive_0056_sync_0000000033</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">15.9</td>
+                <td style="color: red;">10.2</td>
+                <td>5.7</td>
+                <td><a href="0130_2011_09_26_drive_0056_sync_0000000033/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0132</td>
+                <td>2011_09_26_drive_0056_sync_0000000253</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">15.1</td>
+                <td style="color: red;">7.9</td>
+                <td>7.2</td>
+                <td><a href="0132_2011_09_26_drive_0056_sync_0000000253/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0134</td>
+                <td>2011_09_26_drive_0056_sync_0000000154</td>
+                <td><strong>dav2-vitb-kitti</strong></td>
+                <td style="color: green;">17.4</td>
+                <td style="color: red;">9.9</td>
+                <td>7.4</td>
+                <td><a href="0134_2011_09_26_drive_0056_sync_0000000154/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0138</td>
+                <td>2011_09_26_drive_0056_sync_0000000077</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">16.2</td>
+                <td style="color: red;">11.4</td>
+                <td>4.8</td>
+                <td><a href="0138_2011_09_26_drive_0056_sync_0000000077/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0140</td>
+                <td>2011_09_26_drive_0056_sync_0000000143</td>
+                <td><strong>dav2-vitb-kitti</strong></td>
+                <td style="color: green;">16.4</td>
+                <td style="color: red;">10.6</td>
+                <td>5.8</td>
+                <td><a href="0140_2011_09_26_drive_0056_sync_0000000143/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0142</td>
+                <td>2011_09_26_drive_0056_sync_0000000176</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">15.1</td>
+                <td style="color: red;">7.2</td>
+                <td>7.9</td>
+                <td><a href="0142_2011_09_26_drive_0056_sync_0000000176/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0148</td>
+                <td>2011_09_26_drive_0056_sync_0000000088</td>
+                <td><strong>dav2-vitb-kitti</strong></td>
+                <td style="color: green;">16.6</td>
+                <td style="color: red;">10.1</td>
+                <td>6.5</td>
+                <td><a href="0148_2011_09_26_drive_0056_sync_0000000088/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0150</td>
+                <td>2011_09_26_drive_0056_sync_0000000209</td>
+                <td><strong>marigold-kitti</strong></td>
+                <td style="color: green;">14.0</td>
+                <td style="color: red;">7.6</td>
+                <td>6.4</td>
+                <td><a href="0150_2011_09_26_drive_0056_sync_0000000209/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0152</td>
+                <td>2011_09_26_drive_0056_sync_0000000231</td>
+                <td><strong>marigold-kitti</strong></td>
+                <td style="color: green;">11.4</td>
+                <td style="color: red;">6.3</td>
+                <td>5.1</td>
+                <td><a href="0152_2011_09_26_drive_0056_sync_0000000231/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0154</td>
+                <td>2011_09_26_drive_0059_sync_0000000056</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">16.5</td>
+                <td style="color: red;">12.9</td>
+                <td>3.6</td>
+                <td><a href="0154_2011_09_26_drive_0059_sync_0000000056/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0168</td>
+                <td>2011_09_26_drive_0059_sync_0000000288</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">12.4</td>
+                <td style="color: red;">8.7</td>
+                <td>3.8</td>
+                <td><a href="0168_2011_09_26_drive_0059_sync_0000000288/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0180</td>
+                <td>2011_09_26_drive_0064_sync_0000000352</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">13.2</td>
+                <td style="color: red;">6.1</td>
+                <td>7.2</td>
+                <td><a href="0180_2011_09_26_drive_0064_sync_0000000352/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0182</td>
+                <td>2011_09_26_drive_0064_sync_0000000506</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">15.3</td>
+                <td style="color: red;">8.8</td>
+                <td>6.5</td>
+                <td><a href="0182_2011_09_26_drive_0064_sync_0000000506/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0184</td>
+                <td>2011_09_26_drive_0064_sync_0000000022</td>
+                <td><strong>marigold-kitti</strong></td>
+                <td style="color: green;">23.4</td>
+                <td style="color: red;">9.2</td>
+                <td>14.2</td>
+                <td><a href="0184_2011_09_26_drive_0064_sync_0000000022/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0188</td>
+                <td>2011_09_26_drive_0064_sync_0000000110</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">17.1</td>
+                <td style="color: red;">4.8</td>
+                <td>12.3</td>
+                <td><a href="0188_2011_09_26_drive_0064_sync_0000000110/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0190</td>
+                <td>2011_09_26_drive_0064_sync_0000000396</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">14.1</td>
+                <td style="color: red;">10.1</td>
+                <td>4.0</td>
+                <td><a href="0190_2011_09_26_drive_0064_sync_0000000396/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0192</td>
+                <td>2011_09_26_drive_0064_sync_0000000374</td>
+                <td><strong>marigold-kitti</strong></td>
+                <td style="color: green;">18.6</td>
+                <td style="color: red;">10.8</td>
+                <td>7.8</td>
+                <td><a href="0192_2011_09_26_drive_0064_sync_0000000374/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0194</td>
+                <td>2011_09_26_drive_0064_sync_0000000286</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">14.6</td>
+                <td style="color: red;">8.0</td>
+                <td>6.6</td>
+                <td><a href="0194_2011_09_26_drive_0064_sync_0000000286/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0196</td>
+                <td>2011_09_26_drive_0064_sync_0000000264</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">13.3</td>
+                <td style="color: red;">4.3</td>
+                <td>9.0</td>
+                <td><a href="0196_2011_09_26_drive_0064_sync_0000000264/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0200</td>
+                <td>2011_09_26_drive_0064_sync_0000000198</td>
+                <td><strong>marigold-kitti</strong></td>
+                <td style="color: green;">12.9</td>
+                <td style="color: red;">6.7</td>
+                <td>6.2</td>
+                <td><a href="0200_2011_09_26_drive_0064_sync_0000000198/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0202</td>
+                <td>2011_09_26_drive_0084_sync_0000000361</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">13.8</td>
+                <td style="color: red;">9.7</td>
+                <td>4.0</td>
+                <td><a href="0202_2011_09_26_drive_0084_sync_0000000361/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0204</td>
+                <td>2011_09_26_drive_0084_sync_0000000127</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">16.2</td>
+                <td style="color: red;">9.8</td>
+                <td>6.3</td>
+                <td><a href="0204_2011_09_26_drive_0084_sync_0000000127/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0210</td>
+                <td>2011_09_26_drive_0084_sync_0000000348</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">16.5</td>
+                <td style="color: red;">10.1</td>
+                <td>6.3</td>
+                <td><a href="0210_2011_09_26_drive_0084_sync_0000000348/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0212</td>
+                <td>2011_09_26_drive_0084_sync_0000000049</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">14.9</td>
+                <td style="color: red;">11.8</td>
+                <td>3.1</td>
+                <td><a href="0212_2011_09_26_drive_0084_sync_0000000049/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0214</td>
+                <td>2011_09_26_drive_0084_sync_0000000140</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">15.7</td>
+                <td style="color: red;">8.7</td>
+                <td>7.0</td>
+                <td><a href="0214_2011_09_26_drive_0084_sync_0000000140/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0220</td>
+                <td>2011_09_26_drive_0084_sync_0000000257</td>
+                <td><strong>marigold-kitti</strong></td>
+                <td style="color: green;">18.1</td>
+                <td style="color: red;">10.0</td>
+                <td>8.1</td>
+                <td><a href="0220_2011_09_26_drive_0084_sync_0000000257/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0224</td>
+                <td>2011_09_26_drive_0084_sync_0000000296</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">15.3</td>
+                <td style="color: red;">6.7</td>
+                <td>8.6</td>
+                <td><a href="0224_2011_09_26_drive_0084_sync_0000000296/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0228</td>
+                <td>2011_09_26_drive_0086_sync_0000000439</td>
+                <td><strong>marigold-kitti</strong></td>
+                <td style="color: green;">20.5</td>
+                <td style="color: red;">14.3</td>
+                <td>6.2</td>
+                <td><a href="0228_2011_09_26_drive_0086_sync_0000000439/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0232</td>
+                <td>2011_09_26_drive_0086_sync_0000000304</td>
+                <td><strong>marigold-kitti</strong></td>
+                <td style="color: green;">11.0</td>
+                <td style="color: red;">3.6</td>
+                <td>7.3</td>
+                <td><a href="0232_2011_09_26_drive_0086_sync_0000000304/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0234</td>
+                <td>2011_09_26_drive_0086_sync_0000000277</td>
+                <td><strong>dav2-vitb-kitti</strong></td>
+                <td style="color: green;">19.0</td>
+                <td style="color: red;">8.0</td>
+                <td>11.1</td>
+                <td><a href="0234_2011_09_26_drive_0086_sync_0000000277/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0236</td>
+                <td>2011_09_26_drive_0086_sync_0000000682</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">4.9</td>
+                <td style="color: red;">1.1</td>
+                <td>3.9</td>
+                <td><a href="0236_2011_09_26_drive_0086_sync_0000000682/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0238</td>
+                <td>2011_09_26_drive_0086_sync_0000000088</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">15.6</td>
+                <td style="color: red;">7.0</td>
+                <td>8.6</td>
+                <td><a href="0238_2011_09_26_drive_0086_sync_0000000088/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0240</td>
+                <td>2011_09_26_drive_0086_sync_0000000574</td>
+                <td><strong>dav2-vitb-kitti</strong></td>
+                <td style="color: green;">14.5</td>
+                <td style="color: red;">5.8</td>
+                <td>8.7</td>
+                <td><a href="0240_2011_09_26_drive_0086_sync_0000000574/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0244</td>
+                <td>2011_09_26_drive_0086_sync_0000000412</td>
+                <td><strong>dav2-vitb-kitti</strong></td>
+                <td style="color: green;">14.8</td>
+                <td style="color: red;">7.0</td>
+                <td>7.8</td>
+                <td><a href="0244_2011_09_26_drive_0086_sync_0000000412/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0246</td>
+                <td>2011_09_26_drive_0086_sync_0000000385</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">8.8</td>
+                <td style="color: red;">4.2</td>
+                <td>4.5</td>
+                <td><a href="0246_2011_09_26_drive_0086_sync_0000000385/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0248</td>
+                <td>2011_09_26_drive_0086_sync_0000000493</td>
+                <td><strong>dav2-vitb-kitti</strong></td>
+                <td style="color: green;">14.3</td>
+                <td style="color: red;">7.5</td>
+                <td>6.8</td>
+                <td><a href="0248_2011_09_26_drive_0086_sync_0000000493/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0250</td>
+                <td>2011_09_26_drive_0086_sync_0000000250</td>
+                <td><strong>marigold-kitti</strong></td>
+                <td style="color: green;">13.9</td>
+                <td style="color: red;">8.6</td>
+                <td>5.3</td>
+                <td><a href="0250_2011_09_26_drive_0086_sync_0000000250/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0252</td>
+                <td>2011_09_26_drive_0093_sync_0000000032</td>
+                <td><strong>marigold-kitti</strong></td>
+                <td style="color: green;">16.1</td>
+                <td style="color: red;">8.5</td>
+                <td>7.6</td>
+                <td><a href="0252_2011_09_26_drive_0093_sync_0000000032/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0254</td>
+                <td>2011_09_26_drive_0093_sync_0000000064</td>
+                <td><strong>marigold-kitti</strong></td>
+                <td style="color: green;">15.9</td>
+                <td style="color: red;">9.9</td>
+                <td>6.1</td>
+                <td><a href="0254_2011_09_26_drive_0093_sync_0000000064/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0256</td>
+                <td>2011_09_26_drive_0093_sync_0000000096</td>
+                <td><strong>marigold-kitti</strong></td>
+                <td style="color: green;">12.7</td>
+                <td style="color: red;">10.2</td>
+                <td>2.5</td>
+                <td><a href="0256_2011_09_26_drive_0093_sync_0000000096/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0258</td>
+                <td>2011_09_26_drive_0093_sync_0000000128</td>
+                <td><strong>marigold-kitti</strong></td>
+                <td style="color: green;">13.9</td>
+                <td style="color: red;">5.4</td>
+                <td>8.5</td>
+                <td><a href="0258_2011_09_26_drive_0093_sync_0000000128/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0260</td>
+                <td>2011_09_26_drive_0093_sync_0000000160</td>
+                <td><strong>dav2-vitb-kitti</strong></td>
+                <td style="color: green;">9.5</td>
+                <td style="color: red;">5.8</td>
+                <td>3.7</td>
+                <td><a href="0260_2011_09_26_drive_0093_sync_0000000160/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0264</td>
+                <td>2011_09_26_drive_0093_sync_0000000224</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">17.5</td>
+                <td style="color: red;">10.4</td>
+                <td>7.1</td>
+                <td><a href="0264_2011_09_26_drive_0093_sync_0000000224/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0268</td>
+                <td>2011_09_26_drive_0093_sync_0000000321</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">17.6</td>
+                <td style="color: red;">13.2</td>
+                <td>4.4</td>
+                <td><a href="0268_2011_09_26_drive_0093_sync_0000000321/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0270</td>
+                <td>2011_09_26_drive_0093_sync_0000000353</td>
+                <td><strong>marigold-kitti</strong></td>
+                <td style="color: green;">19.5</td>
+                <td style="color: red;">11.7</td>
+                <td>7.8</td>
+                <td><a href="0270_2011_09_26_drive_0093_sync_0000000353/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0272</td>
+                <td>2011_09_26_drive_0093_sync_0000000385</td>
+                <td><strong>zoedepth-kitti-60</strong></td>
+                <td style="color: green;">18.0</td>
+                <td style="color: red;">11.8</td>
+                <td>6.1</td>
+                <td><a href="0272_2011_09_26_drive_0093_sync_0000000385/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0274</td>
+                <td>2011_09_26_drive_0093_sync_0000000417</td>
+                <td><strong>dav2-vitb-kitti</strong></td>
+                <td style="color: green;">15.7</td>
+                <td style="color: red;">13.5</td>
+                <td>2.3</td>
+                <td><a href="0274_2011_09_26_drive_0093_sync_0000000417/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0276</td>
+                <td>2011_09_26_drive_0096_sync_0000000038</td>
+                <td><strong>marigold-kitti</strong></td>
+                <td style="color: green;">12.0</td>
+                <td style="color: red;">9.4</td>
+                <td>2.6</td>
+                <td><a href="0276_2011_09_26_drive_0096_sync_0000000038/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0282</td>
+                <td>2011_09_26_drive_0096_sync_0000000152</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">16.1</td>
+                <td style="color: red;">9.9</td>
+                <td>6.3</td>
+                <td><a href="0282_2011_09_26_drive_0096_sync_0000000152/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0284</td>
+                <td>2011_09_26_drive_0096_sync_0000000190</td>
+                <td><strong>dav2-vitb-kitti</strong></td>
+                <td style="color: green;">14.5</td>
+                <td style="color: red;">7.4</td>
+                <td>7.1</td>
+                <td><a href="0284_2011_09_26_drive_0096_sync_0000000190/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0286</td>
+                <td>2011_09_26_drive_0096_sync_0000000228</td>
+                <td><strong>dav2-vitb-kitti</strong></td>
+                <td style="color: green;">16.9</td>
+                <td style="color: red;">13.5</td>
+                <td>3.3</td>
+                <td><a href="0286_2011_09_26_drive_0096_sync_0000000228/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0290</td>
+                <td>2011_09_26_drive_0096_sync_0000000304</td>
+                <td><strong>dav2-vitb-kitti</strong></td>
+                <td style="color: green;">15.6</td>
+                <td style="color: red;">10.2</td>
+                <td>5.4</td>
+                <td><a href="0290_2011_09_26_drive_0096_sync_0000000304/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0292</td>
+                <td>2011_09_26_drive_0096_sync_0000000342</td>
+                <td><strong>dav2-vitb-kitti</strong></td>
+                <td style="color: green;">18.0</td>
+                <td style="color: red;">10.7</td>
+                <td>7.2</td>
+                <td><a href="0292_2011_09_26_drive_0096_sync_0000000342/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0294</td>
+                <td>2011_09_26_drive_0096_sync_0000000380</td>
+                <td><strong>dav2-vitb-kitti</strong></td>
+                <td style="color: green;">13.8</td>
+                <td style="color: red;">9.0</td>
+                <td>4.9</td>
+                <td><a href="0294_2011_09_26_drive_0096_sync_0000000380/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0300</td>
+                <td>2011_09_26_drive_0101_sync_0000000930</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">13.6</td>
+                <td style="color: red;">10.1</td>
+                <td>3.5</td>
+                <td><a href="0300_2011_09_26_drive_0101_sync_0000000930/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0310</td>
+                <td>2011_09_26_drive_0101_sync_0000000318</td>
+                <td><strong>dav2-vitb-kitti</strong></td>
+                <td style="color: green;">16.6</td>
+                <td style="color: red;">11.3</td>
+                <td>5.3</td>
+                <td><a href="0310_2011_09_26_drive_0101_sync_0000000318/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0312</td>
+                <td>2011_09_26_drive_0101_sync_0000000590</td>
+                <td><strong>dav2-vitb-kitti</strong></td>
+                <td style="color: green;">13.9</td>
+                <td style="color: red;">7.9</td>
+                <td>6.0</td>
+                <td><a href="0312_2011_09_26_drive_0101_sync_0000000590/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0320</td>
+                <td>2011_09_26_drive_0101_sync_0000000556</td>
+                <td><strong>marigold-kitti</strong></td>
+                <td style="color: green;">19.2</td>
+                <td style="color: red;">10.3</td>
+                <td>8.9</td>
+                <td><a href="0320_2011_09_26_drive_0101_sync_0000000556/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0322</td>
+                <td>2011_09_26_drive_0101_sync_0000000182</td>
+                <td><strong>dav2-vitb-kitti</strong></td>
+                <td style="color: green;">14.3</td>
+                <td style="color: red;">11.4</td>
+                <td>3.0</td>
+                <td><a href="0322_2011_09_26_drive_0101_sync_0000000182/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0334</td>
+                <td>2011_09_26_drive_0106_sync_0000000107</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">15.4</td>
+                <td style="color: red;">9.7</td>
+                <td>5.6</td>
+                <td><a href="0334_2011_09_26_drive_0106_sync_0000000107/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0336</td>
+                <td>2011_09_26_drive_0106_sync_0000000123</td>
+                <td><strong>dav2-vitb-kitti</strong></td>
+                <td style="color: green;">12.7</td>
+                <td style="color: red;">6.5</td>
+                <td>6.2</td>
+                <td><a href="0336_2011_09_26_drive_0106_sync_0000000123/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0338</td>
+                <td>2011_09_26_drive_0106_sync_0000000139</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">17.4</td>
+                <td style="color: red;">6.1</td>
+                <td>11.3</td>
+                <td><a href="0338_2011_09_26_drive_0106_sync_0000000139/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0340</td>
+                <td>2011_09_26_drive_0106_sync_0000000155</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">15.8</td>
+                <td style="color: red;">8.2</td>
+                <td>7.6</td>
+                <td><a href="0340_2011_09_26_drive_0106_sync_0000000155/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0342</td>
+                <td>2011_09_26_drive_0106_sync_0000000171</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">13.9</td>
+                <td style="color: red;">7.9</td>
+                <td>6.0</td>
+                <td><a href="0342_2011_09_26_drive_0106_sync_0000000171/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0344</td>
+                <td>2011_09_26_drive_0106_sync_0000000187</td>
+                <td><strong>dav2-vitb-kitti</strong></td>
+                <td style="color: green;">17.1</td>
+                <td style="color: red;">10.5</td>
+                <td>6.6</td>
+                <td><a href="0344_2011_09_26_drive_0106_sync_0000000187/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0352</td>
+                <td>2011_09_26_drive_0117_sync_0000000130</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">14.2</td>
+                <td style="color: red;">9.7</td>
+                <td>4.5</td>
+                <td><a href="0352_2011_09_26_drive_0117_sync_0000000130/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0354</td>
+                <td>2011_09_26_drive_0117_sync_0000000182</td>
+                <td><strong>marigold-kitti</strong></td>
+                <td style="color: green;">15.1</td>
+                <td style="color: red;">11.8</td>
+                <td>3.3</td>
+                <td><a href="0354_2011_09_26_drive_0117_sync_0000000182/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0360</td>
+                <td>2011_09_26_drive_0117_sync_0000000572</td>
+                <td><strong>marigold-kitti</strong></td>
+                <td style="color: green;">8.7</td>
+                <td style="color: red;">5.5</td>
+                <td>3.2</td>
+                <td><a href="0360_2011_09_26_drive_0117_sync_0000000572/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0364</td>
+                <td>2011_09_26_drive_0117_sync_0000000234</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">15.7</td>
+                <td style="color: red;">10.4</td>
+                <td>5.3</td>
+                <td><a href="0364_2011_09_26_drive_0117_sync_0000000234/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0370</td>
+                <td>2011_09_26_drive_0117_sync_0000000208</td>
+                <td><strong>marigold-kitti</strong></td>
+                <td style="color: green;">16.5</td>
+                <td style="color: red;">13.6</td>
+                <td>3.0</td>
+                <td><a href="0370_2011_09_26_drive_0117_sync_0000000208/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0372</td>
+                <td>2011_09_26_drive_0117_sync_0000000052</td>
+                <td><strong>marigold-kitti</strong></td>
+                <td style="color: green;">15.7</td>
+                <td style="color: red;">12.1</td>
+                <td>3.6</td>
+                <td><a href="0372_2011_09_26_drive_0117_sync_0000000052/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0374</td>
+                <td>2011_09_28_drive_0002_sync_0000000021</td>
+                <td><strong>dav2-vitb-kitti</strong></td>
+                <td style="color: green;">13.9</td>
+                <td style="color: red;">9.6</td>
+                <td>4.3</td>
+                <td><a href="0374_2011_09_28_drive_0002_sync_0000000021/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0382</td>
+                <td>2011_09_28_drive_0002_sync_0000000012</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">16.5</td>
+                <td style="color: red;">8.7</td>
+                <td>7.8</td>
+                <td><a href="0382_2011_09_28_drive_0002_sync_0000000012/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0384</td>
+                <td>2011_09_28_drive_0002_sync_0000000009</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">17.3</td>
+                <td style="color: red;">8.9</td>
+                <td>8.5</td>
+                <td><a href="0384_2011_09_28_drive_0002_sync_0000000009/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0386</td>
+                <td>2011_09_28_drive_0002_sync_0000000078</td>
+                <td><strong>marigold-kitti</strong></td>
+                <td style="color: green;">13.5</td>
+                <td style="color: red;">8.2</td>
+                <td>5.3</td>
+                <td><a href="0386_2011_09_28_drive_0002_sync_0000000078/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0392</td>
+                <td>2011_09_28_drive_0002_sync_0000000057</td>
+                <td><strong>marigold-kitti</strong></td>
+                <td style="color: green;">15.2</td>
+                <td style="color: red;">9.5</td>
+                <td>5.7</td>
+                <td><a href="0392_2011_09_28_drive_0002_sync_0000000057/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0394</td>
+                <td>2011_09_28_drive_0002_sync_0000000087</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">14.9</td>
+                <td style="color: red;">10.0</td>
+                <td>4.9</td>
+                <td><a href="0394_2011_09_28_drive_0002_sync_0000000087/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0402</td>
+                <td>2011_09_29_drive_0071_sync_0000000288</td>
+                <td><strong>marigold-kitti</strong></td>
+                <td style="color: green;">11.1</td>
+                <td style="color: red;">7.3</td>
+                <td>3.9</td>
+                <td><a href="0402_2011_09_29_drive_0071_sync_0000000288/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0412</td>
+                <td>2011_09_29_drive_0071_sync_0000000072</td>
+                <td><strong>marigold-kitti</strong></td>
+                <td style="color: green;">11.3</td>
+                <td style="color: red;">7.8</td>
+                <td>3.6</td>
+                <td><a href="0412_2011_09_29_drive_0071_sync_0000000072/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0416</td>
+                <td>2011_09_29_drive_0071_sync_0000000144</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">12.3</td>
+                <td style="color: red;">8.4</td>
+                <td>3.9</td>
+                <td><a href="0416_2011_09_29_drive_0071_sync_0000000144/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0418</td>
+                <td>2011_09_29_drive_0071_sync_0000000468</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">14.4</td>
+                <td style="color: red;">10.5</td>
+                <td>3.9</td>
+                <td><a href="0418_2011_09_29_drive_0071_sync_0000000468/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0420</td>
+                <td>2011_09_30_drive_0027_sync_0000001040</td>
+                <td><strong>marigold-kitti</strong></td>
+                <td style="color: green;">15.2</td>
+                <td style="color: red;">6.7</td>
+                <td>8.5</td>
+                <td><a href="0420_2011_09_30_drive_0027_sync_0000001040/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0424</td>
+                <td>2011_09_30_drive_0027_sync_0000000451</td>
+                <td><strong>marigold-kitti</strong></td>
+                <td style="color: green;">12.8</td>
+                <td style="color: red;">6.3</td>
+                <td>6.5</td>
+                <td><a href="0424_2011_09_30_drive_0027_sync_0000000451/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0426</td>
+                <td>2011_09_30_drive_0027_sync_0000000794</td>
+                <td><strong>dav2-vitb-kitti</strong></td>
+                <td style="color: green;">14.3</td>
+                <td style="color: red;">6.9</td>
+                <td>7.4</td>
+                <td><a href="0426_2011_09_30_drive_0027_sync_0000000794/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0428</td>
+                <td>2011_09_30_drive_0027_sync_0000000615</td>
+                <td><strong>marigold-kitti</strong></td>
+                <td style="color: green;">13.7</td>
+                <td style="color: red;">6.8</td>
+                <td>6.9</td>
+                <td><a href="0428_2011_09_30_drive_0027_sync_0000000615/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0432</td>
+                <td>2011_09_30_drive_0027_sync_0000000123</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">14.1</td>
+                <td style="color: red;">6.3</td>
+                <td>7.8</td>
+                <td><a href="0432_2011_09_30_drive_0027_sync_0000000123/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0434</td>
+                <td>2011_09_30_drive_0027_sync_0000000410</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">13.2</td>
+                <td style="color: red;">7.8</td>
+                <td>5.4</td>
+                <td><a href="0434_2011_09_30_drive_0027_sync_0000000410/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0436</td>
+                <td>2011_09_30_drive_0027_sync_0000000958</td>
+                <td><strong>dav1-vits-kitti</strong></td>
+                <td style="color: green;">13.6</td>
+                <td style="color: red;">6.2</td>
+                <td>7.4</td>
+                <td><a href="0436_2011_09_30_drive_0027_sync_0000000958/comparison.html">View →</a></td>
+            </tr>
+            <tr>
+                <td>0442</td>
+                <td>2011_09_30_drive_0027_sync_0000000246</td>
+                <td><strong>marigold-kitti</strong></td>
+                <td style="color: green;">8.9</td>
+                <td style="color: red;">5.4</td>
+                <td>3.5</td>
+                <td><a href="0442_2011_09_30_drive_0027_sync_0000000246/comparison.html">View →</a></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

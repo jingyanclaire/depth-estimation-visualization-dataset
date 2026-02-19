@@ -1,0 +1,2018 @@
+================================================================================
+KITTI METRIC INCONSISTENCY REPORT
+================================================================================
+
+Total inconsistent groups: 92
+
+
+[1] 0324_2011_09_26_drive_0106_sync_0000000015
+------------------------------------------------------------
+
+  zoedepth-kitti-60 vs marigold-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.9369, δ2=0.9917, δ3=0.9996
+      RMSE=2.2645, MAE=1.3766, AbsRel=0.0929
+      Composite=9.4
+
+    marigold-kitti:
+      δ1=0.9581, δ2=0.9908, δ3=0.9976
+      RMSE=2.8376, MAE=1.4273, AbsRel=0.0845
+      Composite=11.5
+
+
+[2] 0430_2011_09_30_drive_0027_sync_0000000369
+------------------------------------------------------------
+
+  marigold-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    marigold-kitti:
+      δ1=0.8756, δ2=0.9850, δ3=0.9936
+      RMSE=2.7179, MAE=1.4884, AbsRel=0.1053
+      Composite=9.2
+
+    dav2-vitb-kitti:
+      δ1=0.9581, δ2=0.9867, δ3=0.9945
+      RMSE=3.0057, MAE=1.6408, AbsRel=0.1053
+      Composite=13.0
+
+
+[3] 0406_2011_09_29_drive_0071_sync_0000000324
+------------------------------------------------------------
+
+  zoedepth-kitti-60 vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.9521, δ2=0.9952, δ3=0.9990
+      RMSE=1.8425, MAE=0.9711, AbsRel=0.0865
+      Composite=8.3
+
+    dav2-vitb-kitti:
+      δ1=0.9605, δ2=0.9897, δ3=0.9977
+      RMSE=1.9946, MAE=1.0051, AbsRel=0.0940
+      Composite=9.4
+
+
+[4] 0056_2011_09_26_drive_0029_sync_0000000182
+------------------------------------------------------------
+
+  marigold-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    marigold-kitti:
+      δ1=0.9145, δ2=0.9854, δ3=0.9966
+      RMSE=4.6805, MAE=2.2509, AbsRel=0.0877
+      Composite=15.8
+
+    dav2-vitb-kitti:
+      δ1=0.8486, δ2=0.9954, δ3=0.9978
+      RMSE=3.9668, MAE=1.9383, AbsRel=0.1171
+      Composite=12.9
+
+
+[5] 0438_2011_09_30_drive_0027_sync_0000000753
+------------------------------------------------------------
+
+  zoedepth-kitti-60 vs marigold-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.9741, δ2=0.9997, δ3=1.0000
+      RMSE=1.5011, MAE=1.0044, AbsRel=0.0726
+      Composite=7.4
+
+    marigold-kitti:
+      δ1=0.9790, δ2=0.9990, δ3=1.0000
+      RMSE=2.2154, MAE=1.0099, AbsRel=0.0555
+      Composite=8.9
+
+
+  zoedepth-kitti-60 vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.9741, δ2=0.9997, δ3=1.0000
+      RMSE=1.5011, MAE=1.0044, AbsRel=0.0726
+      Composite=7.4
+
+    dav2-vitb-kitti:
+      δ1=0.9802, δ2=0.9992, δ3=1.0000
+      RMSE=2.0121, MAE=1.3305, AbsRel=0.0904
+      Composite=10.1
+
+
+  marigold-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    marigold-kitti:
+      δ1=0.9790, δ2=0.9990, δ3=1.0000
+      RMSE=2.2154, MAE=1.0099, AbsRel=0.0555
+      Composite=8.9
+
+    dav2-vitb-kitti:
+      δ1=0.9802, δ2=0.9992, δ3=1.0000
+      RMSE=2.0121, MAE=1.3305, AbsRel=0.0904
+      Composite=10.1
+
+
+[6] 0346_2011_09_26_drive_0106_sync_0000000203
+------------------------------------------------------------
+
+  dav1-vits-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits-kitti:
+      δ1=0.4112, δ2=0.7269, δ3=0.8214
+      RMSE=7.8191, MAE=5.0570, AbsRel=0.3634
+      Composite=17.9
+
+    dav2-vitb-kitti:
+      δ1=0.3483, δ2=0.8179, δ3=0.9889
+      RMSE=7.0290, MAE=4.8095, AbsRel=0.3345
+      Composite=13.1
+
+
+[7] 0004_2011_09_26_drive_0009_sync_0000000080
+------------------------------------------------------------
+
+  marigold-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    marigold-kitti:
+      δ1=0.9194, δ2=0.9912, δ3=0.9971
+      RMSE=3.5402, MAE=1.7103, AbsRel=0.0909
+      Composite=12.7
+
+    dav2-vitb-kitti:
+      δ1=0.9363, δ2=0.9895, δ3=0.9965
+      RMSE=3.2261, MAE=1.8055, AbsRel=0.1213
+      Composite=13.8
+
+
+[8] 0178_2011_09_26_drive_0064_sync_0000000308
+------------------------------------------------------------
+
+  zoedepth-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-kitti:
+      δ1=0.9249, δ2=0.9769, δ3=1.0000
+      RMSE=1.9295, MAE=1.0927, AbsRel=0.0800
+      Composite=7.1
+
+    dav2-vitb-kitti:
+      δ1=0.9684, δ2=0.9980, δ3=0.9999
+      RMSE=2.0879, MAE=1.2367, AbsRel=0.0855
+      Composite=9.7
+
+
+[9] 0018_2011_09_26_drive_0009_sync_0000000308
+------------------------------------------------------------
+
+  zoedepth-kitti-60 vs marigold-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.9467, δ2=0.9988, δ3=0.9998
+      RMSE=2.5572, MAE=1.4236, AbsRel=0.0878
+      Composite=10.5
+
+    marigold-kitti:
+      δ1=0.9532, δ2=0.9921, δ3=0.9985
+      RMSE=3.3245, MAE=1.5818, AbsRel=0.0821
+      Composite=12.7
+
+
+  marigold-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    marigold-kitti:
+      δ1=0.9532, δ2=0.9921, δ3=0.9985
+      RMSE=3.3245, MAE=1.5818, AbsRel=0.0821
+      Composite=12.7
+
+    dav2-vitb-kitti:
+      δ1=0.9375, δ2=0.9984, δ3=0.9993
+      RMSE=2.7900, MAE=1.5520, AbsRel=0.1004
+      Composite=11.5
+
+
+[10] 0164_2011_09_26_drive_0059_sync_0000000154
+------------------------------------------------------------
+
+  zoedepth-kitti vs marigold-kitti:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti:
+      δ1=0.9561, δ2=0.9931, δ3=0.9993
+      RMSE=3.5702, MAE=1.8689, AbsRel=0.0866
+      Composite=13.8
+
+    marigold-kitti:
+      δ1=0.9548, δ2=0.9864, δ3=0.9972
+      RMSE=3.8838, MAE=1.5563, AbsRel=0.0689
+      Composite=13.8
+
+
+[11] 0332_2011_09_26_drive_0106_sync_0000000091
+------------------------------------------------------------
+
+  dav1-vits-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav1-vits-kitti:
+      δ1=0.5205, δ2=0.7961, δ3=0.8944
+      RMSE=5.8753, MAE=3.9481, AbsRel=0.2889
+      Composite=13.0
+
+    dav2-vitb-kitti:
+      δ1=0.4383, δ2=0.8341, δ3=0.9916
+      RMSE=5.8459, MAE=3.8679, AbsRel=0.2899
+      Composite=10.6
+
+
+  zoedepth-kitti vs marigold-kitti:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti:
+      δ1=0.9471, δ2=0.9982, δ3=0.9997
+      RMSE=2.4210, MAE=1.4618, AbsRel=0.0824
+      Composite=9.8
+
+    marigold-kitti:
+      δ1=0.9402, δ2=0.9867, δ3=0.9975
+      RMSE=2.7545, MAE=1.3940, AbsRel=0.0819
+      Composite=10.4
+
+
+[12] 0072_2011_09_26_drive_0046_sync_0000000005
+------------------------------------------------------------
+
+  zoedepth-kitti vs zoedepth-kitti-60:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-kitti:
+      δ1=0.8462, δ2=0.9902, δ3=0.9990
+      RMSE=2.1646, MAE=1.3149, AbsRel=0.1082
+      Composite=6.6
+
+    zoedepth-kitti-60:
+      δ1=0.8553, δ2=0.9693, δ3=0.9943
+      RMSE=2.2711, MAE=1.4446, AbsRel=0.1176
+      Composite=7.5
+
+
+[13] 0162_2011_09_26_drive_0059_sync_0000000014
+------------------------------------------------------------
+
+  zoedepth-kitti-60 vs marigold-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.8968, δ2=0.9886, δ3=0.9976
+      RMSE=2.9140, MAE=1.4910, AbsRel=0.1043
+      Composite=10.5
+
+    marigold-kitti:
+      δ1=0.9212, δ2=0.9873, δ3=0.9959
+      RMSE=3.9271, MAE=1.6810, AbsRel=0.0909
+      Composite=13.9
+
+
+[14] 0362_2011_09_26_drive_0117_sync_0000000260
+------------------------------------------------------------
+
+  dav1-vits-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav1-vits-kitti:
+      δ1=0.7691, δ2=0.9388, δ3=0.9638
+      RMSE=4.3451, MAE=2.7096, AbsRel=0.1663
+      Composite=12.9
+
+    dav2-vitb-kitti:
+      δ1=0.8648, δ2=0.9611, δ3=0.9918
+      RMSE=3.3741, MAE=2.7132, AbsRel=0.1796
+      Composite=14.2
+
+
+[15] 0216_2011_09_26_drive_0084_sync_0000000322
+------------------------------------------------------------
+
+  marigold-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    marigold-kitti:
+      δ1=0.8811, δ2=0.9602, δ3=0.9845
+      RMSE=3.4797, MAE=1.6720, AbsRel=0.1086
+      Composite=11.5
+
+    dav2-vitb-kitti:
+      δ1=0.9042, δ2=0.9598, δ3=0.9968
+      RMSE=3.5157, MAE=1.7910, AbsRel=0.1120
+      Composite=12.6
+
+
+[16] 0158_2011_09_26_drive_0059_sync_0000000238
+------------------------------------------------------------
+
+  zoedepth-kitti-60 vs marigold-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.9130, δ2=0.9877, δ3=0.9964
+      RMSE=3.3780, MAE=1.7665, AbsRel=0.1032
+      Composite=12.5
+
+    marigold-kitti:
+      δ1=0.9317, δ2=0.9839, δ3=0.9943
+      RMSE=3.9221, MAE=1.8211, AbsRel=0.0951
+      Composite=14.4
+
+
+  marigold-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    marigold-kitti:
+      δ1=0.9317, δ2=0.9839, δ3=0.9943
+      RMSE=3.9221, MAE=1.8211, AbsRel=0.0951
+      Composite=14.4
+
+    dav2-vitb-kitti:
+      δ1=0.9286, δ2=0.9890, δ3=0.9966
+      RMSE=3.4853, MAE=1.5345, AbsRel=0.0865
+      Composite=12.6
+
+
+[17] 0206_2011_09_26_drive_0084_sync_0000000218
+------------------------------------------------------------
+
+  zoedepth-kitti-60 vs dav2-vitb-kitti:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.9063, δ2=0.9874, δ3=0.9995
+      RMSE=3.6154, MAE=1.8901, AbsRel=0.1113
+      Composite=13.4
+
+    dav2-vitb-kitti:
+      δ1=0.8629, δ2=0.9978, δ3=0.9999
+      RMSE=2.9615, MAE=1.8537, AbsRel=0.1278
+      Composite=10.8
+
+
+[18] 0176_2011_09_26_drive_0059_sync_0000000070
+------------------------------------------------------------
+
+  zoedepth-kitti-60 vs dav2-vitb-kitti:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.9214, δ2=0.9929, δ3=0.9995
+      RMSE=4.1297, MAE=2.5663, AbsRel=0.1063
+      Composite=15.4
+
+    dav2-vitb-kitti:
+      δ1=0.9165, δ2=0.9900, δ3=0.9973
+      RMSE=4.8386, MAE=2.4463, AbsRel=0.0993
+      Composite=17.0
+
+
+[19] 0410_2011_09_29_drive_0071_sync_0000000108
+------------------------------------------------------------
+
+  zoedepth-kitti-60 vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.9285, δ2=0.9887, δ3=0.9995
+      RMSE=1.7781, MAE=1.0408, AbsRel=0.0889
+      Composite=7.3
+
+    dav2-vitb-kitti:
+      δ1=0.9491, δ2=0.9787, δ3=0.9991
+      RMSE=2.1845, MAE=1.1359, AbsRel=0.0939
+      Composite=9.4
+
+
+[20] 0172_2011_09_26_drive_0059_sync_0000000196
+------------------------------------------------------------
+
+  zoedepth-kitti-60 vs dav2-vitb-kitti:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.9376, δ2=0.9951, δ3=0.9994
+      RMSE=2.8553, MAE=1.5643, AbsRel=0.0948
+      Composite=11.4
+
+    dav2-vitb-kitti:
+      δ1=0.9364, δ2=0.9917, δ3=0.9976
+      RMSE=3.2555, MAE=1.4703, AbsRel=0.0829
+      Composite=12.0
+
+
+[21] 0396_2011_09_29_drive_0071_sync_0000000252
+------------------------------------------------------------
+
+  zoedepth-kitti vs marigold-kitti:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-kitti:
+      δ1=0.9490, δ2=0.9963, δ3=0.9989
+      RMSE=2.1557, MAE=0.8857, AbsRel=0.0571
+      Composite=7.8
+
+    marigold-kitti:
+      δ1=0.9577, δ2=0.9925, δ3=0.9976
+      RMSE=2.7100, MAE=1.2645, AbsRel=0.0774
+      Composite=10.7
+
+
+  zoedepth-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-kitti:
+      δ1=0.9490, δ2=0.9963, δ3=0.9989
+      RMSE=2.1557, MAE=0.8857, AbsRel=0.0571
+      Composite=7.8
+
+    dav2-vitb-kitti:
+      δ1=0.9615, δ2=0.9944, δ3=0.9991
+      RMSE=2.7284, MAE=1.2521, AbsRel=0.0914
+      Composite=11.7
+
+
+  zoedepth-kitti-60 vs marigold-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.9434, δ2=0.9930, δ3=0.9986
+      RMSE=2.2749, MAE=1.1597, AbsRel=0.0859
+      Composite=9.3
+
+    marigold-kitti:
+      δ1=0.9577, δ2=0.9925, δ3=0.9976
+      RMSE=2.7100, MAE=1.2645, AbsRel=0.0774
+      Composite=10.7
+
+
+  zoedepth-kitti-60 vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.9434, δ2=0.9930, δ3=0.9986
+      RMSE=2.2749, MAE=1.1597, AbsRel=0.0859
+      Composite=9.3
+
+    dav2-vitb-kitti:
+      δ1=0.9615, δ2=0.9944, δ3=0.9991
+      RMSE=2.7284, MAE=1.2521, AbsRel=0.0914
+      Composite=11.7
+
+
+  marigold-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    marigold-kitti:
+      δ1=0.9577, δ2=0.9925, δ3=0.9976
+      RMSE=2.7100, MAE=1.2645, AbsRel=0.0774
+      Composite=10.7
+
+    dav2-vitb-kitti:
+      δ1=0.9615, δ2=0.9944, δ3=0.9991
+      RMSE=2.7284, MAE=1.2521, AbsRel=0.0914
+      Composite=11.7
+
+
+[22] 0060_2011_09_26_drive_0029_sync_0000000084
+------------------------------------------------------------
+
+  zoedepth-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-kitti:
+      δ1=0.9671, δ2=0.9901, δ3=0.9993
+      RMSE=2.4935, MAE=1.3425, AbsRel=0.0761
+      Composite=10.3
+
+    dav2-vitb-kitti:
+      δ1=0.9786, δ2=0.9987, δ3=0.9993
+      RMSE=2.8654, MAE=1.4751, AbsRel=0.0923
+      Composite=12.8
+
+
+[23] 0036_2011_09_26_drive_0027_sync_0000000168
+------------------------------------------------------------
+
+  dav1-vits-kitti vs marigold-kitti:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits-kitti:
+      δ1=0.3658, δ2=0.8410, δ3=0.8971
+      RMSE=7.5757, MAE=5.3561, AbsRel=0.3387
+      Composite=16.0
+
+    marigold-kitti:
+      δ1=0.2532, δ2=0.8575, δ3=0.9402
+      RMSE=6.9553, MAE=5.2362, AbsRel=0.3113
+      Composite=9.0
+
+
+[24] 0358_2011_09_26_drive_0117_sync_0000000026
+------------------------------------------------------------
+
+  zoedepth-kitti-60 vs marigold-kitti:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.8847, δ2=0.9722, δ3=0.9876
+      RMSE=3.9266, MAE=1.9940, AbsRel=0.1262
+      Composite=14.1
+
+    marigold-kitti:
+      δ1=0.8933, δ2=0.9464, δ3=0.9618
+      RMSE=4.7004, MAE=2.1455, AbsRel=0.1356
+      Composite=16.9
+
+
+[25] 0278_2011_09_26_drive_0096_sync_0000000076
+------------------------------------------------------------
+
+  zoedepth-kitti-60 vs marigold-kitti:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.9630, δ2=0.9985, δ3=0.9998
+      RMSE=2.0011, MAE=1.3106, AbsRel=0.0825
+      Composite=9.1
+
+    marigold-kitti:
+      δ1=0.9611, δ2=0.9959, δ3=0.9987
+      RMSE=2.1990, MAE=1.1991, AbsRel=0.0732
+      Composite=9.1
+
+
+[26] 0028_2011_09_26_drive_0027_sync_0000000007
+------------------------------------------------------------
+
+  marigold-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    marigold-kitti:
+      δ1=0.7210, δ2=0.9504, δ3=0.9848
+      RMSE=6.1058, MAE=4.0819, AbsRel=0.1864
+      Composite=17.9
+
+    dav2-vitb-kitti:
+      δ1=0.6488, δ2=0.9698, δ3=0.9957
+      RMSE=5.3620, MAE=3.2500, AbsRel=0.1994
+      Composite=14.0
+
+
+[27] 0398_2011_09_29_drive_0071_sync_0000000036
+------------------------------------------------------------
+
+  zoedepth-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti:
+      δ1=0.9529, δ2=0.9939, δ3=0.9987
+      RMSE=2.4176, MAE=1.1048, AbsRel=0.0706
+      Composite=9.3
+
+    dav2-vitb-kitti:
+      δ1=0.9540, δ2=0.9903, δ3=0.9971
+      RMSE=2.3069, MAE=1.1481, AbsRel=0.0855
+      Composite=9.7
+
+
+[28] 0126_2011_09_26_drive_0052_sync_0000000012
+------------------------------------------------------------
+
+  marigold-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    marigold-kitti:
+      δ1=0.7171, δ2=0.9068, δ3=0.9434
+      RMSE=2.8605, MAE=1.5355, AbsRel=0.1663
+      Composite=6.0
+
+    dav2-vitb-kitti:
+      δ1=0.7661, δ2=0.9185, δ3=0.9938
+      RMSE=3.3718, MAE=1.7125, AbsRel=0.1916
+      Composite=10.7
+
+
+[29] 0404_2011_09_29_drive_0071_sync_0000000216
+------------------------------------------------------------
+
+  zoedepth-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-kitti:
+      δ1=0.9217, δ2=0.9914, δ3=0.9988
+      RMSE=2.2000, MAE=1.1267, AbsRel=0.0900
+      Composite=8.5
+
+    dav2-vitb-kitti:
+      δ1=0.9292, δ2=0.9903, δ3=0.9968
+      RMSE=2.7815, MAE=1.2878, AbsRel=0.1084
+      Composite=11.5
+
+
+  marigold-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    marigold-kitti:
+      δ1=0.8524, δ2=0.9834, δ3=0.9975
+      RMSE=2.3786, MAE=1.2594, AbsRel=0.1187
+      Composite=8.0
+
+    dav2-vitb-kitti:
+      δ1=0.9292, δ2=0.9903, δ3=0.9968
+      RMSE=2.7815, MAE=1.2878, AbsRel=0.1084
+      Composite=11.5
+
+
+[30] 0378_2011_09_28_drive_0002_sync_0000000033
+------------------------------------------------------------
+
+  zoedepth-kitti-60 vs marigold-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.8571, δ2=0.9897, δ3=0.9994
+      RMSE=3.3165, MAE=1.9456, AbsRel=0.1171
+      Composite=11.1
+
+    marigold-kitti:
+      δ1=0.9131, δ2=0.9904, δ3=0.9993
+      RMSE=4.3975, MAE=2.0000, AbsRel=0.0932
+      Composite=15.2
+
+
+[31] 0368_2011_09_26_drive_0117_sync_0000000286
+------------------------------------------------------------
+
+  dav1-vits-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav1-vits-kitti:
+      δ1=0.7401, δ2=0.9488, δ3=0.9772
+      RMSE=3.2134, MAE=2.1013, AbsRel=0.1534
+      Composite=7.8
+
+    dav2-vitb-kitti:
+      δ1=0.8983, δ2=0.9908, δ3=0.9994
+      RMSE=2.6359, MAE=2.2008, AbsRel=0.1641
+      Composite=12.7
+
+
+[32] 0156_2011_09_26_drive_0059_sync_0000000358
+------------------------------------------------------------
+
+  zoedepth-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti:
+      δ1=0.9955, δ2=0.9992, δ3=0.9996
+      RMSE=1.7877, MAE=0.9004, AbsRel=0.0529
+      Composite=8.1
+
+    dav2-vitb-kitti:
+      δ1=0.9837, δ2=0.9964, δ3=0.9989
+      RMSE=2.1909, MAE=0.8519, AbsRel=0.0449
+      Composite=8.5
+
+
+  zoedepth-kitti-60 vs marigold-kitti:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.9381, δ2=0.9961, δ3=0.9996
+      RMSE=2.0723, MAE=1.2774, AbsRel=0.0853
+      Composite=8.5
+
+    marigold-kitti:
+      δ1=0.9544, δ2=0.9959, δ3=0.9987
+      RMSE=2.9285, MAE=1.5671, AbsRel=0.0897
+      Composite=12.0
+
+
+[33] 0326_2011_09_26_drive_0106_sync_0000000043
+------------------------------------------------------------
+
+  zoedepth-kitti-60 vs marigold-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.9347, δ2=0.9954, δ3=0.9995
+      RMSE=2.3998, MAE=1.4249, AbsRel=0.0951
+      Composite=9.9
+
+    marigold-kitti:
+      δ1=0.9633, δ2=0.9904, δ3=0.9948
+      RMSE=3.0145, MAE=1.5401, AbsRel=0.0876
+      Composite=12.4
+
+
+[34] 0308_2011_09_26_drive_0101_sync_0000000726
+------------------------------------------------------------
+
+  zoedepth-kitti-60 vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.9150, δ2=0.9935, δ3=0.9997
+      RMSE=3.0655, MAE=1.7453, AbsRel=0.0999
+      Composite=11.5
+
+    dav2-vitb-kitti:
+      δ1=0.9514, δ2=0.9912, δ3=0.9983
+      RMSE=3.4550, MAE=1.8000, AbsRel=0.0880
+      Composite=13.4
+
+
+[35] 0092_2011_09_26_drive_0046_sync_0000000105
+------------------------------------------------------------
+
+  marigold-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    marigold-kitti:
+      δ1=0.9618, δ2=0.9936, δ3=0.9993
+      RMSE=2.3253, MAE=0.9720, AbsRel=0.0546
+      Composite=8.6
+
+    dav2-vitb-kitti:
+      δ1=0.9766, δ2=0.9976, δ3=0.9996
+      RMSE=1.6753, MAE=0.9760, AbsRel=0.0656
+      Composite=7.7
+
+
+[36] 0314_2011_09_26_drive_0101_sync_0000000862
+------------------------------------------------------------
+
+  zoedepth-kitti vs marigold-kitti:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti:
+      δ1=0.9810, δ2=0.9987, δ3=0.9997
+      RMSE=2.7538, MAE=1.5526, AbsRel=0.0887
+      Composite=12.4
+
+    marigold-kitti:
+      δ1=0.9541, δ2=0.9948, δ3=0.9979
+      RMSE=3.0693, MAE=1.3576, AbsRel=0.0711
+      Composite=11.5
+
+
+  marigold-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    marigold-kitti:
+      δ1=0.9541, δ2=0.9948, δ3=0.9979
+      RMSE=3.0693, MAE=1.3576, AbsRel=0.0711
+      Composite=11.5
+
+    dav2-vitb-kitti:
+      δ1=0.9557, δ2=0.9890, δ3=0.9918
+      RMSE=4.5443, MAE=1.6455, AbsRel=0.0875
+      Composite=16.9
+
+
+[37] 0120_2011_09_26_drive_0052_sync_0000000010
+------------------------------------------------------------
+
+  dav1-vits-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits-kitti:
+      δ1=0.7387, δ2=0.8818, δ3=0.9101
+      RMSE=4.1431, MAE=2.1430, AbsRel=0.2201
+      Composite=13.0
+
+    dav2-vitb-kitti:
+      δ1=0.7242, δ2=0.8983, δ3=0.9881
+      RMSE=3.5279, MAE=1.8433, AbsRel=0.2097
+      Composite=10.3
+
+
+[38] 0266_2011_09_26_drive_0093_sync_0000000256
+------------------------------------------------------------
+
+  zoedepth-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    zoedepth-kitti:
+      δ1=0.8860, δ2=0.9877, δ3=0.9983
+      RMSE=4.4779, MAE=2.5575, AbsRel=0.1103
+      Composite=15.3
+
+    dav2-vitb-kitti:
+      δ1=0.8789, δ2=0.9807, δ3=0.9951
+      RMSE=4.3343, MAE=2.2729, AbsRel=0.1085
+      Composite=14.4
+
+
+[39] 0170_2011_09_26_drive_0059_sync_0000000274
+------------------------------------------------------------
+
+  zoedepth-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti:
+      δ1=0.9562, δ2=0.9923, δ3=0.9968
+      RMSE=2.8930, MAE=1.4118, AbsRel=0.0743
+      Composite=11.1
+
+    dav2-vitb-kitti:
+      δ1=0.9387, δ2=0.9896, δ3=0.9956
+      RMSE=3.1072, MAE=1.2445, AbsRel=0.0654
+      Composite=10.7
+
+
+  zoedepth-kitti-60 vs marigold-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.9154, δ2=0.9909, δ3=0.9971
+      RMSE=3.0139, MAE=1.6745, AbsRel=0.1005
+      Composite=11.3
+
+    marigold-kitti:
+      δ1=0.9167, δ2=0.9576, δ3=0.9978
+      RMSE=4.1860, MAE=1.7591, AbsRel=0.0929
+      Composite=14.2
+
+
+[40] 0288_2011_09_26_drive_0096_sync_0000000266
+------------------------------------------------------------
+
+  zoedepth-kitti-60 vs marigold-kitti:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.9630, δ2=0.9986, δ3=0.9998
+      RMSE=2.5347, MAE=1.4799, AbsRel=0.0803
+      Composite=10.6
+
+    marigold-kitti:
+      δ1=0.9668, δ2=0.9963, δ3=0.9996
+      RMSE=3.0480, MAE=1.6730, AbsRel=0.0838
+      Composite=12.5
+
+
+[41] 0318_2011_09_26_drive_0101_sync_0000000658
+------------------------------------------------------------
+
+  zoedepth-kitti-60 vs marigold-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.8642, δ2=0.9860, δ3=0.9990
+      RMSE=2.7465, MAE=1.7534, AbsRel=0.1161
+      Composite=9.4
+
+    marigold-kitti:
+      δ1=0.8773, δ2=0.9874, δ3=0.9977
+      RMSE=4.2310, MAE=2.0940, AbsRel=0.1091
+      Composite=14.2
+
+
+[42] 0390_2011_09_28_drive_0002_sync_0000000081
+------------------------------------------------------------
+
+  zoedepth-kitti-60 vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.9037, δ2=0.9847, δ3=0.9960
+      RMSE=2.4076, MAE=1.4167, AbsRel=0.1021
+      Composite=9.0
+
+    dav2-vitb-kitti:
+      δ1=0.9316, δ2=0.9903, δ3=0.9964
+      RMSE=2.9293, MAE=1.4377, AbsRel=0.0874
+      Composite=11.0
+
+
+[43] 0356_2011_09_26_drive_0117_sync_0000000416
+------------------------------------------------------------
+
+  dav1-vits-kitti vs marigold-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav1-vits-kitti:
+      δ1=0.6102, δ2=0.9134, δ3=0.9520
+      RMSE=4.5225, MAE=2.9444, AbsRel=0.2083
+      Composite=9.6
+
+    marigold-kitti:
+      δ1=0.7099, δ2=0.9755, δ3=0.9883
+      RMSE=4.6633, MAE=3.2419, AbsRel=0.1968
+      Composite=13.9
+
+
+[44] 0302_2011_09_26_drive_0101_sync_0000000896
+------------------------------------------------------------
+
+  zoedepth-kitti-60 vs marigold-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.8858, δ2=0.9890, δ3=0.9990
+      RMSE=2.8094, MAE=1.7156, AbsRel=0.1108
+      Composite=10.2
+
+    marigold-kitti:
+      δ1=0.9276, δ2=0.9966, δ3=0.9989
+      RMSE=3.9693, MAE=2.1030, AbsRel=0.1056
+      Composite=15.1
+
+
+[45] 0026_2011_09_26_drive_0027_sync_0000000091
+------------------------------------------------------------
+
+  marigold-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    marigold-kitti:
+      δ1=0.5907, δ2=0.9437, δ3=0.9897
+      RMSE=5.5400, MAE=3.8738, AbsRel=0.1936
+      Composite=11.8
+
+    dav2-vitb-kitti:
+      δ1=0.6051, δ2=0.9210, δ3=0.9933
+      RMSE=5.5795, MAE=3.7096, AbsRel=0.2204
+      Composite=13.5
+
+
+[46] 0012_2011_09_26_drive_0009_sync_0000000212
+------------------------------------------------------------
+
+  zoedepth-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-kitti:
+      δ1=0.9816, δ2=0.9983, δ3=0.9998
+      RMSE=2.1026, MAE=1.0324, AbsRel=0.0508
+      Composite=8.4
+
+    dav2-vitb-kitti:
+      δ1=0.9827, δ2=0.9985, δ3=0.9997
+      RMSE=2.4488, MAE=1.4709, AbsRel=0.0819
+      Composite=11.1
+
+
+  zoedepth-kitti-60 vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.9712, δ2=0.9983, δ3=0.9999
+      RMSE=2.2292, MAE=1.2921, AbsRel=0.0745
+      Composite=9.7
+
+    dav2-vitb-kitti:
+      δ1=0.9827, δ2=0.9985, δ3=0.9997
+      RMSE=2.4488, MAE=1.4709, AbsRel=0.0819
+      Composite=11.1
+
+
+[47] 0044_2011_09_26_drive_0027_sync_0000000063
+------------------------------------------------------------
+
+  marigold-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    marigold-kitti:
+      δ1=0.8594, δ2=0.9875, δ3=0.9995
+      RMSE=5.0772, MAE=2.7755, AbsRel=0.1188
+      Composite=16.7
+
+    dav2-vitb-kitti:
+      δ1=0.7342, δ2=0.9766, δ3=0.9994
+      RMSE=4.6038, MAE=2.7157, AbsRel=0.1680
+      Composite=13.1
+
+
+[48] 0380_2011_09_28_drive_0002_sync_0000000045
+------------------------------------------------------------
+
+  zoedepth-kitti-60 vs marigold-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.8554, δ2=0.9879, δ3=0.9992
+      RMSE=3.2058, MAE=1.8248, AbsRel=0.1184
+      Composite=10.7
+
+    marigold-kitti:
+      δ1=0.9051, δ2=0.9730, δ3=0.9948
+      RMSE=4.8693, MAE=2.1487, AbsRel=0.1043
+      Composite=16.7
+
+
+  zoedepth-kitti-60 vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.8554, δ2=0.9879, δ3=0.9992
+      RMSE=3.2058, MAE=1.8248, AbsRel=0.1184
+      Composite=10.7
+
+    dav2-vitb-kitti:
+      δ1=0.8998, δ2=0.9892, δ3=0.9966
+      RMSE=4.3575, MAE=2.1716, AbsRel=0.1312
+      Composite=16.5
+
+
+[49] 0350_2011_09_26_drive_0117_sync_0000000494
+------------------------------------------------------------
+
+  zoedepth-kitti-60 vs marigold-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.9725, δ2=0.9994, δ3=1.0000
+      RMSE=1.5753, MAE=1.0632, AbsRel=0.0721
+      Composite=7.6
+
+    marigold-kitti:
+      δ1=0.9823, δ2=0.9967, δ3=0.9990
+      RMSE=2.1590, MAE=1.1496, AbsRel=0.0628
+      Composite=9.2
+
+
+[50] 0440_2011_09_30_drive_0027_sync_0000001081
+------------------------------------------------------------
+
+  marigold-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    marigold-kitti:
+      δ1=0.8163, δ2=0.9658, δ3=0.9955
+      RMSE=4.4037, MAE=2.5084, AbsRel=0.1531
+      Composite=14.5
+
+    dav2-vitb-kitti:
+      δ1=0.6088, δ2=0.9538, δ3=0.9995
+      RMSE=3.2397, MAE=2.4468, AbsRel=0.1921
+      Composite=5.3
+
+
+[51] 0408_2011_09_29_drive_0071_sync_0000000504
+------------------------------------------------------------
+
+  zoedepth-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti:
+      δ1=0.9438, δ2=0.9934, δ3=0.9983
+      RMSE=2.5331, MAE=1.3364, AbsRel=0.0774
+      Composite=9.7
+
+    dav2-vitb-kitti:
+      δ1=0.9370, δ2=0.9835, δ3=0.9981
+      RMSE=2.4719, MAE=1.1955, AbsRel=0.0787
+      Composite=9.2
+
+
+[52] 0306_2011_09_26_drive_0101_sync_0000000794
+------------------------------------------------------------
+
+  zoedepth-kitti-60 vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.9439, δ2=0.9968, δ3=0.9999
+      RMSE=2.2335, MAE=1.3985, AbsRel=0.0860
+      Composite=9.3
+
+    dav2-vitb-kitti:
+      δ1=0.9730, δ2=0.9968, δ3=0.9998
+      RMSE=3.2187, MAE=1.6245, AbsRel=0.0995
+      Composite=14.0
+
+
+[53] 0010_2011_09_26_drive_0009_sync_0000000176
+------------------------------------------------------------
+
+  marigold-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    marigold-kitti:
+      δ1=0.9303, δ2=0.9959, δ3=0.9997
+      RMSE=2.5152, MAE=1.6271, AbsRel=0.0925
+      Composite=10.0
+
+    dav2-vitb-kitti:
+      δ1=0.9230, δ2=0.9997, δ3=0.9999
+      RMSE=2.2079, MAE=1.5908, AbsRel=0.1012
+      Composite=9.3
+
+
+[54] 0222_2011_09_26_drive_0084_sync_0000000114
+------------------------------------------------------------
+
+  marigold-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    marigold-kitti:
+      δ1=0.9215, δ2=0.9859, δ3=0.9920
+      RMSE=4.6443, MAE=2.2242, AbsRel=0.1072
+      Composite=16.9
+
+    dav2-vitb-kitti:
+      δ1=0.8911, δ2=0.9973, δ3=0.9995
+      RMSE=3.2229, MAE=1.9244, AbsRel=0.1250
+      Composite=12.5
+
+
+[55] 0242_2011_09_26_drive_0086_sync_0000000655
+------------------------------------------------------------
+
+  dav1-vits-kitti vs zoedepth-kitti:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits-kitti:
+      δ1=0.9619, δ2=0.9928, δ3=0.9997
+      RMSE=0.3875, MAE=0.2513, AbsRel=0.0526
+      Composite=2.4
+
+    zoedepth-kitti:
+      δ1=0.9678, δ2=0.9878, δ3=0.9999
+      RMSE=0.6161, MAE=0.4369, AbsRel=0.0855
+      Composite=4.9
+
+
+  dav1-vits-kitti vs zoedepth-kitti-60:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits-kitti:
+      δ1=0.9619, δ2=0.9928, δ3=0.9997
+      RMSE=0.3875, MAE=0.2513, AbsRel=0.0526
+      Composite=2.4
+
+    zoedepth-kitti-60:
+      δ1=0.9663, δ2=0.9878, δ3=0.9999
+      RMSE=0.6198, MAE=0.4422, AbsRel=0.0866
+      Composite=4.9
+
+
+  dav1-vits-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits-kitti:
+      δ1=0.9619, δ2=0.9928, δ3=0.9997
+      RMSE=0.3875, MAE=0.2513, AbsRel=0.0526
+      Composite=2.4
+
+    dav2-vitb-kitti:
+      δ1=0.9754, δ2=1.0000, δ3=1.0000
+      RMSE=0.4365, MAE=0.3478, AbsRel=0.0680
+      Composite=3.9
+
+
+[56] 0008_2011_09_26_drive_0009_sync_0000000144
+------------------------------------------------------------
+
+  zoedepth-kitti-60 vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.8754, δ2=0.9811, δ3=0.9979
+      RMSE=3.9711, MAE=2.1067, AbsRel=0.1102
+      Composite=13.3
+
+    dav2-vitb-kitti:
+      δ1=0.9063, δ2=0.9781, δ3=0.9910
+      RMSE=4.3598, MAE=2.3072, AbsRel=0.1195
+      Composite=16.0
+
+
+[57] 0042_2011_09_26_drive_0027_sync_0000000147
+------------------------------------------------------------
+
+  zoedepth-kitti-60 vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.9299, δ2=0.9960, δ3=0.9999
+      RMSE=2.7350, MAE=1.7117, AbsRel=0.0967
+      Composite=10.9
+
+    dav2-vitb-kitti:
+      δ1=0.9348, δ2=0.9884, δ3=0.9998
+      RMSE=4.0803, MAE=2.1192, AbsRel=0.1039
+      Composite=15.5
+
+
+[58] 0088_2011_09_26_drive_0046_sync_0000000085
+------------------------------------------------------------
+
+  zoedepth-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti:
+      δ1=0.9969, δ2=1.0000, δ3=1.0000
+      RMSE=1.4295, MAE=0.6316, AbsRel=0.0361
+      Composite=6.2
+
+    dav2-vitb-kitti:
+      δ1=0.9990, δ2=1.0000, δ3=1.0000
+      RMSE=1.0648, MAE=0.7342, AbsRel=0.0510
+      Composite=5.8
+
+
+[59] 0366_2011_09_26_drive_0117_sync_0000000390
+------------------------------------------------------------
+
+  zoedepth-kitti vs marigold-kitti:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    zoedepth-kitti:
+      δ1=0.9006, δ2=0.9935, δ3=0.9992
+      RMSE=4.1400, MAE=2.6598, AbsRel=0.1312
+      Composite=15.9
+
+    marigold-kitti:
+      δ1=0.8920, δ2=0.9794, δ3=0.9973
+      RMSE=4.1336, MAE=2.6323, AbsRel=0.1271
+      Composite=15.2
+
+
+  zoedepth-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti:
+      δ1=0.9006, δ2=0.9935, δ3=0.9992
+      RMSE=4.1400, MAE=2.6598, AbsRel=0.1312
+      Composite=15.9
+
+    dav2-vitb-kitti:
+      δ1=0.8542, δ2=0.9865, δ3=0.9985
+      RMSE=4.0339, MAE=2.3845, AbsRel=0.1370
+      Composite=14.1
+
+
+  marigold-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    marigold-kitti:
+      δ1=0.8920, δ2=0.9794, δ3=0.9973
+      RMSE=4.1336, MAE=2.6323, AbsRel=0.1271
+      Composite=15.2
+
+    dav2-vitb-kitti:
+      δ1=0.8542, δ2=0.9865, δ3=0.9985
+      RMSE=4.0339, MAE=2.3845, AbsRel=0.1370
+      Composite=14.1
+
+
+[60] 0218_2011_09_26_drive_0084_sync_0000000244
+------------------------------------------------------------
+
+  zoedepth-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti:
+      δ1=0.9340, δ2=0.9743, δ3=0.9800
+      RMSE=3.9563, MAE=2.2819, AbsRel=0.1143
+      Composite=15.4
+
+    dav2-vitb-kitti:
+      δ1=0.8062, δ2=0.9866, δ3=0.9986
+      RMSE=3.9440, MAE=2.2456, AbsRel=0.1396
+      Composite=12.3
+
+
+  zoedepth-kitti-60 vs dav2-vitb-kitti:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.8581, δ2=0.9782, δ3=0.9942
+      RMSE=4.0675, MAE=2.4494, AbsRel=0.1283
+      Composite=13.8
+
+    dav2-vitb-kitti:
+      δ1=0.8062, δ2=0.9866, δ3=0.9986
+      RMSE=3.9440, MAE=2.2456, AbsRel=0.1396
+      Composite=12.3
+
+
+  marigold-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    marigold-kitti:
+      δ1=0.8236, δ2=0.9379, δ3=0.9612
+      RMSE=6.3207, MAE=3.3246, AbsRel=0.1549
+      Composite=20.4
+
+    dav2-vitb-kitti:
+      δ1=0.8062, δ2=0.9866, δ3=0.9986
+      RMSE=3.9440, MAE=2.2456, AbsRel=0.1396
+      Composite=12.3
+
+
+[61] 0414_2011_09_29_drive_0071_sync_0000000915
+------------------------------------------------------------
+
+  zoedepth-kitti-60 vs marigold-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.9864, δ2=0.9990, δ3=0.9995
+      RMSE=0.9832, MAE=0.7092, AbsRel=0.0625
+      Composite=5.7
+
+    marigold-kitti:
+      δ1=0.9889, δ2=0.9975, δ3=0.9991
+      RMSE=1.1267, MAE=0.7095, AbsRel=0.0525
+      Composite=5.7
+
+
+[62] 0160_2011_09_26_drive_0059_sync_0000000112
+------------------------------------------------------------
+
+  zoedepth-kitti vs marigold-kitti:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti:
+      δ1=0.9424, δ2=0.9929, δ3=0.9986
+      RMSE=3.5516, MAE=1.7501, AbsRel=0.0964
+      Composite=13.8
+
+    marigold-kitti:
+      δ1=0.9367, δ2=0.9864, δ3=0.9942
+      RMSE=4.2047, MAE=1.6805, AbsRel=0.0829
+      Composite=14.9
+
+
+  marigold-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    marigold-kitti:
+      δ1=0.9367, δ2=0.9864, δ3=0.9942
+      RMSE=4.2047, MAE=1.6805, AbsRel=0.0829
+      Composite=14.9
+
+    dav2-vitb-kitti:
+      δ1=0.9410, δ2=0.9848, δ3=0.9984
+      RMSE=4.3355, MAE=1.8068, AbsRel=0.0952
+      Composite=16.0
+
+
+[63] 0330_2011_09_26_drive_0106_sync_0000000075
+------------------------------------------------------------
+
+  zoedepth-kitti vs marigold-kitti:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti:
+      δ1=0.9536, δ2=0.9956, δ3=0.9996
+      RMSE=2.9812, MAE=1.9055, AbsRel=0.1099
+      Composite=13.1
+
+    marigold-kitti:
+      δ1=0.8948, δ2=0.9863, δ3=0.9963
+      RMSE=3.5820, MAE=1.7378, AbsRel=0.1000
+      Composite=12.3
+
+
+[64] 0208_2011_09_26_drive_0084_sync_0000000335
+------------------------------------------------------------
+
+  zoedepth-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-kitti:
+      δ1=0.9444, δ2=0.9679, δ3=0.9841
+      RMSE=2.6161, MAE=1.1237, AbsRel=0.0687
+      Composite=9.2
+
+    dav2-vitb-kitti:
+      δ1=0.9458, δ2=0.9843, δ3=0.9943
+      RMSE=3.2112, MAE=1.3880, AbsRel=0.0787
+      Composite=11.8
+
+
+[65] 0226_2011_09_26_drive_0086_sync_0000000007
+------------------------------------------------------------
+
+  marigold-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    marigold-kitti:
+      δ1=0.9908, δ2=1.0000, δ3=1.0000
+      RMSE=0.6122, MAE=0.4473, AbsRel=0.0467
+      Composite=3.9
+
+    dav2-vitb-kitti:
+      δ1=0.9986, δ2=1.0000, δ3=1.0000
+      RMSE=0.7221, MAE=0.5151, AbsRel=0.0563
+      Composite=5.0
+
+
+[66] 0014_2011_09_26_drive_0009_sync_0000000244
+------------------------------------------------------------
+
+  zoedepth-kitti-60 vs marigold-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.8979, δ2=0.9877, δ3=0.9986
+      RMSE=3.1164, MAE=1.9293, AbsRel=0.1077
+      Composite=11.4
+
+    marigold-kitti:
+      δ1=0.9343, δ2=0.9861, δ3=0.9951
+      RMSE=4.7761, MAE=2.1478, AbsRel=0.0854
+      Composite=16.7
+
+
+  zoedepth-kitti-60 vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.8979, δ2=0.9877, δ3=0.9986
+      RMSE=3.1164, MAE=1.9293, AbsRel=0.1077
+      Composite=11.4
+
+    dav2-vitb-kitti:
+      δ1=0.9654, δ2=0.9958, δ3=0.9990
+      RMSE=4.0261, MAE=1.9810, AbsRel=0.0924
+      Composite=15.9
+
+
+[67] 0400_2011_09_29_drive_0071_sync_0000000807
+------------------------------------------------------------
+
+  dav1-vits-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits-kitti:
+      δ1=0.4955, δ2=0.8117, δ3=0.8891
+      RMSE=5.1439, MAE=3.3363, AbsRel=0.3096
+      Composite=11.1
+
+    dav2-vitb-kitti:
+      δ1=0.4598, δ2=0.8984, δ3=0.9957
+      RMSE=4.9523, MAE=3.2250, AbsRel=0.2748
+      Composite=8.8
+
+
+[68] 0262_2011_09_26_drive_0093_sync_0000000192
+------------------------------------------------------------
+
+  dav1-vits-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits-kitti:
+      δ1=0.2800, δ2=0.7940, δ3=0.8304
+      RMSE=8.5034, MAE=4.9914, AbsRel=0.3823
+      Composite=15.8
+
+    dav2-vitb-kitti:
+      δ1=0.3082, δ2=0.5782, δ3=0.7828
+      RMSE=12.0093, MAE=6.3973, AbsRel=0.5073
+      Composite=19.5
+
+
+[69] 0174_2011_09_26_drive_0059_sync_0000000084
+------------------------------------------------------------
+
+  zoedepth-kitti vs marigold-kitti:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-kitti:
+      δ1=0.9376, δ2=0.9968, δ3=0.9995
+      RMSE=3.2426, MAE=1.7276, AbsRel=0.0774
+      Composite=11.8
+
+    marigold-kitti:
+      δ1=0.9443, δ2=0.9875, δ3=0.9978
+      RMSE=3.9712, MAE=1.7319, AbsRel=0.0781
+      Composite=14.2
+
+
+[70] 0280_2011_09_26_drive_0096_sync_0000000114
+------------------------------------------------------------
+
+  zoedepth-kitti-60 vs marigold-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.9171, δ2=0.9938, δ3=0.9996
+      RMSE=2.6252, MAE=1.6588, AbsRel=0.0965
+      Composite=10.0
+
+    marigold-kitti:
+      δ1=0.9419, δ2=0.9959, δ3=0.9984
+      RMSE=3.8181, MAE=1.8564, AbsRel=0.0788
+      Composite=13.8
+
+
+[71] 0316_2011_09_26_drive_0101_sync_0000000352
+------------------------------------------------------------
+
+  zoedepth-kitti-60 vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.9162, δ2=0.9970, δ3=1.0000
+      RMSE=2.9328, MAE=1.7223, AbsRel=0.0977
+      Composite=11.1
+
+    dav2-vitb-kitti:
+      δ1=0.9255, δ2=0.9871, δ3=0.9994
+      RMSE=4.6559, MAE=2.3040, AbsRel=0.1180
+      Composite=17.6
+
+
+  marigold-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    marigold-kitti:
+      δ1=0.8883, δ2=0.9882, δ3=1.0000
+      RMSE=4.4804, MAE=2.2420, AbsRel=0.1072
+      Composite=15.3
+
+    dav2-vitb-kitti:
+      δ1=0.9255, δ2=0.9871, δ3=0.9994
+      RMSE=4.6559, MAE=2.3040, AbsRel=0.1180
+      Composite=17.6
+
+
+[72] 0198_2011_09_26_drive_0064_sync_0000000330
+------------------------------------------------------------
+
+  zoedepth-kitti-60 vs marigold-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.9354, δ2=0.9890, δ3=0.9924
+      RMSE=2.1557, MAE=1.2423, AbsRel=0.0933
+      Composite=9.0
+
+    marigold-kitti:
+      δ1=0.9413, δ2=0.9945, δ3=0.9997
+      RMSE=2.7413, MAE=1.3711, AbsRel=0.0869
+      Composite=10.8
+
+
+  marigold-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    marigold-kitti:
+      δ1=0.9413, δ2=0.9945, δ3=0.9997
+      RMSE=2.7413, MAE=1.3711, AbsRel=0.0869
+      Composite=10.8
+
+    dav2-vitb-kitti:
+      δ1=0.9174, δ2=0.9906, δ3=1.0000
+      RMSE=2.0782, MAE=1.3478, AbsRel=0.1088
+      Composite=8.9
+
+
+[73] 0052_2011_09_26_drive_0029_sync_0000000366
+------------------------------------------------------------
+
+  zoedepth-kitti-60 vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.9050, δ2=0.9903, δ3=0.9995
+      RMSE=2.5464, MAE=1.5951, AbsRel=0.1045
+      Composite=9.7
+
+    dav2-vitb-kitti:
+      δ1=0.9467, δ2=0.9869, δ3=0.9983
+      RMSE=4.3861, MAE=1.8464, AbsRel=0.0886
+      Composite=16.1
+
+
+[74] 0186_2011_09_26_drive_0064_sync_0000000462
+------------------------------------------------------------
+
+  marigold-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    marigold-kitti:
+      δ1=0.5960, δ2=0.9634, δ3=0.9997
+      RMSE=4.4610, MAE=3.0228, AbsRel=0.2124
+      Composite=9.9
+
+    dav2-vitb-kitti:
+      δ1=0.6534, δ2=0.9668, δ3=0.9981
+      RMSE=5.7157, MAE=3.1748, AbsRel=0.1933
+      Composite=14.9
+
+
+[75] 0136_2011_09_26_drive_0056_sync_0000000220
+------------------------------------------------------------
+
+  marigold-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    marigold-kitti:
+      δ1=0.8787, δ2=0.9993, δ3=1.0000
+      RMSE=3.2331, MAE=1.8528, AbsRel=0.1036
+      Composite=11.0
+
+    dav2-vitb-kitti:
+      δ1=0.9147, δ2=0.9979, δ3=0.9999
+      RMSE=3.2924, MAE=1.8804, AbsRel=0.1122
+      Composite=12.9
+
+
+[76] 0034_2011_09_26_drive_0027_sync_0000000014
+------------------------------------------------------------
+
+  dav1-vits-kitti vs marigold-kitti:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits-kitti:
+      δ1=0.5282, δ2=0.8481, δ3=0.8930
+      RMSE=6.7809, MAE=4.6047, AbsRel=0.2785
+      Composite=16.3
+
+    marigold-kitti:
+      δ1=0.3578, δ2=0.9275, δ3=0.9655
+      RMSE=6.0835, MAE=4.5920, AbsRel=0.2540
+      Composite=8.1
+
+
+[77] 0166_2011_09_26_drive_0059_sync_0000000302
+------------------------------------------------------------
+
+  zoedepth-kitti-60 vs marigold-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.9221, δ2=0.9961, δ3=0.9993
+      RMSE=2.4900, MAE=1.3635, AbsRel=0.0916
+      Composite=9.6
+
+    marigold-kitti:
+      δ1=0.9365, δ2=0.9803, δ3=0.9938
+      RMSE=3.5758, MAE=1.6111, AbsRel=0.0869
+      Composite=13.0
+
+
+  zoedepth-kitti-60 vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.9221, δ2=0.9961, δ3=0.9993
+      RMSE=2.4900, MAE=1.3635, AbsRel=0.0916
+      Composite=9.6
+
+    dav2-vitb-kitti:
+      δ1=0.9461, δ2=0.9928, δ3=0.9974
+      RMSE=3.2305, MAE=1.3709, AbsRel=0.0798
+      Composite=12.1
+
+
+[78] 0066_2011_09_26_drive_0029_sync_0000000310
+------------------------------------------------------------
+
+  zoedepth-kitti-60 vs marigold-kitti:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.9801, δ2=0.9981, δ3=0.9987
+      RMSE=1.9402, MAE=1.1731, AbsRel=0.0727
+      Composite=9.0
+
+    marigold-kitti:
+      δ1=0.9552, δ2=0.9960, δ3=0.9985
+      RMSE=2.4601, MAE=1.1506, AbsRel=0.0534
+      Composite=8.7
+
+
+[79] 0328_2011_09_26_drive_0106_sync_0000000059
+------------------------------------------------------------
+
+  zoedepth-kitti-60 vs marigold-kitti:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.9286, δ2=0.9944, δ3=0.9994
+      RMSE=2.8168, MAE=1.6911, AbsRel=0.1039
+      Composite=11.4
+
+    marigold-kitti:
+      δ1=0.9224, δ2=0.9886, δ3=0.9956
+      RMSE=3.1090, MAE=1.6316, AbsRel=0.1027
+      Composite=12.0
+
+
+[80] 0348_2011_09_26_drive_0106_sync_0000000219
+------------------------------------------------------------
+
+  zoedepth-kitti vs zoedepth-kitti-60:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-kitti:
+      δ1=0.6599, δ2=0.9420, δ3=0.9901
+      RMSE=6.2355, MAE=3.6668, AbsRel=0.1786
+      Composite=15.6
+
+    zoedepth-kitti-60:
+      δ1=0.6727, δ2=0.9139, δ3=0.9738
+      RMSE=6.3068, MAE=3.7609, AbsRel=0.1843
+      Composite=16.2
+
+
+  zoedepth-kitti vs marigold-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti:
+      δ1=0.6599, δ2=0.9420, δ3=0.9901
+      RMSE=6.2355, MAE=3.6668, AbsRel=0.1786
+      Composite=15.6
+
+    marigold-kitti:
+      δ1=0.7784, δ2=0.9097, δ3=0.9786
+      RMSE=8.4651, MAE=4.0909, AbsRel=0.1645
+      Composite=24.1
+
+
+  zoedepth-kitti-60 vs marigold-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.6727, δ2=0.9139, δ3=0.9738
+      RMSE=6.3068, MAE=3.7609, AbsRel=0.1843
+      Composite=16.2
+
+    marigold-kitti:
+      δ1=0.7784, δ2=0.9097, δ3=0.9786
+      RMSE=8.4651, MAE=4.0909, AbsRel=0.1645
+      Composite=24.1
+
+
+[81] 0388_2011_09_28_drive_0002_sync_0000000048
+------------------------------------------------------------
+
+  zoedepth-kitti-60 vs marigold-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.9020, δ2=0.9939, δ3=0.9994
+      RMSE=2.8111, MAE=1.5748, AbsRel=0.1032
+      Composite=10.4
+
+    marigold-kitti:
+      δ1=0.9333, δ2=0.9759, δ3=0.9971
+      RMSE=4.3712, MAE=1.8142, AbsRel=0.0832
+      Composite=15.1
+
+
+  zoedepth-kitti-60 vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.9020, δ2=0.9939, δ3=0.9994
+      RMSE=2.8111, MAE=1.5748, AbsRel=0.1032
+      Composite=10.4
+
+    dav2-vitb-kitti:
+      δ1=0.9238, δ2=0.9943, δ3=0.9976
+      RMSE=3.6005, MAE=1.9158, AbsRel=0.1205
+      Composite=14.5
+
+
+[82] 0108_2011_09_26_drive_0052_sync_0000000014
+------------------------------------------------------------
+
+  marigold-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    marigold-kitti:
+      δ1=0.7178, δ2=0.9115, δ3=0.9746
+      RMSE=2.6551, MAE=1.4470, AbsRel=0.1556
+      Composite=4.9
+
+    dav2-vitb-kitti:
+      δ1=0.7716, δ2=0.9242, δ3=0.9915
+      RMSE=3.7002, MAE=1.7702, AbsRel=0.1959
+      Composite=12.2
+
+
+[83] 0422_2011_09_30_drive_0027_sync_0000000205
+------------------------------------------------------------
+
+  zoedepth-kitti vs zoedepth-kitti-60:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-kitti:
+      δ1=0.9423, δ2=0.9975, δ3=0.9992
+      RMSE=1.9524, MAE=0.9412, AbsRel=0.0546
+      Composite=6.8
+
+    zoedepth-kitti-60:
+      δ1=0.9444, δ2=0.9963, δ3=0.9992
+      RMSE=2.0855, MAE=1.2145, AbsRel=0.0821
+      Composite=8.6
+
+
+[84] 0144_2011_09_26_drive_0056_sync_0000000275
+------------------------------------------------------------
+
+  zoedepth-kitti-60 vs marigold-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.9567, δ2=0.9955, δ3=0.9992
+      RMSE=2.1159, MAE=1.2933, AbsRel=0.0785
+      Composite=9.0
+
+    marigold-kitti:
+      δ1=0.9594, δ2=0.9895, δ3=0.9990
+      RMSE=3.2689, MAE=1.5942, AbsRel=0.0732
+      Composite=12.3
+
+
+[85] 0020_2011_09_26_drive_0009_sync_0000000340
+------------------------------------------------------------
+
+  zoedepth-kitti-60 vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.8672, δ2=0.9828, δ3=0.9974
+      RMSE=3.9414, MAE=2.1962, AbsRel=0.1176
+      Composite=13.3
+
+    dav2-vitb-kitti:
+      δ1=0.9313, δ2=0.9504, δ3=0.9978
+      RMSE=4.0314, MAE=2.1388, AbsRel=0.1226
+      Composite=15.6
+
+
+[86] 0114_2011_09_26_drive_0052_sync_0000000008
+------------------------------------------------------------
+
+  zoedepth-kitti-60 vs marigold-kitti:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.8756, δ2=0.9833, δ3=0.9979
+      RMSE=2.3770, MAE=1.1634, AbsRel=0.1133
+      Composite=8.5
+
+    marigold-kitti:
+      δ1=0.8578, δ2=0.9327, δ3=0.9779
+      RMSE=2.4972, MAE=1.0779, AbsRel=0.1106
+      Composite=7.3
+
+
+[87] 0376_2011_09_28_drive_0002_sync_0000000051
+------------------------------------------------------------
+
+  zoedepth-kitti-60 vs marigold-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.9119, δ2=0.9951, δ3=0.9995
+      RMSE=2.5263, MAE=1.4129, AbsRel=0.1008
+      Composite=9.8
+
+    marigold-kitti:
+      δ1=0.9207, δ2=0.9786, δ3=0.9936
+      RMSE=4.2817, MAE=1.7303, AbsRel=0.0858
+      Composite=14.6
+
+
+[88] 0146_2011_09_26_drive_0056_sync_0000000198
+------------------------------------------------------------
+
+  zoedepth-kitti-60 vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.9401, δ2=0.9966, δ3=0.9997
+      RMSE=1.8183, MAE=1.2641, AbsRel=0.0843
+      Composite=7.7
+
+    dav2-vitb-kitti:
+      δ1=0.9412, δ2=0.9927, δ3=0.9982
+      RMSE=4.7693, MAE=2.0548, AbsRel=0.1085
+      Composite=18.2
+
+
+[89] 0298_2011_09_26_drive_0096_sync_0000000456
+------------------------------------------------------------
+
+  zoedepth-kitti vs zoedepth-kitti-60:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-kitti:
+      δ1=0.7174, δ2=0.9812, δ3=0.9944
+      RMSE=5.7647, MAE=3.6870, AbsRel=0.1473
+      Composite=15.2
+
+    zoedepth-kitti-60:
+      δ1=0.7543, δ2=0.9423, δ3=0.9841
+      RMSE=5.9258, MAE=3.9214, AbsRel=0.1618
+      Composite=17.1
+
+
+  marigold-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    marigold-kitti:
+      δ1=0.6244, δ2=0.9451, δ3=0.9820
+      RMSE=8.0582, MAE=5.3941, AbsRel=0.2036
+      Composite=21.2
+
+    dav2-vitb-kitti:
+      δ1=0.7004, δ2=0.9665, δ3=0.9900
+      RMSE=9.2216, MAE=5.5628, AbsRel=0.1940
+      Composite=23.7
+
+
+[90] 0296_2011_09_26_drive_0096_sync_0000000418
+------------------------------------------------------------
+
+  zoedepth-kitti-60 vs marigold-kitti:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.8908, δ2=0.9890, δ3=0.9985
+      RMSE=3.1949, MAE=1.5931, AbsRel=0.1039
+      Composite=11.2
+
+    marigold-kitti:
+      δ1=0.9252, δ2=0.9913, δ3=0.9980
+      RMSE=3.8271, MAE=1.6326, AbsRel=0.0881
+      Composite=13.6
+
+
+  zoedepth-kitti-60 vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-kitti-60:
+      δ1=0.8908, δ2=0.9890, δ3=0.9985
+      RMSE=3.1949, MAE=1.5931, AbsRel=0.1039
+      Composite=11.2
+
+    dav2-vitb-kitti:
+      δ1=0.9499, δ2=0.9835, δ3=0.9963
+      RMSE=4.5839, MAE=2.0440, AbsRel=0.1161
+      Composite=18.1
+
+
+  marigold-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    marigold-kitti:
+      δ1=0.9252, δ2=0.9913, δ3=0.9980
+      RMSE=3.8271, MAE=1.6326, AbsRel=0.0881
+      Composite=13.6
+
+    dav2-vitb-kitti:
+      δ1=0.9499, δ2=0.9835, δ3=0.9963
+      RMSE=4.5839, MAE=2.0440, AbsRel=0.1161
+      Composite=18.1
+
+
+[91] 0304_2011_09_26_drive_0101_sync_0000000148
+------------------------------------------------------------
+
+  dav1-vits-kitti vs dav2-vitb-kitti:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits-kitti:
+      δ1=0.2199, δ2=0.6262, δ3=0.8351
+      RMSE=9.6810, MAE=7.0400, AbsRel=0.4455
+      Composite=14.4
+
+    dav2-vitb-kitti:
+      δ1=0.2345, δ2=0.3896, δ3=0.5568
+      RMSE=15.1408, MAE=10.4671, AbsRel=0.7638
+      Composite=14.1
+
+
+[92] 0230_2011_09_26_drive_0086_sync_0000000115
+------------------------------------------------------------
+
+  zoedepth-kitti vs zoedepth-kitti-60:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-kitti:
+      δ1=0.8721, δ2=0.9996, δ3=0.9999
+      RMSE=2.5979, MAE=1.3961, AbsRel=0.1052
+      Composite=8.9
+
+    zoedepth-kitti-60:
+      δ1=0.8876, δ2=0.9940, δ3=0.9998
+      RMSE=2.6782, MAE=1.4706, AbsRel=0.1069
+      Composite=9.7
+
