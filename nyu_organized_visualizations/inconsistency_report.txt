@@ -1,0 +1,7445 @@
+================================================================================
+METRIC INCONSISTENCY REPORT
+================================================================================
+
+Total inconsistent groups: 207
+
+
+[1] 0480_0480
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9999, δ2=1.0000, δ3=1.0000
+      RMSE=0.1030, MAE=0.0856, AbsRel=0.0494
+      Composite=3.8
+
+    dav2-vitb:
+      δ1=0.9884, δ2=0.9941, δ3=1.0000
+      RMSE=0.1006, MAE=0.0657, AbsRel=0.0383
+      Composite=2.7
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9999, δ2=1.0000, δ3=1.0000
+      RMSE=0.1030, MAE=0.0856, AbsRel=0.0494
+      Composite=3.8
+
+    dav2-severe:
+      δ1=0.9891, δ2=0.9950, δ3=1.0000
+      RMSE=0.1001, MAE=0.0662, AbsRel=0.0386
+      Composite=2.7
+
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9972, δ2=1.0000, δ3=1.0000
+      RMSE=0.1089, MAE=0.0886, AbsRel=0.0502
+      Composite=3.8
+
+    dav2-vitb:
+      δ1=0.9884, δ2=0.9941, δ3=1.0000
+      RMSE=0.1006, MAE=0.0657, AbsRel=0.0383
+      Composite=2.7
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9972, δ2=1.0000, δ3=1.0000
+      RMSE=0.1089, MAE=0.0886, AbsRel=0.0502
+      Composite=3.8
+
+    dav2-severe:
+      δ1=0.9891, δ2=0.9950, δ3=1.0000
+      RMSE=0.1001, MAE=0.0662, AbsRel=0.0386
+      Composite=2.7
+
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.9925, δ2=1.0000, δ3=1.0000
+      RMSE=0.1403, MAE=0.1189, AbsRel=0.0689
+      Composite=4.9
+
+    dav2-vitb:
+      δ1=0.9884, δ2=0.9941, δ3=1.0000
+      RMSE=0.1006, MAE=0.0657, AbsRel=0.0383
+      Composite=2.7
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.9925, δ2=1.0000, δ3=1.0000
+      RMSE=0.1403, MAE=0.1189, AbsRel=0.0689
+      Composite=4.9
+
+    dav2-severe:
+      δ1=0.9891, δ2=0.9950, δ3=1.0000
+      RMSE=0.1001, MAE=0.0662, AbsRel=0.0386
+      Composite=2.7
+
+
+[2] 1385_1385
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.7038, δ2=0.9282, δ3=0.9647
+      RMSE=0.8723, MAE=0.5367, AbsRel=0.1765
+      Composite=8.3
+
+    marigold:
+      δ1=0.6997, δ2=0.9777, δ3=1.0000
+      RMSE=0.7429, MAE=0.5594, AbsRel=0.1741
+      Composite=7.1
+
+
+[3] 0445_0445
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.7739, δ2=0.9674, δ3=0.9811
+      RMSE=0.4346, MAE=0.3691, AbsRel=0.1621
+      Composite=5.1
+
+    zoedepth-nk:
+      δ1=0.7377, δ2=0.9882, δ3=0.9946
+      RMSE=0.4606, MAE=0.3616, AbsRel=0.1538
+      Composite=4.1
+
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.7739, δ2=0.9674, δ3=0.9811
+      RMSE=0.4346, MAE=0.3691, AbsRel=0.1621
+      Composite=5.1
+
+    dav2-vitb:
+      δ1=0.8350, δ2=0.9468, δ3=0.9630
+      RMSE=0.5538, MAE=0.4521, AbsRel=0.1970
+      Composite=10.2
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.7739, δ2=0.9674, δ3=0.9811
+      RMSE=0.4346, MAE=0.3691, AbsRel=0.1621
+      Composite=5.1
+
+    dav2-severe:
+      δ1=0.7987, δ2=0.9461, δ3=0.9636
+      RMSE=0.5512, MAE=0.4517, AbsRel=0.1971
+      Composite=8.9
+
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.7377, δ2=0.9882, δ3=0.9946
+      RMSE=0.4606, MAE=0.3616, AbsRel=0.1538
+      Composite=4.1
+
+    dav2-vitb:
+      δ1=0.8350, δ2=0.9468, δ3=0.9630
+      RMSE=0.5538, MAE=0.4521, AbsRel=0.1970
+      Composite=10.2
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.7377, δ2=0.9882, δ3=0.9946
+      RMSE=0.4606, MAE=0.3616, AbsRel=0.1538
+      Composite=4.1
+
+    dav2-severe:
+      δ1=0.7987, δ2=0.9461, δ3=0.9636
+      RMSE=0.5512, MAE=0.4517, AbsRel=0.1971
+      Composite=8.9
+
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav2-vitb:
+      δ1=0.8350, δ2=0.9468, δ3=0.9630
+      RMSE=0.5538, MAE=0.4521, AbsRel=0.1970
+      Composite=10.2
+
+    dav2-severe:
+      δ1=0.7987, δ2=0.9461, δ3=0.9636
+      RMSE=0.5512, MAE=0.4517, AbsRel=0.1971
+      Composite=8.9
+
+
+[4] 0290_0290
+------------------------------------------------------------
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.7612, δ2=0.8888, δ3=0.9812
+      RMSE=0.7348, MAE=0.5634, AbsRel=0.2028
+      Composite=9.3
+
+    dav2-vitb:
+      δ1=0.7280, δ2=0.9517, δ3=0.9704
+      RMSE=0.6631, MAE=0.4892, AbsRel=0.1655
+      Composite=6.3
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.7612, δ2=0.8888, δ3=0.9812
+      RMSE=0.7348, MAE=0.5634, AbsRel=0.2028
+      Composite=9.3
+
+    dav2-severe:
+      δ1=0.7312, δ2=0.9506, δ3=0.9702
+      RMSE=0.6608, MAE=0.4914, AbsRel=0.1663
+      Composite=6.4
+
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav2-vitb:
+      δ1=0.7280, δ2=0.9517, δ3=0.9704
+      RMSE=0.6631, MAE=0.4892, AbsRel=0.1655
+      Composite=6.3
+
+    dav2-severe:
+      δ1=0.7312, δ2=0.9506, δ3=0.9702
+      RMSE=0.6608, MAE=0.4914, AbsRel=0.1663
+      Composite=6.4
+
+
+[5] 1200_1200
+------------------------------------------------------------
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.8804, δ2=0.9696, δ3=0.9873
+      RMSE=0.3397, MAE=0.2559, AbsRel=0.1309
+      Composite=6.1
+
+    dav2-vitb:
+      δ1=0.8965, δ2=0.9662, δ3=0.9833
+      RMSE=0.3573, MAE=0.2569, AbsRel=0.1314
+      Composite=6.9
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.8804, δ2=0.9696, δ3=0.9873
+      RMSE=0.3397, MAE=0.2559, AbsRel=0.1309
+      Composite=6.1
+
+    dav2-severe:
+      δ1=0.8966, δ2=0.9667, δ3=0.9832
+      RMSE=0.3572, MAE=0.2579, AbsRel=0.1319
+      Composite=6.9
+
+
+[6] 0725_0725
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9493, δ2=0.9982, δ3=1.0000
+      RMSE=0.1593, MAE=0.1229, AbsRel=0.0698
+      Composite=3.7
+
+    marigold:
+      δ1=0.9638, δ2=0.9845, δ3=0.9905
+      RMSE=0.2591, MAE=0.1687, AbsRel=0.0905
+      Composite=6.3
+
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9493, δ2=0.9982, δ3=1.0000
+      RMSE=0.1593, MAE=0.1229, AbsRel=0.0698
+      Composite=3.7
+
+    dav2-vitb:
+      δ1=0.9592, δ2=0.9868, δ3=0.9923
+      RMSE=0.2188, MAE=0.1621, AbsRel=0.0880
+      Composite=5.5
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9493, δ2=0.9982, δ3=1.0000
+      RMSE=0.1593, MAE=0.1229, AbsRel=0.0698
+      Composite=3.7
+
+    dav2-severe:
+      δ1=0.9570, δ2=0.9876, δ3=0.9928
+      RMSE=0.2194, MAE=0.1636, AbsRel=0.0890
+      Composite=5.5
+
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.9638, δ2=0.9845, δ3=0.9905
+      RMSE=0.2591, MAE=0.1687, AbsRel=0.0905
+      Composite=6.3
+
+    dav2-vitb:
+      δ1=0.9592, δ2=0.9868, δ3=0.9923
+      RMSE=0.2188, MAE=0.1621, AbsRel=0.0880
+      Composite=5.5
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.9638, δ2=0.9845, δ3=0.9905
+      RMSE=0.2591, MAE=0.1687, AbsRel=0.0905
+      Composite=6.3
+
+    dav2-severe:
+      δ1=0.9570, δ2=0.9876, δ3=0.9928
+      RMSE=0.2194, MAE=0.1636, AbsRel=0.0890
+      Composite=5.5
+
+
+[7] 0575_0575
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.9284, δ2=0.9985, δ3=1.0000
+      RMSE=0.2128, MAE=0.1662, AbsRel=0.0955
+      Composite=4.9
+
+    dav2-vitb:
+      δ1=0.9060, δ2=0.9818, δ3=0.9921
+      RMSE=0.2468, MAE=0.1657, AbsRel=0.0950
+      Composite=4.3
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.9284, δ2=0.9985, δ3=1.0000
+      RMSE=0.2128, MAE=0.1662, AbsRel=0.0955
+      Composite=4.9
+
+    dav2-severe:
+      δ1=0.9053, δ2=0.9825, δ3=0.9935
+      RMSE=0.2458, MAE=0.1659, AbsRel=0.0951
+      Composite=4.3
+
+
+[8] 0190_0190
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9052, δ2=1.0000, δ3=1.0000
+      RMSE=0.1974, MAE=0.1616, AbsRel=0.1085
+      Composite=4.6
+
+    marigold:
+      δ1=0.9076, δ2=1.0000, δ3=1.0000
+      RMSE=0.2328, MAE=0.2086, AbsRel=0.1375
+      Composite=6.5
+
+
+  zoedepth-nk vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.8594, δ2=1.0000, δ3=1.0000
+      RMSE=0.2301, MAE=0.2034, AbsRel=0.1344
+      Composite=4.7
+
+    marigold:
+      δ1=0.9076, δ2=1.0000, δ3=1.0000
+      RMSE=0.2328, MAE=0.2086, AbsRel=0.1375
+      Composite=6.5
+
+
+[9] 0305_0305
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.7527, δ2=0.9091, δ3=0.9460
+      RMSE=0.6771, MAE=0.5441, AbsRel=0.1957
+      Composite=8.2
+
+    zoedepth-nk:
+      δ1=0.7187, δ2=0.9496, δ3=0.9881
+      RMSE=0.7524, MAE=0.5435, AbsRel=0.1663
+      Composite=7.1
+
+
+  zoedepth-nk vs marigold:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.7187, δ2=0.9496, δ3=0.9881
+      RMSE=0.7524, MAE=0.5435, AbsRel=0.1663
+      Composite=7.1
+
+    marigold:
+      δ1=0.6874, δ2=0.9147, δ3=0.9796
+      RMSE=0.6892, MAE=0.5200, AbsRel=0.2010
+      Composite=6.4
+
+
+[10] 0775_0775
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.9631, δ2=0.9890, δ3=0.9990
+      RMSE=0.1391, MAE=0.1057, AbsRel=0.0645
+      Composite=3.5
+
+    zoedepth-nk:
+      δ1=0.9497, δ2=0.9979, δ3=0.9998
+      RMSE=0.1392, MAE=0.0983, AbsRel=0.0616
+      Composite=3.0
+
+
+[11] 0460_0460
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.9480, δ2=1.0000, δ3=1.0000
+      RMSE=0.2316, MAE=0.1619, AbsRel=0.0665
+      Composite=4.4
+
+    zoedepth-nk:
+      δ1=0.9899, δ2=1.0000, δ3=1.0000
+      RMSE=0.2236, MAE=0.1793, AbsRel=0.0738
+      Composite=6.1
+
+
+  zoedepth-nk vs marigold:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9899, δ2=1.0000, δ3=1.0000
+      RMSE=0.2236, MAE=0.1793, AbsRel=0.0738
+      Composite=6.1
+
+    marigold:
+      δ1=0.9845, δ2=1.0000, δ3=1.0000
+      RMSE=0.1963, MAE=0.1549, AbsRel=0.0615
+      Composite=5.0
+
+
+[12] 1380_1380
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.7131, δ2=0.8438, δ3=0.9288
+      RMSE=0.9085, MAE=0.7088, AbsRel=0.2353
+      Composite=10.7
+
+    zoedepth-nk:
+      δ1=0.6830, δ2=0.9672, δ3=0.9947
+      RMSE=0.8056, MAE=0.6164, AbsRel=0.1756
+      Composite=7.3
+
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.6830, δ2=0.9672, δ3=0.9947
+      RMSE=0.8056, MAE=0.6164, AbsRel=0.1756
+      Composite=7.3
+
+    dav2-vitb:
+      δ1=0.7442, δ2=0.9114, δ3=0.9611
+      RMSE=0.8435, MAE=0.6484, AbsRel=0.1929
+      Composite=9.9
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.6830, δ2=0.9672, δ3=0.9947
+      RMSE=0.8056, MAE=0.6164, AbsRel=0.1756
+      Composite=7.3
+
+    dav2-severe:
+      δ1=0.7244, δ2=0.9115, δ3=0.9592
+      RMSE=0.8528, MAE=0.6601, AbsRel=0.1961
+      Composite=9.5
+
+
+[13] 1425_1425
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.7726, δ2=0.9517, δ3=0.9803
+      RMSE=0.8382, MAE=0.6187, AbsRel=0.1583
+      Composite=9.7
+
+    zoedepth-nk:
+      δ1=0.7554, δ2=0.9662, δ3=0.9926
+      RMSE=0.8486, MAE=0.5696, AbsRel=0.1488
+      Composite=9.0
+
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.7726, δ2=0.9517, δ3=0.9803
+      RMSE=0.8382, MAE=0.6187, AbsRel=0.1583
+      Composite=9.7
+
+    dav2-vitb:
+      δ1=0.7994, δ2=0.9560, δ3=0.9814
+      RMSE=0.8652, MAE=0.6295, AbsRel=0.1632
+      Composite=11.3
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.7726, δ2=0.9517, δ3=0.9803
+      RMSE=0.8382, MAE=0.6187, AbsRel=0.1583
+      Composite=9.7
+
+    dav2-severe:
+      δ1=0.7852, δ2=0.9539, δ3=0.9815
+      RMSE=0.8676, MAE=0.6364, AbsRel=0.1654
+      Composite=10.9
+
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.7554, δ2=0.9662, δ3=0.9926
+      RMSE=0.8486, MAE=0.5696, AbsRel=0.1488
+      Composite=9.0
+
+    dav2-vitb:
+      δ1=0.7994, δ2=0.9560, δ3=0.9814
+      RMSE=0.8652, MAE=0.6295, AbsRel=0.1632
+      Composite=11.3
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.7554, δ2=0.9662, δ3=0.9926
+      RMSE=0.8486, MAE=0.5696, AbsRel=0.1488
+      Composite=9.0
+
+    dav2-severe:
+      δ1=0.7852, δ2=0.9539, δ3=0.9815
+      RMSE=0.8676, MAE=0.6364, AbsRel=0.1654
+      Composite=10.9
+
+
+[14] 0055_0055
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9111, δ2=0.9837, δ3=1.0000
+      RMSE=0.2332, MAE=0.1860, AbsRel=0.0934
+      Composite=4.2
+
+    zoedepth-nk:
+      δ1=0.9332, δ2=0.9934, δ3=1.0000
+      RMSE=0.3056, MAE=0.2639, AbsRel=0.1223
+      Composite=7.5
+
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9111, δ2=0.9837, δ3=1.0000
+      RMSE=0.2332, MAE=0.1860, AbsRel=0.0934
+      Composite=4.2
+
+    dav2-vitb:
+      δ1=0.9215, δ2=0.9633, δ3=0.9845
+      RMSE=0.3227, MAE=0.2338, AbsRel=0.1147
+      Composite=6.5
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9111, δ2=0.9837, δ3=1.0000
+      RMSE=0.2332, MAE=0.1860, AbsRel=0.0934
+      Composite=4.2
+
+    dav2-severe:
+      δ1=0.9198, δ2=0.9650, δ3=0.9843
+      RMSE=0.3199, MAE=0.2332, AbsRel=0.1145
+      Composite=6.4
+
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9332, δ2=0.9934, δ3=1.0000
+      RMSE=0.3056, MAE=0.2639, AbsRel=0.1223
+      Composite=7.5
+
+    dav2-vitb:
+      δ1=0.9215, δ2=0.9633, δ3=0.9845
+      RMSE=0.3227, MAE=0.2338, AbsRel=0.1147
+      Composite=6.5
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9332, δ2=0.9934, δ3=1.0000
+      RMSE=0.3056, MAE=0.2639, AbsRel=0.1223
+      Composite=7.5
+
+    dav2-severe:
+      δ1=0.9198, δ2=0.9650, δ3=0.9843
+      RMSE=0.3199, MAE=0.2332, AbsRel=0.1145
+      Composite=6.4
+
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav2-vitb:
+      δ1=0.9215, δ2=0.9633, δ3=0.9845
+      RMSE=0.3227, MAE=0.2338, AbsRel=0.1147
+      Composite=6.5
+
+    dav2-severe:
+      δ1=0.9198, δ2=0.9650, δ3=0.9843
+      RMSE=0.3199, MAE=0.2332, AbsRel=0.1145
+      Composite=6.4
+
+
+[15] 1410_1410
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9990, δ2=1.0000, δ3=1.0000
+      RMSE=0.1543, MAE=0.1259, AbsRel=0.0586
+      Composite=4.8
+
+    marigold:
+      δ1=0.9975, δ2=1.0000, δ3=1.0000
+      RMSE=0.1296, MAE=0.1026, AbsRel=0.0499
+      Composite=4.0
+
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav2-vitb:
+      δ1=0.9878, δ2=0.9998, δ3=1.0000
+      RMSE=0.1718, MAE=0.1329, AbsRel=0.0623
+      Composite=4.8
+
+    dav2-severe:
+      δ1=0.9892, δ2=0.9997, δ3=1.0000
+      RMSE=0.1718, MAE=0.1336, AbsRel=0.0627
+      Composite=4.9
+
+
+[16] 0605_0605
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.8933, δ2=0.9841, δ3=0.9949
+      RMSE=0.3606, MAE=0.2630, AbsRel=0.1080
+      Composite=5.9
+
+    zoedepth-nk:
+      δ1=0.8704, δ2=0.9740, δ3=0.9972
+      RMSE=0.3586, MAE=0.2477, AbsRel=0.1066
+      Composite=4.9
+
+
+  zoedepth-nk vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.8704, δ2=0.9740, δ3=0.9972
+      RMSE=0.3586, MAE=0.2477, AbsRel=0.1066
+      Composite=4.9
+
+    marigold:
+      δ1=0.8719, δ2=0.9865, δ3=0.9963
+      RMSE=0.4438, MAE=0.3452, AbsRel=0.1383
+      Composite=7.8
+
+
+[17] 1140_1140
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.8474, δ2=0.9495, δ3=0.9661
+      RMSE=0.3122, MAE=0.2387, AbsRel=0.1376
+      Composite=4.7
+
+    zoedepth-nk:
+      δ1=0.8439, δ2=0.9430, δ3=0.9963
+      RMSE=0.3183, MAE=0.2375, AbsRel=0.1331
+      Composite=4.3
+
+
+[18] 1290_1290
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.7569, δ2=0.9294, δ3=0.9791
+      RMSE=0.6826, MAE=0.5168, AbsRel=0.1596
+      Composite=6.9
+
+    marigold:
+      δ1=0.7589, δ2=0.9498, δ3=0.9919
+      RMSE=0.7271, MAE=0.5491, AbsRel=0.1697
+      Composite=8.4
+
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.7569, δ2=0.9294, δ3=0.9791
+      RMSE=0.6826, MAE=0.5168, AbsRel=0.1596
+      Composite=6.9
+
+    dav2-vitb:
+      δ1=0.8133, δ2=0.9351, δ3=0.9717
+      RMSE=0.6996, MAE=0.5292, AbsRel=0.1636
+      Composite=9.4
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.7569, δ2=0.9294, δ3=0.9791
+      RMSE=0.6826, MAE=0.5168, AbsRel=0.1596
+      Composite=6.9
+
+    dav2-severe:
+      δ1=0.8064, δ2=0.9353, δ3=0.9697
+      RMSE=0.7043, MAE=0.5334, AbsRel=0.1646
+      Composite=9.3
+
+
+[19] 0905_0905
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.6611, δ2=0.9012, δ3=0.9186
+      RMSE=0.8450, MAE=0.6409, AbsRel=0.2398
+      Composite=9.2
+
+    marigold:
+      δ1=0.7962, δ2=0.8578, δ3=0.8911
+      RMSE=0.9986, MAE=0.6071, AbsRel=0.2877
+      Composite=17.6
+
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.6611, δ2=0.9012, δ3=0.9186
+      RMSE=0.8450, MAE=0.6409, AbsRel=0.2398
+      Composite=9.2
+
+    dav2-vitb:
+      δ1=0.6284, δ2=0.8928, δ3=0.9211
+      RMSE=0.8223, MAE=0.6205, AbsRel=0.2252
+      Composite=6.9
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.6611, δ2=0.9012, δ3=0.9186
+      RMSE=0.8450, MAE=0.6409, AbsRel=0.2398
+      Composite=9.2
+
+    dav2-severe:
+      δ1=0.6314, δ2=0.8937, δ3=0.9214
+      RMSE=0.8356, MAE=0.6317, AbsRel=0.2282
+      Composite=7.4
+
+
+  zoedepth-nk vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.7211, δ2=0.9077, δ3=0.9756
+      RMSE=0.6796, MAE=0.5274, AbsRel=0.2002
+      Composite=7.4
+
+    marigold:
+      δ1=0.7962, δ2=0.8578, δ3=0.8911
+      RMSE=0.9986, MAE=0.6071, AbsRel=0.2877
+      Composite=17.6
+
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    marigold:
+      δ1=0.7962, δ2=0.8578, δ3=0.8911
+      RMSE=0.9986, MAE=0.6071, AbsRel=0.2877
+      Composite=17.6
+
+    dav2-vitb:
+      δ1=0.6284, δ2=0.8928, δ3=0.9211
+      RMSE=0.8223, MAE=0.6205, AbsRel=0.2252
+      Composite=6.9
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    marigold:
+      δ1=0.7962, δ2=0.8578, δ3=0.8911
+      RMSE=0.9986, MAE=0.6071, AbsRel=0.2877
+      Composite=17.6
+
+    dav2-severe:
+      δ1=0.6314, δ2=0.8937, δ3=0.9214
+      RMSE=0.8356, MAE=0.6317, AbsRel=0.2282
+      Composite=7.4
+
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav2-vitb:
+      δ1=0.6284, δ2=0.8928, δ3=0.9211
+      RMSE=0.8223, MAE=0.6205, AbsRel=0.2252
+      Composite=6.9
+
+    dav2-severe:
+      δ1=0.6314, δ2=0.8937, δ3=0.9214
+      RMSE=0.8356, MAE=0.6317, AbsRel=0.2282
+      Composite=7.4
+
+
+[20] 1395_1395
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.5729, δ2=0.7922, δ3=0.9261
+      RMSE=0.8950, MAE=0.7895, AbsRel=0.3028
+      Composite=8.3
+
+    dav2-vitb:
+      δ1=0.5374, δ2=0.8184, δ3=0.9177
+      RMSE=0.8643, MAE=0.7549, AbsRel=0.2923
+      Composite=6.5
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.5729, δ2=0.7922, δ3=0.9261
+      RMSE=0.8950, MAE=0.7895, AbsRel=0.3028
+      Composite=8.3
+
+    dav2-severe:
+      δ1=0.5376, δ2=0.8025, δ3=0.9193
+      RMSE=0.8944, MAE=0.7837, AbsRel=0.3008
+      Composite=7.1
+
+
+[21] 0195_0195
+------------------------------------------------------------
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9043, δ2=0.9944, δ3=0.9981
+      RMSE=0.2365, MAE=0.1627, AbsRel=0.1144
+      Composite=5.2
+
+    dav2-vitb:
+      δ1=0.9274, δ2=0.9781, δ3=0.9852
+      RMSE=0.2508, MAE=0.1670, AbsRel=0.1213
+      Composite=6.3
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9043, δ2=0.9944, δ3=0.9981
+      RMSE=0.2365, MAE=0.1627, AbsRel=0.1144
+      Composite=5.2
+
+    dav2-severe:
+      δ1=0.9227, δ2=0.9787, δ3=0.9862
+      RMSE=0.2499, MAE=0.1663, AbsRel=0.1207
+      Composite=6.1
+
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav2-vitb:
+      δ1=0.9274, δ2=0.9781, δ3=0.9852
+      RMSE=0.2508, MAE=0.1670, AbsRel=0.1213
+      Composite=6.3
+
+    dav2-severe:
+      δ1=0.9227, δ2=0.9787, δ3=0.9862
+      RMSE=0.2499, MAE=0.1663, AbsRel=0.1207
+      Composite=6.1
+
+
+[22] 0230_0230
+------------------------------------------------------------
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav2-vitb:
+      δ1=0.6547, δ2=0.8909, δ3=0.9624
+      RMSE=1.1860, MAE=0.9521, AbsRel=0.2273
+      Composite=12.5
+
+    dav2-severe:
+      δ1=0.6533, δ2=0.8937, δ3=0.9642
+      RMSE=1.1833, MAE=0.9512, AbsRel=0.2267
+      Composite=12.4
+
+
+[23] 0185_0185
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.9106, δ2=0.9446, δ3=0.9724
+      RMSE=0.6092, MAE=0.3479, AbsRel=0.1321
+      Composite=10.3
+
+    marigold:
+      δ1=0.8414, δ2=0.9258, δ3=0.9646
+      RMSE=0.6585, MAE=0.3348, AbsRel=0.1313
+      Composite=8.1
+
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    marigold:
+      δ1=0.8414, δ2=0.9258, δ3=0.9646
+      RMSE=0.6585, MAE=0.3348, AbsRel=0.1313
+      Composite=8.1
+
+    dav2-vitb:
+      δ1=0.8495, δ2=0.9430, δ3=0.9692
+      RMSE=0.6312, MAE=0.3474, AbsRel=0.1346
+      Composite=8.5
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    marigold:
+      δ1=0.8414, δ2=0.9258, δ3=0.9646
+      RMSE=0.6585, MAE=0.3348, AbsRel=0.1313
+      Composite=8.1
+
+    dav2-severe:
+      δ1=0.8516, δ2=0.9430, δ3=0.9695
+      RMSE=0.6306, MAE=0.3475, AbsRel=0.1346
+      Composite=8.6
+
+
+[24] 0590_0590
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9883, δ2=0.9988, δ3=1.0000
+      RMSE=0.1950, MAE=0.1442, AbsRel=0.0590
+      Composite=5.0
+
+    marigold:
+      δ1=0.9859, δ2=0.9949, δ3=1.0000
+      RMSE=0.1751, MAE=0.1227, AbsRel=0.0522
+      Composite=4.2
+
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9660, δ2=0.9937, δ3=0.9991
+      RMSE=0.2171, MAE=0.1452, AbsRel=0.0599
+      Composite=4.4
+
+    dav2-vitb:
+      δ1=0.9800, δ2=0.9898, δ3=0.9983
+      RMSE=0.2228, MAE=0.1705, AbsRel=0.0676
+      Composite=5.3
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9660, δ2=0.9937, δ3=0.9991
+      RMSE=0.2171, MAE=0.1452, AbsRel=0.0599
+      Composite=4.4
+
+    dav2-severe:
+      δ1=0.9803, δ2=0.9915, δ3=0.9980
+      RMSE=0.2253, MAE=0.1738, AbsRel=0.0693
+      Composite=5.5
+
+
+[25] 0390_0390
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.5332, δ2=0.8483, δ3=0.9517
+      RMSE=0.5817, MAE=0.4898, AbsRel=0.2561
+      Composite=1.5
+
+    zoedepth-nk:
+      δ1=0.5395, δ2=0.8151, δ3=0.9917
+      RMSE=0.7380, MAE=0.5515, AbsRel=0.2573
+      Composite=3.2
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.5395, δ2=0.8151, δ3=0.9917
+      RMSE=0.7380, MAE=0.5515, AbsRel=0.2573
+      Composite=3.2
+
+    dav2-severe:
+      δ1=0.5339, δ2=0.8754, δ3=0.9408
+      RMSE=0.5794, MAE=0.4628, AbsRel=0.2392
+      Composite=1.0
+
+
+[26] 0975_0975
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9790, δ2=1.0000, δ3=1.0000
+      RMSE=0.3350, MAE=0.2784, AbsRel=0.0895
+      Composite=7.9
+
+    zoedepth-nk:
+      δ1=0.9698, δ2=0.9996, δ3=1.0000
+      RMSE=0.3117, MAE=0.2596, AbsRel=0.0860
+      Composite=7.1
+
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9790, δ2=1.0000, δ3=1.0000
+      RMSE=0.3350, MAE=0.2784, AbsRel=0.0895
+      Composite=7.9
+
+    dav2-vitb:
+      δ1=0.9767, δ2=0.9901, δ3=0.9951
+      RMSE=0.3039, MAE=0.2150, AbsRel=0.0717
+      Composite=6.4
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9790, δ2=1.0000, δ3=1.0000
+      RMSE=0.3350, MAE=0.2784, AbsRel=0.0895
+      Composite=7.9
+
+    dav2-severe:
+      δ1=0.9724, δ2=0.9906, δ3=0.9964
+      RMSE=0.3059, MAE=0.2192, AbsRel=0.0733
+      Composite=6.4
+
+
+[27] 0525_0525
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9890, δ2=1.0000, δ3=1.0000
+      RMSE=0.1549, MAE=0.1219, AbsRel=0.0454
+      Composite=3.8
+
+    dav2-vitb:
+      δ1=0.9905, δ2=0.9985, δ3=1.0000
+      RMSE=0.2038, MAE=0.1742, AbsRel=0.0640
+      Composite=5.4
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9890, δ2=1.0000, δ3=1.0000
+      RMSE=0.1549, MAE=0.1219, AbsRel=0.0454
+      Composite=3.8
+
+    dav2-severe:
+      δ1=0.9905, δ2=0.9988, δ3=1.0000
+      RMSE=0.2071, MAE=0.1760, AbsRel=0.0647
+      Composite=5.5
+
+
+[28] 1085_1085
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.7775, δ2=0.9676, δ3=0.9891
+      RMSE=0.5291, MAE=0.4364, AbsRel=0.1475
+      Composite=5.7
+
+    dav2-vitb:
+      δ1=0.8433, δ2=0.9547, δ3=0.9661
+      RMSE=0.6045, MAE=0.4549, AbsRel=0.1498
+      Composite=8.9
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.7775, δ2=0.9676, δ3=0.9891
+      RMSE=0.5291, MAE=0.4364, AbsRel=0.1475
+      Composite=5.7
+
+    dav2-severe:
+      δ1=0.8382, δ2=0.9544, δ3=0.9662
+      RMSE=0.6068, MAE=0.4597, AbsRel=0.1514
+      Composite=8.8
+
+
+[29] 0295_0295
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.8127, δ2=0.9354, δ3=0.9537
+      RMSE=0.6270, MAE=0.5136, AbsRel=0.1648
+      Composite=8.6
+
+    zoedepth-nk:
+      δ1=0.7815, δ2=0.9453, δ3=0.9899
+      RMSE=0.6399, MAE=0.4769, AbsRel=0.1644
+      Composite=7.8
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    marigold:
+      δ1=0.7321, δ2=0.9060, δ3=0.9900
+      RMSE=0.7095, MAE=0.5657, AbsRel=0.2037
+      Composite=8.3
+
+    dav2-severe:
+      δ1=0.7426, δ2=0.9239, δ3=0.9423
+      RMSE=0.7133, MAE=0.6020, AbsRel=0.1999
+      Composite=8.8
+
+
+[30] 1445_1445
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.7145, δ2=0.8054, δ3=0.8664
+      RMSE=0.7451, MAE=0.5492, AbsRel=0.2910
+      Composite=10.9
+
+    dav2-vitb:
+      δ1=0.7845, δ2=0.8240, δ3=0.8551
+      RMSE=0.8546, MAE=0.5689, AbsRel=0.2858
+      Composite=14.8
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.7145, δ2=0.8054, δ3=0.8664
+      RMSE=0.7451, MAE=0.5492, AbsRel=0.2910
+      Composite=10.9
+
+    dav2-severe:
+      δ1=0.7755, δ2=0.8261, δ3=0.8591
+      RMSE=0.8501, MAE=0.5697, AbsRel=0.2853
+      Composite=14.4
+
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.7396, δ2=0.8442, δ3=0.8832
+      RMSE=0.7119, MAE=0.5192, AbsRel=0.2823
+      Composite=11.6
+
+    dav2-vitb:
+      δ1=0.7845, δ2=0.8240, δ3=0.8551
+      RMSE=0.8546, MAE=0.5689, AbsRel=0.2858
+      Composite=14.8
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.7396, δ2=0.8442, δ3=0.8832
+      RMSE=0.7119, MAE=0.5192, AbsRel=0.2823
+      Composite=11.6
+
+    dav2-severe:
+      δ1=0.7755, δ2=0.8261, δ3=0.8591
+      RMSE=0.8501, MAE=0.5697, AbsRel=0.2853
+      Composite=14.4
+
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav2-vitb:
+      δ1=0.7845, δ2=0.8240, δ3=0.8551
+      RMSE=0.8546, MAE=0.5689, AbsRel=0.2858
+      Composite=14.8
+
+    dav2-severe:
+      δ1=0.7755, δ2=0.8261, δ3=0.8591
+      RMSE=0.8501, MAE=0.5697, AbsRel=0.2853
+      Composite=14.4
+
+
+[31] 0440_0440
+------------------------------------------------------------
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav2-vitb:
+      δ1=0.8805, δ2=0.9364, δ3=0.9903
+      RMSE=0.5369, MAE=0.3497, AbsRel=0.1456
+      Composite=8.9
+
+    dav2-severe:
+      δ1=0.8741, δ2=0.9396, δ3=0.9874
+      RMSE=0.5370, MAE=0.3492, AbsRel=0.1452
+      Composite=8.7
+
+
+[32] 1285_1285
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.7858, δ2=0.9609, δ3=0.9936
+      RMSE=0.4949, MAE=0.4302, AbsRel=0.1484
+      Composite=5.5
+
+    dav2-vitb:
+      δ1=0.7937, δ2=0.9637, δ3=0.9866
+      RMSE=0.5850, MAE=0.4502, AbsRel=0.1484
+      Composite=7.0
+
+
+[33] 0040_0040
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.8906, δ2=0.9745, δ3=0.9964
+      RMSE=0.2821, MAE=0.1981, AbsRel=0.0972
+      Composite=4.2
+
+    marigold:
+      δ1=0.9177, δ2=0.9681, δ3=0.9850
+      RMSE=0.4001, MAE=0.2631, AbsRel=0.1205
+      Composite=7.7
+
+
+[34] 0585_0585
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.9758, δ2=0.9975, δ3=1.0000
+      RMSE=0.1962, MAE=0.1557, AbsRel=0.0546
+      Composite=4.3
+
+    marigold:
+      δ1=0.9694, δ2=0.9877, δ3=0.9998
+      RMSE=0.2410, MAE=0.1435, AbsRel=0.0518
+      Composite=4.3
+
+
+  zoedepth-nk vs marigold:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9740, δ2=1.0000, δ3=1.0000
+      RMSE=0.2368, MAE=0.1827, AbsRel=0.0613
+      Composite=5.1
+
+    marigold:
+      δ1=0.9694, δ2=0.9877, δ3=0.9998
+      RMSE=0.2410, MAE=0.1435, AbsRel=0.0518
+      Composite=4.3
+
+
+[35] 0045_0045
+------------------------------------------------------------
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.8732, δ2=0.9701, δ3=1.0000
+      RMSE=0.2134, MAE=0.1467, AbsRel=0.1173
+      Composite=3.6
+
+    dav2-vitb:
+      δ1=0.8784, δ2=0.9681, δ3=1.0000
+      RMSE=0.2136, MAE=0.1521, AbsRel=0.1193
+      Composite=3.9
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.8732, δ2=0.9701, δ3=1.0000
+      RMSE=0.2134, MAE=0.1467, AbsRel=0.1173
+      Composite=3.6
+
+    dav2-severe:
+      δ1=0.8794, δ2=0.9685, δ3=0.9998
+      RMSE=0.2135, MAE=0.1521, AbsRel=0.1194
+      Composite=3.9
+
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav2-vitb:
+      δ1=0.8784, δ2=0.9681, δ3=1.0000
+      RMSE=0.2136, MAE=0.1521, AbsRel=0.1193
+      Composite=3.9
+
+    dav2-severe:
+      δ1=0.8794, δ2=0.9685, δ3=0.9998
+      RMSE=0.2135, MAE=0.1521, AbsRel=0.1194
+      Composite=3.9
+
+
+[36] 0130_0130
+------------------------------------------------------------
+
+  zoedepth-nk vs marigold:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9560, δ2=0.9933, δ3=1.0000
+      RMSE=0.1771, MAE=0.1307, AbsRel=0.0757
+      Composite=4.4
+
+    marigold:
+      δ1=0.9520, δ2=0.9862, δ3=0.9949
+      RMSE=0.1716, MAE=0.1049, AbsRel=0.0686
+      Composite=3.7
+
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav2-vitb:
+      δ1=0.9008, δ2=0.9772, δ3=0.9822
+      RMSE=0.2943, MAE=0.2120, AbsRel=0.1256
+      Composite=6.1
+
+    dav2-severe:
+      δ1=0.8922, δ2=0.9779, δ3=0.9827
+      RMSE=0.2914, MAE=0.2108, AbsRel=0.1248
+      Composite=5.8
+
+
+[37] 1235_1235
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.8921, δ2=0.9950, δ3=1.0000
+      RMSE=0.3558, MAE=0.2643, AbsRel=0.1116
+      Composite=6.2
+
+    dav2-vitb:
+      δ1=0.9155, δ2=0.9783, δ3=0.9872
+      RMSE=0.4074, MAE=0.2792, AbsRel=0.1140
+      Composite=7.5
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.8921, δ2=0.9950, δ3=1.0000
+      RMSE=0.3558, MAE=0.2643, AbsRel=0.1116
+      Composite=6.2
+
+    dav2-severe:
+      δ1=0.9075, δ2=0.9802, δ3=0.9889
+      RMSE=0.4091, MAE=0.2827, AbsRel=0.1158
+      Composite=7.4
+
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.8818, δ2=0.9906, δ3=0.9958
+      RMSE=0.3798, MAE=0.2746, AbsRel=0.1154
+      Composite=6.2
+
+    dav2-vitb:
+      δ1=0.9155, δ2=0.9783, δ3=0.9872
+      RMSE=0.4074, MAE=0.2792, AbsRel=0.1140
+      Composite=7.5
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.8818, δ2=0.9906, δ3=0.9958
+      RMSE=0.3798, MAE=0.2746, AbsRel=0.1154
+      Composite=6.2
+
+    dav2-severe:
+      δ1=0.9075, δ2=0.9802, δ3=0.9889
+      RMSE=0.4091, MAE=0.2827, AbsRel=0.1158
+      Composite=7.4
+
+
+[38] 0345_0345
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.7603, δ2=0.9515, δ3=0.9782
+      RMSE=0.3507, MAE=0.2571, AbsRel=0.1492
+      Composite=2.7
+
+    marigold:
+      δ1=0.8816, δ2=0.9776, δ3=0.9860
+      RMSE=0.3981, MAE=0.2532, AbsRel=0.1533
+      Composite=8.2
+
+
+[39] 0010_0010
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9985, δ2=1.0000, δ3=1.0000
+      RMSE=0.1540, MAE=0.1280, AbsRel=0.0670
+      Composite=5.2
+
+    dav2-vitb:
+      δ1=0.9883, δ2=0.9980, δ3=1.0000
+      RMSE=0.1298, MAE=0.0888, AbsRel=0.0466
+      Composite=3.5
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9985, δ2=1.0000, δ3=1.0000
+      RMSE=0.1540, MAE=0.1280, AbsRel=0.0670
+      Composite=5.2
+
+    dav2-severe:
+      δ1=0.9887, δ2=0.9986, δ3=1.0000
+      RMSE=0.1297, MAE=0.0907, AbsRel=0.0477
+      Composite=3.6
+
+
+[40] 0225_0225
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.7105, δ2=0.8358, δ3=0.8744
+      RMSE=1.1834, MAE=0.8546, AbsRel=0.3262
+      Composite=18.5
+
+    zoedepth-nk:
+      δ1=0.6912, δ2=0.8358, δ3=0.9149
+      RMSE=1.1083, MAE=0.7328, AbsRel=0.2712
+      Composite=14.1
+
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.5960, δ2=0.7710, δ3=0.8576
+      RMSE=1.3912, MAE=1.0191, AbsRel=0.3731
+      Composite=18.5
+
+    dav2-vitb:
+      δ1=0.6176, δ2=0.7957, δ3=0.8611
+      RMSE=1.4273, MAE=1.1044, AbsRel=0.3845
+      Composite=20.6
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.5960, δ2=0.7710, δ3=0.8576
+      RMSE=1.3912, MAE=1.0191, AbsRel=0.3731
+      Composite=18.5
+
+    dav2-severe:
+      δ1=0.6173, δ2=0.7952, δ3=0.8603
+      RMSE=1.4244, MAE=1.1017, AbsRel=0.3835
+      Composite=20.5
+
+
+[41] 1035_1035
+------------------------------------------------------------
+
+  zoedepth-nk vs marigold:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9661, δ2=0.9983, δ3=1.0000
+      RMSE=0.2816, MAE=0.2240, AbsRel=0.0855
+      Composite=6.6
+
+    marigold:
+      δ1=0.9629, δ2=0.9879, δ3=1.0000
+      RMSE=0.2560, MAE=0.1625, AbsRel=0.0673
+      Composite=5.1
+
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9661, δ2=0.9983, δ3=1.0000
+      RMSE=0.2816, MAE=0.2240, AbsRel=0.0855
+      Composite=6.6
+
+    dav2-vitb:
+      δ1=0.9615, δ2=0.9868, δ3=0.9945
+      RMSE=0.2688, MAE=0.1928, AbsRel=0.0757
+      Composite=5.6
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9661, δ2=0.9983, δ3=1.0000
+      RMSE=0.2816, MAE=0.2240, AbsRel=0.0855
+      Composite=6.6
+
+    dav2-severe:
+      δ1=0.9624, δ2=0.9872, δ3=0.9954
+      RMSE=0.2693, MAE=0.1967, AbsRel=0.0775
+      Composite=5.7
+
+
+[42] 0310_0310
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.4813, δ2=0.8914, δ3=0.9761
+      RMSE=1.0507, MAE=0.8368, AbsRel=0.2573
+      Composite=6.2
+
+    dav2-vitb:
+      δ1=0.5645, δ2=0.9274, δ3=0.9722
+      RMSE=1.1983, MAE=0.8687, AbsRel=0.2396
+      Composite=10.6
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.4813, δ2=0.8914, δ3=0.9761
+      RMSE=1.0507, MAE=0.8368, AbsRel=0.2573
+      Composite=6.2
+
+    dav2-severe:
+      δ1=0.5543, δ2=0.9270, δ3=0.9735
+      RMSE=1.2000, MAE=0.8736, AbsRel=0.2423
+      Composite=10.4
+
+
+[43] 0755_0755
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.5567, δ2=0.9469, δ3=0.9816
+      RMSE=1.1110, MAE=0.8588, AbsRel=0.2083
+      Composite=8.0
+
+    zoedepth-nk:
+      δ1=0.6816, δ2=0.9716, δ3=0.9906
+      RMSE=1.1719, MAE=0.8691, AbsRel=0.1935
+      Composite=12.8
+
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.5567, δ2=0.9469, δ3=0.9816
+      RMSE=1.1110, MAE=0.8588, AbsRel=0.2083
+      Composite=8.0
+
+    dav2-vitb:
+      δ1=0.5767, δ2=0.9292, δ3=0.9552
+      RMSE=1.1893, MAE=0.8800, AbsRel=0.2323
+      Composite=10.6
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.5567, δ2=0.9469, δ3=0.9816
+      RMSE=1.1110, MAE=0.8588, AbsRel=0.2083
+      Composite=8.0
+
+    dav2-severe:
+      δ1=0.5769, δ2=0.9279, δ3=0.9551
+      RMSE=1.1932, MAE=0.8843, AbsRel=0.2333
+      Composite=10.7
+
+
+[44] 0140_0140
+------------------------------------------------------------
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9575, δ2=0.9995, δ3=1.0000
+      RMSE=0.1572, MAE=0.1326, AbsRel=0.1037
+      Composite=5.7
+
+    dav2-vitb:
+      δ1=0.9356, δ2=0.9780, δ3=0.9933
+      RMSE=0.1533, MAE=0.1256, AbsRel=0.1047
+      Composite=4.6
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9575, δ2=0.9995, δ3=1.0000
+      RMSE=0.1572, MAE=0.1326, AbsRel=0.1037
+      Composite=5.7
+
+    dav2-severe:
+      δ1=0.9327, δ2=0.9796, δ3=0.9929
+      RMSE=0.1531, MAE=0.1255, AbsRel=0.1046
+      Composite=4.5
+
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav2-vitb:
+      δ1=0.9356, δ2=0.9780, δ3=0.9933
+      RMSE=0.1533, MAE=0.1256, AbsRel=0.1047
+      Composite=4.6
+
+    dav2-severe:
+      δ1=0.9327, δ2=0.9796, δ3=0.9929
+      RMSE=0.1531, MAE=0.1255, AbsRel=0.1046
+      Composite=4.5
+
+
+[45] 0555_0555
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9528, δ2=0.9982, δ3=1.0000
+      RMSE=0.2032, MAE=0.1573, AbsRel=0.0781
+      Composite=4.8
+
+    dav2-vitb:
+      δ1=0.9555, δ2=0.9808, δ3=0.9890
+      RMSE=0.2595, MAE=0.1893, AbsRel=0.0938
+      Composite=6.1
+
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav2-vitb:
+      δ1=0.9555, δ2=0.9808, δ3=0.9890
+      RMSE=0.2595, MAE=0.1893, AbsRel=0.0938
+      Composite=6.1
+
+    dav2-severe:
+      δ1=0.9532, δ2=0.9817, δ3=0.9898
+      RMSE=0.2567, MAE=0.1882, AbsRel=0.0934
+      Composite=6.0
+
+
+[46] 0150_0150
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9222, δ2=0.9406, δ3=0.9425
+      RMSE=0.7057, MAE=0.4073, AbsRel=0.1400
+      Composite=12.2
+
+    marigold:
+      δ1=0.8758, δ2=0.9300, δ3=0.9508
+      RMSE=0.6881, MAE=0.3629, AbsRel=0.1290
+      Composite=9.7
+
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav2-vitb:
+      δ1=0.8018, δ2=0.9399, δ3=0.9417
+      RMSE=0.7534, MAE=0.4503, AbsRel=0.1636
+      Composite=9.8
+
+    dav2-severe:
+      δ1=0.8082, δ2=0.9399, δ3=0.9417
+      RMSE=0.7541, MAE=0.4515, AbsRel=0.1641
+      Composite=10.0
+
+
+[47] 1215_1215
+------------------------------------------------------------
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.8638, δ2=0.9977, δ3=1.0000
+      RMSE=0.4419, MAE=0.3191, AbsRel=0.1160
+      Composite=6.5
+
+    dav2-vitb:
+      δ1=0.9472, δ2=0.9780, δ3=0.9849
+      RMSE=0.4648, MAE=0.3325, AbsRel=0.1209
+      Composite=9.7
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.8638, δ2=0.9977, δ3=1.0000
+      RMSE=0.4419, MAE=0.3191, AbsRel=0.1160
+      Composite=6.5
+
+    dav2-severe:
+      δ1=0.9437, δ2=0.9769, δ3=0.9845
+      RMSE=0.4601, MAE=0.3311, AbsRel=0.1203
+      Composite=9.5
+
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.9198, δ2=0.9830, δ3=0.9894
+      RMSE=0.4636, MAE=0.3115, AbsRel=0.1153
+      Composite=8.5
+
+    dav2-vitb:
+      δ1=0.9472, δ2=0.9780, δ3=0.9849
+      RMSE=0.4648, MAE=0.3325, AbsRel=0.1209
+      Composite=9.7
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    marigold:
+      δ1=0.9198, δ2=0.9830, δ3=0.9894
+      RMSE=0.4636, MAE=0.3115, AbsRel=0.1153
+      Composite=8.5
+
+    dav2-severe:
+      δ1=0.9437, δ2=0.9769, δ3=0.9845
+      RMSE=0.4601, MAE=0.3311, AbsRel=0.1203
+      Composite=9.5
+
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav2-vitb:
+      δ1=0.9472, δ2=0.9780, δ3=0.9849
+      RMSE=0.4648, MAE=0.3325, AbsRel=0.1209
+      Composite=9.7
+
+    dav2-severe:
+      δ1=0.9437, δ2=0.9769, δ3=0.9845
+      RMSE=0.4601, MAE=0.3311, AbsRel=0.1203
+      Composite=9.5
+
+
+[48] 0080_0080
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9197, δ2=1.0000, δ3=1.0000
+      RMSE=0.2308, MAE=0.1943, AbsRel=0.0980
+      Composite=5.0
+
+    zoedepth-nk:
+      δ1=0.9054, δ2=0.9956, δ3=1.0000
+      RMSE=0.2177, MAE=0.1570, AbsRel=0.0882
+      Composite=3.8
+
+
+[49] 0835_0835
+------------------------------------------------------------
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.6816, δ2=0.8436, δ3=0.8908
+      RMSE=0.7318, MAE=0.5566, AbsRel=0.2703
+      Composite=9.2
+
+    dav2-vitb:
+      δ1=0.7076, δ2=0.8527, δ3=0.8814
+      RMSE=0.7968, MAE=0.6372, AbsRel=0.2751
+      Composite=11.3
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.6816, δ2=0.8436, δ3=0.8908
+      RMSE=0.7318, MAE=0.5566, AbsRel=0.2703
+      Composite=9.2
+
+    dav2-severe:
+      δ1=0.7072, δ2=0.8532, δ3=0.8835
+      RMSE=0.7944, MAE=0.6374, AbsRel=0.2750
+      Composite=11.2
+
+
+[50] 0425_0425
+------------------------------------------------------------
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    marigold:
+      δ1=0.8157, δ2=0.9425, δ3=0.9765
+      RMSE=0.8371, MAE=0.5301, AbsRel=0.1583
+      Composite=11.1
+
+    dav2-vitb:
+      δ1=0.8369, δ2=0.9618, δ3=0.9716
+      RMSE=0.7997, MAE=0.6242, AbsRel=0.1710
+      Composite=12.3
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    marigold:
+      δ1=0.8157, δ2=0.9425, δ3=0.9765
+      RMSE=0.8371, MAE=0.5301, AbsRel=0.1583
+      Composite=11.1
+
+    dav2-severe:
+      δ1=0.8315, δ2=0.9592, δ3=0.9720
+      RMSE=0.7999, MAE=0.6274, AbsRel=0.1722
+      Composite=12.1
+
+
+[51] 0520_0520
+------------------------------------------------------------
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    marigold:
+      δ1=0.8472, δ2=0.9837, δ3=0.9897
+      RMSE=0.4225, MAE=0.3065, AbsRel=0.1369
+      Composite=6.5
+
+    dav2-vitb:
+      δ1=0.7812, δ2=0.9757, δ3=0.9884
+      RMSE=0.4054, MAE=0.3064, AbsRel=0.1454
+      Composite=4.3
+
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav2-vitb:
+      δ1=0.7812, δ2=0.9757, δ3=0.9884
+      RMSE=0.4054, MAE=0.3064, AbsRel=0.1454
+      Composite=4.3
+
+    dav2-severe:
+      δ1=0.7845, δ2=0.9741, δ3=0.9896
+      RMSE=0.4062, MAE=0.3093, AbsRel=0.1471
+      Composite=4.5
+
+
+[52] 0535_0535
+------------------------------------------------------------
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav2-vitb:
+      δ1=0.9486, δ2=0.9793, δ3=0.9862
+      RMSE=0.2075, MAE=0.1469, AbsRel=0.0915
+      Composite=5.1
+
+    dav2-severe:
+      δ1=0.9475, δ2=0.9802, δ3=0.9872
+      RMSE=0.2057, MAE=0.1461, AbsRel=0.0909
+      Composite=5.0
+
+
+[53] 0315_0315
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.7830, δ2=0.9390, δ3=0.9587
+      RMSE=0.6872, MAE=0.5715, AbsRel=0.1781
+      Composite=9.0
+
+    zoedepth-nk:
+      δ1=0.7170, δ2=0.9557, δ3=0.9917
+      RMSE=0.7305, MAE=0.5638, AbsRel=0.1612
+      Composite=6.6
+
+
+[54] 0360_0360
+------------------------------------------------------------
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav2-vitb:
+      δ1=0.7195, δ2=0.9471, δ3=0.9862
+      RMSE=0.2797, MAE=0.2397, AbsRel=0.1799
+      Composite=1.9
+
+    dav2-severe:
+      δ1=0.7230, δ2=0.9486, δ3=0.9850
+      RMSE=0.2801, MAE=0.2399, AbsRel=0.1802
+      Composite=2.0
+
+
+[55] 0490_0490
+------------------------------------------------------------
+
+  zoedepth-nk vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.2952, δ2=0.7824, δ3=0.9710
+      RMSE=1.2144, MAE=1.0546, AbsRel=0.3568
+      Composite=5.1
+
+    marigold:
+      δ1=0.4019, δ2=0.7516, δ3=0.8555
+      RMSE=1.3866, MAE=1.0907, AbsRel=0.4085
+      Composite=13.1
+
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav2-vitb:
+      δ1=0.6473, δ2=0.8797, δ3=0.9470
+      RMSE=0.9144, MAE=0.6888, AbsRel=0.2349
+      Composite=9.0
+
+    dav2-severe:
+      δ1=0.6524, δ2=0.8763, δ3=0.9476
+      RMSE=0.9154, MAE=0.6920, AbsRel=0.2353
+      Composite=9.2
+
+
+[56] 0050_0050
+------------------------------------------------------------
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav2-vitb:
+      δ1=0.9690, δ2=0.9778, δ3=0.9839
+      RMSE=0.2847, MAE=0.1947, AbsRel=0.0980
+      Composite=7.0
+
+    dav2-severe:
+      δ1=0.9674, δ2=0.9784, δ3=0.9847
+      RMSE=0.2804, MAE=0.1918, AbsRel=0.0964
+      Composite=6.9
+
+
+[57] 0250_0250
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.5094, δ2=0.7641, δ3=0.8389
+      RMSE=0.8999, MAE=0.6019, AbsRel=0.3425
+      Composite=7.7
+
+    zoedepth-nk:
+      δ1=0.4574, δ2=0.7909, δ3=0.9056
+      RMSE=0.6553, MAE=0.4984, AbsRel=0.2749
+      Composite=-0.2
+
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.5094, δ2=0.7641, δ3=0.8389
+      RMSE=0.8999, MAE=0.6019, AbsRel=0.3425
+      Composite=7.7
+
+    marigold:
+      δ1=0.5130, δ2=0.6694, δ3=0.7981
+      RMSE=1.2768, MAE=0.7209, AbsRel=0.4322
+      Composite=15.6
+
+
+  zoedepth-nk vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.4574, δ2=0.7909, δ3=0.9056
+      RMSE=0.6553, MAE=0.4984, AbsRel=0.2749
+      Composite=-0.2
+
+    marigold:
+      δ1=0.5130, δ2=0.6694, δ3=0.7981
+      RMSE=1.2768, MAE=0.7209, AbsRel=0.4322
+      Composite=15.6
+
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    marigold:
+      δ1=0.5130, δ2=0.6694, δ3=0.7981
+      RMSE=1.2768, MAE=0.7209, AbsRel=0.4322
+      Composite=15.6
+
+    dav2-vitb:
+      δ1=0.4437, δ2=0.6790, δ3=0.7319
+      RMSE=1.0524, MAE=0.7160, AbsRel=0.4403
+      Composite=10.9
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    marigold:
+      δ1=0.5130, δ2=0.6694, δ3=0.7981
+      RMSE=1.2768, MAE=0.7209, AbsRel=0.4322
+      Composite=15.6
+
+    dav2-severe:
+      δ1=0.4453, δ2=0.6789, δ3=0.7371
+      RMSE=1.0635, MAE=0.7159, AbsRel=0.4360
+      Composite=10.9
+
+
+[58] 1040_1040
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.6568, δ2=0.8421, δ3=0.9150
+      RMSE=0.5512, MAE=0.4571, AbsRel=0.2712
+      Composite=6.1
+
+    marigold:
+      δ1=0.5886, δ2=0.8980, δ3=0.9833
+      RMSE=0.5176, MAE=0.3910, AbsRel=0.2355
+      Composite=2.3
+
+
+[59] 0950_0950
+------------------------------------------------------------
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav2-vitb:
+      δ1=0.5069, δ2=0.9369, δ3=0.9576
+      RMSE=0.5563, MAE=0.4665, AbsRel=0.2365
+      Composite=0.6
+
+    dav2-severe:
+      δ1=0.5082, δ2=0.9379, δ3=0.9582
+      RMSE=0.5610, MAE=0.4711, AbsRel=0.2385
+      Composite=0.8
+
+
+[60] 0625_0625
+------------------------------------------------------------
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9919, δ2=0.9999, δ3=1.0000
+      RMSE=0.2135, MAE=0.1714, AbsRel=0.0736
+      Composite=6.1
+
+    dav2-vitb:
+      δ1=0.9725, δ2=0.9959, δ3=0.9995
+      RMSE=0.1811, MAE=0.1143, AbsRel=0.0479
+      Composite=3.6
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9919, δ2=0.9999, δ3=1.0000
+      RMSE=0.2135, MAE=0.1714, AbsRel=0.0736
+      Composite=6.1
+
+    dav2-severe:
+      δ1=0.9747, δ2=0.9961, δ3=0.9997
+      RMSE=0.1837, MAE=0.1202, AbsRel=0.0508
+      Composite=3.9
+
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav2-vitb:
+      δ1=0.9725, δ2=0.9959, δ3=0.9995
+      RMSE=0.1811, MAE=0.1143, AbsRel=0.0479
+      Composite=3.6
+
+    dav2-severe:
+      δ1=0.9747, δ2=0.9961, δ3=0.9997
+      RMSE=0.1837, MAE=0.1202, AbsRel=0.0508
+      Composite=3.9
+
+
+[61] 1305_1305
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.5201, δ2=0.7655, δ3=0.8451
+      RMSE=1.0858, MAE=0.8100, AbsRel=0.3319
+      Composite=9.9
+
+    zoedepth-nk:
+      δ1=0.5130, δ2=0.8809, δ3=0.9616
+      RMSE=0.6975, MAE=0.5127, AbsRel=0.2712
+      Composite=3.4
+
+
+[62] 0115_0115
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.7102, δ2=0.9354, δ3=0.9629
+      RMSE=0.7746, MAE=0.5575, AbsRel=0.1720
+      Composite=7.2
+
+    zoedepth-nk:
+      δ1=0.7416, δ2=0.9801, δ3=0.9995
+      RMSE=0.8247, MAE=0.5606, AbsRel=0.1715
+      Composite=9.5
+
+
+[63] 0955_0955
+------------------------------------------------------------
+
+  zoedepth-nk vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.8109, δ2=0.9753, δ3=0.9964
+      RMSE=0.5579, MAE=0.4203, AbsRel=0.1404
+      Composite=7.0
+
+    marigold:
+      δ1=0.8216, δ2=0.9564, δ3=0.9692
+      RMSE=0.6501, MAE=0.4763, AbsRel=0.1642
+      Composite=9.4
+
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav2-vitb:
+      δ1=0.9360, δ2=0.9602, δ3=0.9652
+      RMSE=0.5818, MAE=0.4009, AbsRel=0.1391
+      Composite=11.4
+
+    dav2-severe:
+      δ1=0.9335, δ2=0.9598, δ3=0.9653
+      RMSE=0.5792, MAE=0.3992, AbsRel=0.1384
+      Composite=11.2
+
+
+[64] 0495_0495
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.8555, δ2=0.9601, δ3=0.9999
+      RMSE=0.3013, MAE=0.2456, AbsRel=0.1503
+      Composite=5.6
+
+    zoedepth-nk:
+      δ1=0.7933, δ2=0.9812, δ3=1.0000
+      RMSE=0.2867, MAE=0.2259, AbsRel=0.1381
+      Composite=3.0
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.8555, δ2=0.9601, δ3=0.9999
+      RMSE=0.3013, MAE=0.2456, AbsRel=0.1503
+      Composite=5.6
+
+    dav2-severe:
+      δ1=0.8543, δ2=0.9819, δ3=0.9998
+      RMSE=0.2629, MAE=0.2131, AbsRel=0.1283
+      Composite=4.3
+
+
+[65] 1245_1245
+------------------------------------------------------------
+
+  zoedepth-nk vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.6130, δ2=0.9580, δ3=0.9930
+      RMSE=1.0351, MAE=0.7715, AbsRel=0.1990
+      Composite=8.7
+
+    marigold:
+      δ1=0.6243, δ2=0.9757, δ3=0.9836
+      RMSE=1.3549, MAE=0.9640, AbsRel=0.2032
+      Composite=13.6
+
+
+[66] 1315_1315
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9410, δ2=0.9937, δ3=1.0000
+      RMSE=0.3614, MAE=0.3005, AbsRel=0.1023
+      Composite=7.5
+
+    dav2-vitb:
+      δ1=0.9290, δ2=0.9815, δ3=0.9990
+      RMSE=0.3481, MAE=0.2883, AbsRel=0.0996
+      Composite=6.6
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9410, δ2=0.9937, δ3=1.0000
+      RMSE=0.3614, MAE=0.3005, AbsRel=0.1023
+      Composite=7.5
+
+    dav2-severe:
+      δ1=0.9301, δ2=0.9816, δ3=0.9979
+      RMSE=0.3508, MAE=0.2892, AbsRel=0.0997
+      Composite=6.6
+
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav2-vitb:
+      δ1=0.9290, δ2=0.9815, δ3=0.9990
+      RMSE=0.3481, MAE=0.2883, AbsRel=0.0996
+      Composite=6.6
+
+    dav2-severe:
+      δ1=0.9301, δ2=0.9816, δ3=0.9979
+      RMSE=0.3508, MAE=0.2892, AbsRel=0.0997
+      Composite=6.6
+
+
+[67] 0545_0545
+------------------------------------------------------------
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.3355, δ2=0.5077, δ3=0.9004
+      RMSE=1.5065, MAE=1.1064, AbsRel=0.5075
+      Composite=13.2
+
+    dav2-vitb:
+      δ1=0.2780, δ2=0.7444, δ3=0.8800
+      RMSE=1.0935, MAE=0.9032, AbsRel=0.3926
+      Composite=4.2
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.3355, δ2=0.5077, δ3=0.9004
+      RMSE=1.5065, MAE=1.1064, AbsRel=0.5075
+      Composite=13.2
+
+    dav2-severe:
+      δ1=0.2759, δ2=0.7338, δ3=0.8802
+      RMSE=1.1052, MAE=0.9126, AbsRel=0.3957
+      Composite=4.3
+
+
+[68] 0410_0410
+------------------------------------------------------------
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.6749, δ2=0.9309, δ3=0.9851
+      RMSE=0.8300, MAE=0.5687, AbsRel=0.1950
+      Composite=7.7
+
+    dav2-vitb:
+      δ1=0.6705, δ2=0.9308, δ3=0.9685
+      RMSE=0.7123, MAE=0.5338, AbsRel=0.1893
+      Composite=5.8
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.6749, δ2=0.9309, δ3=0.9851
+      RMSE=0.8300, MAE=0.5687, AbsRel=0.1950
+      Composite=7.7
+
+    dav2-severe:
+      δ1=0.6706, δ2=0.9308, δ3=0.9701
+      RMSE=0.7117, MAE=0.5359, AbsRel=0.1899
+      Composite=5.8
+
+
+[69] 0205_0205
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9841, δ2=1.0000, δ3=1.0000
+      RMSE=0.1589, MAE=0.1216, AbsRel=0.0792
+      Composite=5.4
+
+    dav2-vitb:
+      δ1=0.9721, δ2=0.9951, δ3=0.9989
+      RMSE=0.1534, MAE=0.1026, AbsRel=0.0672
+      Composite=4.2
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9841, δ2=1.0000, δ3=1.0000
+      RMSE=0.1589, MAE=0.1216, AbsRel=0.0792
+      Composite=5.4
+
+    dav2-severe:
+      δ1=0.9697, δ2=0.9955, δ3=0.9991
+      RMSE=0.1549, MAE=0.1058, AbsRel=0.0694
+      Composite=4.3
+
+
+[70] 1055_1055
+------------------------------------------------------------
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9504, δ2=0.9985, δ3=1.0000
+      RMSE=0.2109, MAE=0.1469, AbsRel=0.0702
+      Composite=4.4
+
+    dav2-vitb:
+      δ1=0.9664, δ2=0.9819, δ3=0.9888
+      RMSE=0.2242, MAE=0.1547, AbsRel=0.0738
+      Composite=5.0
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9504, δ2=0.9985, δ3=1.0000
+      RMSE=0.2109, MAE=0.1469, AbsRel=0.0702
+      Composite=4.4
+
+    dav2-severe:
+      δ1=0.9633, δ2=0.9832, δ3=0.9896
+      RMSE=0.2229, MAE=0.1555, AbsRel=0.0742
+      Composite=5.0
+
+
+[71] 0930_0930
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9304, δ2=0.9900, δ3=1.0000
+      RMSE=0.3293, MAE=0.2685, AbsRel=0.0999
+      Composite=6.5
+
+    dav2-vitb:
+      δ1=0.9420, δ2=0.9771, δ3=0.9866
+      RMSE=0.3721, MAE=0.2786, AbsRel=0.1039
+      Composite=7.5
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9304, δ2=0.9900, δ3=1.0000
+      RMSE=0.3293, MAE=0.2685, AbsRel=0.0999
+      Composite=6.5
+
+    dav2-severe:
+      δ1=0.9359, δ2=0.9770, δ3=0.9882
+      RMSE=0.3727, MAE=0.2808, AbsRel=0.1048
+      Composite=7.3
+
+
+[72] 0285_0285
+------------------------------------------------------------
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.8301, δ2=0.9838, δ3=0.9974
+      RMSE=0.5506, MAE=0.3981, AbsRel=0.1181
+      Composite=6.6
+
+    dav2-vitb:
+      δ1=0.8576, δ2=0.9585, δ3=0.9725
+      RMSE=0.5447, MAE=0.4347, AbsRel=0.1323
+      Composite=7.8
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.8301, δ2=0.9838, δ3=0.9974
+      RMSE=0.5506, MAE=0.3981, AbsRel=0.1181
+      Composite=6.6
+
+    dav2-severe:
+      δ1=0.8554, δ2=0.9582, δ3=0.9732
+      RMSE=0.5485, MAE=0.4398, AbsRel=0.1339
+      Composite=7.9
+
+
+[73] 0580_0580
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9357, δ2=0.9901, δ3=0.9985
+      RMSE=0.3262, MAE=0.2471, AbsRel=0.0902
+      Composite=6.2
+
+    dav2-vitb:
+      δ1=0.9443, δ2=0.9733, δ3=0.9803
+      RMSE=0.4191, MAE=0.2568, AbsRel=0.0932
+      Composite=7.5
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9357, δ2=0.9901, δ3=0.9985
+      RMSE=0.3262, MAE=0.2471, AbsRel=0.0902
+      Composite=6.2
+
+    dav2-severe:
+      δ1=0.9404, δ2=0.9743, δ3=0.9823
+      RMSE=0.4161, MAE=0.2605, AbsRel=0.0945
+      Composite=7.5
+
+
+[74] 0085_0085
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.4281, δ2=0.8296, δ3=0.9240
+      RMSE=1.1440, MAE=0.8684, AbsRel=0.2952
+      Composite=6.5
+
+    marigold:
+      δ1=0.5482, δ2=0.7648, δ3=0.9425
+      RMSE=1.5172, MAE=0.9187, AbsRel=0.3200
+      Composite=15.6
+
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    marigold:
+      δ1=0.5482, δ2=0.7648, δ3=0.9425
+      RMSE=1.5172, MAE=0.9187, AbsRel=0.3200
+      Composite=15.6
+
+    dav2-vitb:
+      δ1=0.4238, δ2=0.8967, δ3=0.9533
+      RMSE=1.3224, MAE=0.9334, AbsRel=0.2901
+      Composite=9.3
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    marigold:
+      δ1=0.5482, δ2=0.7648, δ3=0.9425
+      RMSE=1.5172, MAE=0.9187, AbsRel=0.3200
+      Composite=15.6
+
+    dav2-severe:
+      δ1=0.4243, δ2=0.8884, δ3=0.9535
+      RMSE=1.3280, MAE=0.9379, AbsRel=0.2923
+      Composite=9.4
+
+
+[75] 0400_0400
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.7112, δ2=0.9776, δ3=1.0000
+      RMSE=0.4912, MAE=0.4103, AbsRel=0.1732
+      Composite=4.4
+
+    zoedepth-nk:
+      δ1=0.7371, δ2=0.9871, δ3=0.9994
+      RMSE=0.5224, MAE=0.4192, AbsRel=0.1599
+      Composite=5.1
+
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.8722, δ2=0.9750, δ3=0.9835
+      RMSE=0.5383, MAE=0.3723, AbsRel=0.1488
+      Composite=9.3
+
+    dav2-vitb:
+      δ1=0.8264, δ2=0.9682, δ3=0.9811
+      RMSE=0.4648, MAE=0.3532, AbsRel=0.1426
+      Composite=6.4
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.8722, δ2=0.9750, δ3=0.9835
+      RMSE=0.5383, MAE=0.3723, AbsRel=0.1488
+      Composite=9.3
+
+    dav2-severe:
+      δ1=0.8256, δ2=0.9667, δ3=0.9804
+      RMSE=0.4635, MAE=0.3541, AbsRel=0.1431
+      Composite=6.3
+
+
+[76] 0960_0960
+------------------------------------------------------------
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9928, δ2=1.0000, δ3=1.0000
+      RMSE=0.2226, MAE=0.1764, AbsRel=0.0618
+      Composite=5.6
+
+    dav2-vitb:
+      δ1=0.9872, δ2=0.9969, δ3=1.0000
+      RMSE=0.1780, MAE=0.1269, AbsRel=0.0449
+      Composite=4.0
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9928, δ2=1.0000, δ3=1.0000
+      RMSE=0.2226, MAE=0.1764, AbsRel=0.0618
+      Composite=5.6
+
+    dav2-severe:
+      δ1=0.9872, δ2=0.9972, δ3=1.0000
+      RMSE=0.1787, MAE=0.1284, AbsRel=0.0455
+      Composite=4.0
+
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.9884, δ2=1.0000, δ3=1.0000
+      RMSE=0.2416, MAE=0.1937, AbsRel=0.0686
+      Composite=6.0
+
+    dav2-vitb:
+      δ1=0.9872, δ2=0.9969, δ3=1.0000
+      RMSE=0.1780, MAE=0.1269, AbsRel=0.0449
+      Composite=4.0
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.9884, δ2=1.0000, δ3=1.0000
+      RMSE=0.2416, MAE=0.1937, AbsRel=0.0686
+      Composite=6.0
+
+    dav2-severe:
+      δ1=0.9872, δ2=0.9972, δ3=1.0000
+      RMSE=0.1787, MAE=0.1284, AbsRel=0.0455
+      Composite=4.0
+
+
+[77] 1295_1295
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.6746, δ2=0.9208, δ3=0.9645
+      RMSE=0.7336, MAE=0.5614, AbsRel=0.1959
+      Composite=6.4
+
+    zoedepth-nk:
+      δ1=0.6852, δ2=0.9343, δ3=0.9941
+      RMSE=0.9285, MAE=0.6497, AbsRel=0.1994
+      Composite=9.6
+
+
+[78] 0560_0560
+------------------------------------------------------------
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.7816, δ2=0.9832, δ3=1.0000
+      RMSE=0.2028, MAE=0.1475, AbsRel=0.1266
+      Composite=1.0
+
+    dav2-vitb:
+      δ1=0.8736, δ2=0.9609, δ3=0.9818
+      RMSE=0.2218, MAE=0.1783, AbsRel=0.1462
+      Composite=5.1
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.7816, δ2=0.9832, δ3=1.0000
+      RMSE=0.2028, MAE=0.1475, AbsRel=0.1266
+      Composite=1.0
+
+    dav2-severe:
+      δ1=0.8585, δ2=0.9611, δ3=0.9820
+      RMSE=0.2236, MAE=0.1795, AbsRel=0.1471
+      Composite=4.6
+
+
+[79] 0810_0810
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.7415, δ2=0.8736, δ3=0.9182
+      RMSE=0.9400, MAE=0.7427, AbsRel=0.2268
+      Composite=12.1
+
+    marigold:
+      δ1=0.7195, δ2=0.9360, δ3=0.9738
+      RMSE=1.0072, MAE=0.6468, AbsRel=0.1922
+      Composite=11.4
+
+
+[80] 0070_0070
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9396, δ2=0.9962, δ3=1.0000
+      RMSE=0.1713, MAE=0.1309, AbsRel=0.0728
+      Composite=3.6
+
+    marigold:
+      δ1=0.9652, δ2=0.9845, δ3=0.9906
+      RMSE=0.2552, MAE=0.1433, AbsRel=0.0779
+      Composite=5.6
+
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.8996, δ2=0.9835, δ3=1.0000
+      RMSE=0.2431, MAE=0.1696, AbsRel=0.0903
+      Composite=3.8
+
+    dav2-vitb:
+      δ1=0.9237, δ2=0.9780, δ3=0.9894
+      RMSE=0.2442, MAE=0.1809, AbsRel=0.0947
+      Composite=4.8
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.8996, δ2=0.9835, δ3=1.0000
+      RMSE=0.2431, MAE=0.1696, AbsRel=0.0903
+      Composite=3.8
+
+    dav2-severe:
+      δ1=0.9152, δ2=0.9793, δ3=0.9907
+      RMSE=0.2456, MAE=0.1842, AbsRel=0.0969
+      Composite=4.6
+
+
+[81] 0740_0740
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.8125, δ2=0.9638, δ3=0.9783
+      RMSE=0.2846, MAE=0.2295, AbsRel=0.1383
+      Composite=3.4
+
+    marigold:
+      δ1=0.8752, δ2=0.9719, δ3=0.9840
+      RMSE=0.3698, MAE=0.2619, AbsRel=0.1487
+      Composite=7.3
+
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.8752, δ2=0.9719, δ3=0.9840
+      RMSE=0.3698, MAE=0.2619, AbsRel=0.1487
+      Composite=7.3
+
+    dav2-vitb:
+      δ1=0.8045, δ2=0.9745, δ3=0.9793
+      RMSE=0.3237, MAE=0.2337, AbsRel=0.1389
+      Composite=3.8
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.8752, δ2=0.9719, δ3=0.9840
+      RMSE=0.3698, MAE=0.2619, AbsRel=0.1487
+      Composite=7.3
+
+    dav2-severe:
+      δ1=0.8023, δ2=0.9724, δ3=0.9805
+      RMSE=0.3222, MAE=0.2339, AbsRel=0.1389
+      Composite=3.6
+
+
+[82] 0870_0870
+------------------------------------------------------------
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.9846, δ2=0.9963, δ3=1.0000
+      RMSE=0.2059, MAE=0.1630, AbsRel=0.0867
+      Composite=6.3
+
+    dav2-vitb:
+      δ1=0.9791, δ2=0.9932, δ3=0.9961
+      RMSE=0.1688, MAE=0.1180, AbsRel=0.0627
+      Composite=4.4
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.9846, δ2=0.9963, δ3=1.0000
+      RMSE=0.2059, MAE=0.1630, AbsRel=0.0867
+      Composite=6.3
+
+    dav2-severe:
+      δ1=0.9774, δ2=0.9936, δ3=0.9966
+      RMSE=0.1705, MAE=0.1213, AbsRel=0.0648
+      Composite=4.5
+
+
+[83] 0355_0355
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.4718, δ2=0.6536, δ3=0.7656
+      RMSE=0.9445, MAE=0.8204, AbsRel=0.4334
+      Composite=9.8
+
+    dav2-vitb:
+      δ1=0.4668, δ2=0.7240, δ3=0.8465
+      RMSE=0.8916, MAE=0.7248, AbsRel=0.3587
+      Composite=6.3
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.4718, δ2=0.6536, δ3=0.7656
+      RMSE=0.9445, MAE=0.8204, AbsRel=0.4334
+      Composite=9.8
+
+    dav2-severe:
+      δ1=0.4603, δ2=0.7259, δ3=0.8452
+      RMSE=0.8957, MAE=0.7317, AbsRel=0.3608
+      Composite=6.2
+
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    marigold:
+      δ1=0.5003, δ2=0.7433, δ3=0.8538
+      RMSE=0.9262, MAE=0.6908, AbsRel=0.3713
+      Composite=8.8
+
+    dav2-vitb:
+      δ1=0.4668, δ2=0.7240, δ3=0.8465
+      RMSE=0.8916, MAE=0.7248, AbsRel=0.3587
+      Composite=6.3
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    marigold:
+      δ1=0.5003, δ2=0.7433, δ3=0.8538
+      RMSE=0.9262, MAE=0.6908, AbsRel=0.3713
+      Composite=8.8
+
+    dav2-severe:
+      δ1=0.4603, δ2=0.7259, δ3=0.8452
+      RMSE=0.8957, MAE=0.7317, AbsRel=0.3608
+      Composite=6.2
+
+
+[84] 0675_0675
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.8126, δ2=0.9968, δ3=0.9996
+      RMSE=0.2533, MAE=0.1852, AbsRel=0.1134
+      Composite=2.2
+
+    marigold:
+      δ1=0.8281, δ2=0.9831, δ3=1.0000
+      RMSE=0.2794, MAE=0.2121, AbsRel=0.1284
+      Composite=3.6
+
+
+  zoedepth-nk vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.7960, δ2=0.9920, δ3=1.0000
+      RMSE=0.2610, MAE=0.1983, AbsRel=0.1216
+      Composite=2.1
+
+    marigold:
+      δ1=0.8281, δ2=0.9831, δ3=1.0000
+      RMSE=0.2794, MAE=0.2121, AbsRel=0.1284
+      Composite=3.6
+
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.7960, δ2=0.9920, δ3=1.0000
+      RMSE=0.2610, MAE=0.1983, AbsRel=0.1216
+      Composite=2.1
+
+    dav2-vitb:
+      δ1=0.8004, δ2=0.9927, δ3=1.0000
+      RMSE=0.2711, MAE=0.2081, AbsRel=0.1271
+      Composite=2.6
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.7960, δ2=0.9920, δ3=1.0000
+      RMSE=0.2610, MAE=0.1983, AbsRel=0.1216
+      Composite=2.1
+
+    dav2-severe:
+      δ1=0.8014, δ2=0.9922, δ3=1.0000
+      RMSE=0.2708, MAE=0.2078, AbsRel=0.1269
+      Composite=2.7
+
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.8281, δ2=0.9831, δ3=1.0000
+      RMSE=0.2794, MAE=0.2121, AbsRel=0.1284
+      Composite=3.6
+
+    dav2-vitb:
+      δ1=0.8004, δ2=0.9927, δ3=1.0000
+      RMSE=0.2711, MAE=0.2081, AbsRel=0.1271
+      Composite=2.6
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.8281, δ2=0.9831, δ3=1.0000
+      RMSE=0.2794, MAE=0.2121, AbsRel=0.1284
+      Composite=3.6
+
+    dav2-severe:
+      δ1=0.8014, δ2=0.9922, δ3=1.0000
+      RMSE=0.2708, MAE=0.2078, AbsRel=0.1269
+      Composite=2.7
+
+
+[85] 0825_0825
+------------------------------------------------------------
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav2-vitb:
+      δ1=0.7321, δ2=0.9630, δ3=0.9708
+      RMSE=0.6011, MAE=0.4475, AbsRel=0.1910
+      Composite=7.1
+
+    dav2-severe:
+      δ1=0.7228, δ2=0.9630, δ3=0.9715
+      RMSE=0.5976, MAE=0.4464, AbsRel=0.1906
+      Composite=6.7
+
+
+[86] 0065_0065
+------------------------------------------------------------
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    marigold:
+      δ1=0.9668, δ2=0.9977, δ3=1.0000
+      RMSE=0.1211, MAE=0.0821, AbsRel=0.0616
+      Composite=3.4
+
+    dav2-vitb:
+      δ1=0.9811, δ2=0.9989, δ3=1.0000
+      RMSE=0.1139, MAE=0.0878, AbsRel=0.0657
+      Composite=4.0
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    marigold:
+      δ1=0.9668, δ2=0.9977, δ3=1.0000
+      RMSE=0.1211, MAE=0.0821, AbsRel=0.0616
+      Composite=3.4
+
+    dav2-severe:
+      δ1=0.9811, δ2=0.9990, δ3=1.0000
+      RMSE=0.1146, MAE=0.0889, AbsRel=0.0666
+      Composite=4.1
+
+
+[87] 0885_0885
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.3089, δ2=0.8541, δ3=0.9741
+      RMSE=1.2131, MAE=0.9520, AbsRel=0.3068
+      Composite=4.1
+
+    zoedepth-nk:
+      δ1=0.3804, δ2=0.7458, δ3=0.9725
+      RMSE=1.2893, MAE=0.9565, AbsRel=0.3216
+      Composite=6.7
+
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.3089, δ2=0.8541, δ3=0.9741
+      RMSE=1.2131, MAE=0.9520, AbsRel=0.3068
+      Composite=4.1
+
+    marigold:
+      δ1=0.3396, δ2=0.5629, δ3=0.6849
+      RMSE=1.7571, MAE=1.3340, AbsRel=0.5509
+      Composite=17.3
+
+
+[88] 0385_0385
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.9699, δ2=1.0000, δ3=1.0000
+      RMSE=0.2130, MAE=0.1693, AbsRel=0.0769
+      Composite=5.5
+
+    zoedepth-nk:
+      δ1=0.9619, δ2=1.0000, δ3=1.0000
+      RMSE=0.2189, MAE=0.1545, AbsRel=0.0682
+      Composite=4.8
+
+
+[89] 0915_0915
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9595, δ2=1.0000, δ3=1.0000
+      RMSE=0.2458, MAE=0.1759, AbsRel=0.0717
+      Composite=5.2
+
+    dav2-vitb:
+      δ1=0.9719, δ2=0.9807, δ3=0.9852
+      RMSE=0.2738, MAE=0.1812, AbsRel=0.0784
+      Composite=6.1
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9595, δ2=1.0000, δ3=1.0000
+      RMSE=0.2458, MAE=0.1759, AbsRel=0.0717
+      Composite=5.2
+
+    dav2-severe:
+      δ1=0.9643, δ2=0.9818, δ3=0.9880
+      RMSE=0.2759, MAE=0.1856, AbsRel=0.0806
+      Composite=6.0
+
+
+[90] 0770_0770
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9804, δ2=0.9969, δ3=0.9985
+      RMSE=0.1907, MAE=0.1117, AbsRel=0.0593
+      Composite=4.6
+
+    dav2-vitb:
+      δ1=0.9695, δ2=0.9905, δ3=0.9985
+      RMSE=0.1877, MAE=0.1038, AbsRel=0.0562
+      Composite=3.9
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9804, δ2=0.9969, δ3=0.9985
+      RMSE=0.1907, MAE=0.1117, AbsRel=0.0593
+      Composite=4.6
+
+    dav2-severe:
+      δ1=0.9708, δ2=0.9917, δ3=0.9985
+      RMSE=0.1881, MAE=0.1053, AbsRel=0.0571
+      Composite=4.1
+
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav2-vitb:
+      δ1=0.9695, δ2=0.9905, δ3=0.9985
+      RMSE=0.1877, MAE=0.1038, AbsRel=0.0562
+      Composite=3.9
+
+    dav2-severe:
+      δ1=0.9708, δ2=0.9917, δ3=0.9985
+      RMSE=0.1881, MAE=0.1053, AbsRel=0.0571
+      Composite=4.1
+
+
+[91] 0715_0715
+------------------------------------------------------------
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.9208, δ2=0.9879, δ3=0.9990
+      RMSE=0.3562, MAE=0.2626, AbsRel=0.1171
+      Composite=7.4
+
+    dav2-severe:
+      δ1=0.9181, δ2=0.9818, δ3=0.9920
+      RMSE=0.3320, MAE=0.2421, AbsRel=0.1116
+      Composite=6.6
+
+
+[92] 0685_0685
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.9908, δ2=1.0000, δ3=1.0000
+      RMSE=0.2724, MAE=0.2183, AbsRel=0.0779
+      Composite=7.0
+
+    dav2-vitb:
+      δ1=0.9700, δ2=0.9828, δ3=0.9913
+      RMSE=0.2970, MAE=0.2140, AbsRel=0.0775
+      Composite=6.3
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.9908, δ2=1.0000, δ3=1.0000
+      RMSE=0.2724, MAE=0.2183, AbsRel=0.0779
+      Composite=7.0
+
+    dav2-severe:
+      δ1=0.9700, δ2=0.9837, δ3=0.9921
+      RMSE=0.2953, MAE=0.2146, AbsRel=0.0777
+      Composite=6.3
+
+
+[93] 0380_0380
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.7840, δ2=0.9658, δ3=0.9936
+      RMSE=0.6525, MAE=0.5579, AbsRel=0.1689
+      Composite=8.5
+
+    dav2-vitb:
+      δ1=0.8100, δ2=0.9294, δ3=0.9566
+      RMSE=0.7218, MAE=0.5747, AbsRel=0.1831
+      Composite=10.5
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.7840, δ2=0.9658, δ3=0.9936
+      RMSE=0.6525, MAE=0.5579, AbsRel=0.1689
+      Composite=8.5
+
+    dav2-severe:
+      δ1=0.8006, δ2=0.9313, δ3=0.9591
+      RMSE=0.7215, MAE=0.5752, AbsRel=0.1833
+      Composite=10.2
+
+
+[94] 0215_0215
+------------------------------------------------------------
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.8897, δ2=0.9774, δ3=0.9992
+      RMSE=0.2681, MAE=0.2195, AbsRel=0.1259
+      Composite=5.4
+
+    dav2-vitb:
+      δ1=0.9069, δ2=0.9702, δ3=0.9988
+      RMSE=0.2748, MAE=0.2206, AbsRel=0.1290
+      Composite=6.2
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.8897, δ2=0.9774, δ3=0.9992
+      RMSE=0.2681, MAE=0.2195, AbsRel=0.1259
+      Composite=5.4
+
+    dav2-severe:
+      δ1=0.9060, δ2=0.9704, δ3=0.9989
+      RMSE=0.2752, MAE=0.2211, AbsRel=0.1292
+      Composite=6.2
+
+
+[95] 1375_1375
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.8295, δ2=0.9547, δ3=0.9955
+      RMSE=0.6752, MAE=0.5169, AbsRel=0.1581
+      Composite=9.7
+
+    marigold:
+      δ1=0.8700, δ2=0.9419, δ3=0.9781
+      RMSE=0.7297, MAE=0.4994, AbsRel=0.1594
+      Composite=11.7
+
+
+[96] 1175_1175
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.9118, δ2=0.9930, δ3=0.9978
+      RMSE=0.2590, MAE=0.1863, AbsRel=0.0936
+      Composite=4.7
+
+    marigold:
+      δ1=0.8968, δ2=0.9842, δ3=0.9996
+      RMSE=0.2583, MAE=0.1708, AbsRel=0.0959
+      Composite=4.2
+
+
+[97] 1250_1250
+------------------------------------------------------------
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav2-vitb:
+      δ1=0.8627, δ2=0.9319, δ3=0.9757
+      RMSE=0.7622, MAE=0.4982, AbsRel=0.1386
+      Composite=10.6
+
+    dav2-severe:
+      δ1=0.8603, δ2=0.9321, δ3=0.9764
+      RMSE=0.7615, MAE=0.4990, AbsRel=0.1384
+      Composite=10.5
+
+
+[98] 1045_1045
+------------------------------------------------------------
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav2-vitb:
+      δ1=0.7438, δ2=0.8668, δ3=0.9689
+      RMSE=0.5524, MAE=0.3928, AbsRel=0.2042
+      Composite=6.2
+
+    dav2-severe:
+      δ1=0.7420, δ2=0.8691, δ3=0.9702
+      RMSE=0.5474, MAE=0.3910, AbsRel=0.2029
+      Composite=6.0
+
+
+[99] 1065_1065
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.6896, δ2=0.7912, δ3=0.8416
+      RMSE=0.6987, MAE=0.5793, AbsRel=0.3180
+      Composite=10.6
+
+    zoedepth-nk:
+      δ1=0.6822, δ2=0.9140, δ3=0.9588
+      RMSE=0.6415, MAE=0.4720, AbsRel=0.2215
+      Composite=6.7
+
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    marigold:
+      δ1=0.6779, δ2=0.7620, δ3=0.8791
+      RMSE=0.9123, MAE=0.6584, AbsRel=0.3691
+      Composite=15.0
+
+    dav2-vitb:
+      δ1=0.5122, δ2=0.7845, δ3=0.8238
+      RMSE=0.8292, MAE=0.7060, AbsRel=0.3640
+      Composite=8.3
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    marigold:
+      δ1=0.6779, δ2=0.7620, δ3=0.8791
+      RMSE=0.9123, MAE=0.6584, AbsRel=0.3691
+      Composite=15.0
+
+    dav2-severe:
+      δ1=0.4957, δ2=0.7852, δ3=0.8241
+      RMSE=0.8424, MAE=0.7189, AbsRel=0.3690
+      Composite=8.1
+
+
+[100] 0660_0660
+------------------------------------------------------------
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav2-vitb:
+      δ1=0.7395, δ2=0.8775, δ3=0.9796
+      RMSE=0.4794, MAE=0.3590, AbsRel=0.1827
+      Composite=4.2
+
+    dav2-severe:
+      δ1=0.7384, δ2=0.8807, δ3=0.9805
+      RMSE=0.4786, MAE=0.3596, AbsRel=0.1827
+      Composite=4.2
+
+
+[101] 0485_0485
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9939, δ2=1.0000, δ3=1.0000
+      RMSE=0.1988, MAE=0.1641, AbsRel=0.0778
+      Composite=6.2
+
+    dav2-vitb:
+      δ1=0.9823, δ2=0.9996, δ3=1.0000
+      RMSE=0.1354, MAE=0.0992, AbsRel=0.0468
+      Composite=3.4
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9939, δ2=1.0000, δ3=1.0000
+      RMSE=0.1988, MAE=0.1641, AbsRel=0.0778
+      Composite=6.2
+
+    dav2-severe:
+      δ1=0.9840, δ2=0.9995, δ3=1.0000
+      RMSE=0.1371, MAE=0.1024, AbsRel=0.0485
+      Composite=3.6
+
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav2-vitb:
+      δ1=0.9823, δ2=0.9996, δ3=1.0000
+      RMSE=0.1354, MAE=0.0992, AbsRel=0.0468
+      Composite=3.4
+
+    dav2-severe:
+      δ1=0.9840, δ2=0.9995, δ3=1.0000
+      RMSE=0.1371, MAE=0.1024, AbsRel=0.0485
+      Composite=3.6
+
+
+[102] 0160_0160
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9104, δ2=0.9947, δ3=0.9999
+      RMSE=0.3569, MAE=0.2733, AbsRel=0.1010
+      Composite=6.3
+
+    dav2-vitb:
+      δ1=0.9200, δ2=0.9786, δ3=0.9909
+      RMSE=0.4183, MAE=0.2855, AbsRel=0.1049
+      Composite=7.4
+
+
+[103] 0680_0680
+------------------------------------------------------------
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.8002, δ2=0.9962, δ3=1.0000
+      RMSE=0.3156, MAE=0.2399, AbsRel=0.1187
+      Composite=2.8
+
+    dav2-vitb:
+      δ1=0.8383, δ2=0.9881, δ3=0.9909
+      RMSE=0.3528, MAE=0.2875, AbsRel=0.1453
+      Composite=5.8
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.8002, δ2=0.9962, δ3=1.0000
+      RMSE=0.3156, MAE=0.2399, AbsRel=0.1187
+      Composite=2.8
+
+    dav2-severe:
+      δ1=0.8398, δ2=0.9880, δ3=0.9911
+      RMSE=0.3507, MAE=0.2853, AbsRel=0.1441
+      Composite=5.8
+
+
+[104] 0920_0920
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9923, δ2=1.0000, δ3=1.0000
+      RMSE=0.3469, MAE=0.2671, AbsRel=0.0763
+      Composite=7.9
+
+    zoedepth-nk:
+      δ1=0.9799, δ2=0.9991, δ3=1.0000
+      RMSE=0.3031, MAE=0.2193, AbsRel=0.0650
+      Composite=6.3
+
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9923, δ2=1.0000, δ3=1.0000
+      RMSE=0.3469, MAE=0.2671, AbsRel=0.0763
+      Composite=7.9
+
+    marigold:
+      δ1=0.9866, δ2=0.9943, δ3=1.0000
+      RMSE=0.2128, MAE=0.1387, AbsRel=0.0431
+      Composite=4.3
+
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9923, δ2=1.0000, δ3=1.0000
+      RMSE=0.3469, MAE=0.2671, AbsRel=0.0763
+      Composite=7.9
+
+    dav2-vitb:
+      δ1=0.9849, δ2=0.9961, δ3=1.0000
+      RMSE=0.3178, MAE=0.2408, AbsRel=0.0703
+      Composite=6.9
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9923, δ2=1.0000, δ3=1.0000
+      RMSE=0.3469, MAE=0.2671, AbsRel=0.0763
+      Composite=7.9
+
+    dav2-severe:
+      δ1=0.9816, δ2=0.9969, δ3=1.0000
+      RMSE=0.3238, MAE=0.2466, AbsRel=0.0721
+      Composite=7.0
+
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9799, δ2=0.9991, δ3=1.0000
+      RMSE=0.3031, MAE=0.2193, AbsRel=0.0650
+      Composite=6.3
+
+    dav2-vitb:
+      δ1=0.9849, δ2=0.9961, δ3=1.0000
+      RMSE=0.3178, MAE=0.2408, AbsRel=0.0703
+      Composite=6.9
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9799, δ2=0.9991, δ3=1.0000
+      RMSE=0.3031, MAE=0.2193, AbsRel=0.0650
+      Composite=6.3
+
+    dav2-severe:
+      δ1=0.9816, δ2=0.9969, δ3=1.0000
+      RMSE=0.3238, MAE=0.2466, AbsRel=0.0721
+      Composite=7.0
+
+
+[105] 1050_1050
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.6385, δ2=0.8540, δ3=0.9076
+      RMSE=0.7499, MAE=0.4147, AbsRel=0.2559
+      Composite=7.3
+
+    zoedepth-nk:
+      δ1=0.6819, δ2=0.8784, δ3=0.9133
+      RMSE=0.8280, MAE=0.4557, AbsRel=0.2365
+      Composite=9.2
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.6819, δ2=0.8784, δ3=0.9133
+      RMSE=0.8280, MAE=0.4557, AbsRel=0.2365
+      Composite=9.2
+
+    dav2-severe:
+      δ1=0.6738, δ2=0.8653, δ3=0.9696
+      RMSE=0.6631, MAE=0.3964, AbsRel=0.2278
+      Composite=6.2
+
+
+[106] 0815_0815
+------------------------------------------------------------
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    marigold:
+      δ1=0.7500, δ2=0.9464, δ3=0.9867
+      RMSE=0.7056, MAE=0.5038, AbsRel=0.1677
+      Composite=7.7
+
+    dav2-vitb:
+      δ1=0.7238, δ2=0.9503, δ3=0.9877
+      RMSE=0.6694, MAE=0.5073, AbsRel=0.1652
+      Composite=6.2
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    marigold:
+      δ1=0.7500, δ2=0.9464, δ3=0.9867
+      RMSE=0.7056, MAE=0.5038, AbsRel=0.1677
+      Composite=7.7
+
+    dav2-severe:
+      δ1=0.7277, δ2=0.9510, δ3=0.9892
+      RMSE=0.6681, MAE=0.5063, AbsRel=0.1646
+      Composite=6.3
+
+
+[107] 0180_0180
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9608, δ2=0.9955, δ3=0.9994
+      RMSE=0.2437, MAE=0.2037, AbsRel=0.0986
+      Composite=6.5
+
+    marigold:
+      δ1=0.9155, δ2=0.9871, δ3=0.9938
+      RMSE=0.2416, MAE=0.1661, AbsRel=0.0939
+      Composite=4.6
+
+
+[108] 0350_0350
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.7585, δ2=0.9350, δ3=0.9688
+      RMSE=0.8961, MAE=0.6595, AbsRel=0.1730
+      Composite=10.4
+
+    dav2-vitb:
+      δ1=0.7833, δ2=0.9405, δ3=0.9825
+      RMSE=1.1093, MAE=0.7128, AbsRel=0.1716
+      Composite=14.0
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.7585, δ2=0.9350, δ3=0.9688
+      RMSE=0.8961, MAE=0.6595, AbsRel=0.1730
+      Composite=10.4
+
+    dav2-severe:
+      δ1=0.7705, δ2=0.9380, δ3=0.9821
+      RMSE=1.1103, MAE=0.7176, AbsRel=0.1732
+      Composite=13.6
+
+
+[109] 1120_1120
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.7794, δ2=0.9627, δ3=0.9970
+      RMSE=0.3955, MAE=0.3262, AbsRel=0.1593
+      Composite=4.6
+
+    marigold:
+      δ1=0.8875, δ2=0.9149, δ3=0.9864
+      RMSE=0.4788, MAE=0.3553, AbsRel=0.1718
+      Composite=9.4
+
+
+  zoedepth-nk vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.7678, δ2=0.9766, δ3=0.9994
+      RMSE=0.4254, MAE=0.3299, AbsRel=0.1483
+      Composite=4.3
+
+    marigold:
+      δ1=0.8875, δ2=0.9149, δ3=0.9864
+      RMSE=0.4788, MAE=0.3553, AbsRel=0.1718
+      Composite=9.4
+
+
+[110] 0510_0510
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.5573, δ2=0.8794, δ3=0.9539
+      RMSE=0.4197, MAE=0.3628, AbsRel=0.2501
+      Composite=0.4
+
+    marigold:
+      δ1=0.6169, δ2=0.9576, δ3=0.9710
+      RMSE=0.4942, MAE=0.3669, AbsRel=0.2408
+      Composite=4.2
+
+
+[111] 1060_1060
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.8988, δ2=0.9824, δ3=0.9936
+      RMSE=0.3909, MAE=0.3137, AbsRel=0.1131
+      Composite=6.7
+
+    marigold:
+      δ1=0.9416, δ2=0.9807, δ3=0.9848
+      RMSE=0.5544, MAE=0.3488, AbsRel=0.1180
+      Composite=10.5
+
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.8988, δ2=0.9824, δ3=0.9936
+      RMSE=0.3909, MAE=0.3137, AbsRel=0.1131
+      Composite=6.7
+
+    dav2-vitb:
+      δ1=0.9086, δ2=0.9751, δ3=0.9867
+      RMSE=0.5458, MAE=0.3825, AbsRel=0.1355
+      Composite=10.0
+
+
+[112] 1335_1335
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.7581, δ2=0.9188, δ3=0.9493
+      RMSE=0.7854, MAE=0.6219, AbsRel=0.2005
+      Composite=10.2
+
+    zoedepth-nk:
+      δ1=0.7260, δ2=0.8906, δ3=0.9993
+      RMSE=0.7182, MAE=0.5901, AbsRel=0.2069
+      Composite=8.1
+
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.7581, δ2=0.9188, δ3=0.9493
+      RMSE=0.7854, MAE=0.6219, AbsRel=0.2005
+      Composite=10.2
+
+    dav2-vitb:
+      δ1=0.7647, δ2=0.9183, δ3=0.9572
+      RMSE=0.8279, MAE=0.6866, AbsRel=0.2130
+      Composite=11.5
+
+
+  zoedepth-nk vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.7260, δ2=0.8906, δ3=0.9993
+      RMSE=0.7182, MAE=0.5901, AbsRel=0.2069
+      Composite=8.1
+
+    marigold:
+      δ1=0.7297, δ2=0.8831, δ3=0.9750
+      RMSE=1.0280, MAE=0.6698, AbsRel=0.2196
+      Composite=12.6
+
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.7260, δ2=0.8906, δ3=0.9993
+      RMSE=0.7182, MAE=0.5901, AbsRel=0.2069
+      Composite=8.1
+
+    dav2-vitb:
+      δ1=0.7647, δ2=0.9183, δ3=0.9572
+      RMSE=0.8279, MAE=0.6866, AbsRel=0.2130
+      Composite=11.5
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.7260, δ2=0.8906, δ3=0.9993
+      RMSE=0.7182, MAE=0.5901, AbsRel=0.2069
+      Composite=8.1
+
+    dav2-severe:
+      δ1=0.7363, δ2=0.9162, δ3=0.9575
+      RMSE=0.8364, MAE=0.6930, AbsRel=0.2150
+      Composite=10.7
+
+
+[113] 1210_1210
+------------------------------------------------------------
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.6695, δ2=0.9637, δ3=0.9924
+      RMSE=0.6868, MAE=0.5112, AbsRel=0.1806
+      Composite=5.5
+
+    dav2-vitb:
+      δ1=0.7664, δ2=0.9318, δ3=0.9482
+      RMSE=0.7949, MAE=0.5588, AbsRel=0.1925
+      Composite=10.4
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.6695, δ2=0.9637, δ3=0.9924
+      RMSE=0.6868, MAE=0.5112, AbsRel=0.1806
+      Composite=5.5
+
+    dav2-severe:
+      δ1=0.7496, δ2=0.9306, δ3=0.9493
+      RMSE=0.8008, MAE=0.5636, AbsRel=0.1942
+      Composite=9.9
+
+
+[114] 0805_0805
+------------------------------------------------------------
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.8198, δ2=0.9315, δ3=0.9679
+      RMSE=0.3985, MAE=0.3322, AbsRel=0.1647
+      Composite=5.9
+
+    dav2-severe:
+      δ1=0.8306, δ2=0.9335, δ3=0.9550
+      RMSE=0.3976, MAE=0.3346, AbsRel=0.1707
+      Composite=6.6
+
+
+[115] 1115_1115
+------------------------------------------------------------
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.8462, δ2=0.9311, δ3=0.9415
+      RMSE=0.6799, MAE=0.4405, AbsRel=0.1946
+      Composite=11.8
+
+    dav2-vitb:
+      δ1=0.8091, δ2=0.9372, δ3=0.9641
+      RMSE=0.5128, MAE=0.3832, AbsRel=0.1625
+      Composite=6.9
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.8462, δ2=0.9311, δ3=0.9415
+      RMSE=0.6799, MAE=0.4405, AbsRel=0.1946
+      Composite=11.8
+
+    dav2-severe:
+      δ1=0.8067, δ2=0.9342, δ3=0.9646
+      RMSE=0.5135, MAE=0.3869, AbsRel=0.1639
+      Composite=6.9
+
+
+[116] 1325_1325
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9409, δ2=0.9972, δ3=1.0000
+      RMSE=0.2546, MAE=0.1935, AbsRel=0.0913
+      Composite=5.6
+
+    dav2-vitb:
+      δ1=0.9551, δ2=0.9802, δ3=0.9936
+      RMSE=0.2980, MAE=0.2111, AbsRel=0.0950
+      Composite=6.6
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9409, δ2=0.9972, δ3=1.0000
+      RMSE=0.2546, MAE=0.1935, AbsRel=0.0913
+      Composite=5.6
+
+    dav2-severe:
+      δ1=0.9510, δ2=0.9809, δ3=0.9939
+      RMSE=0.2988, MAE=0.2137, AbsRel=0.0965
+      Composite=6.6
+
+
+[117] 0120_0120
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.7029, δ2=0.9707, δ3=0.9997
+      RMSE=0.5182, MAE=0.4167, AbsRel=0.1782
+      Composite=4.5
+
+    dav2-vitb:
+      δ1=0.7200, δ2=0.9464, δ3=0.9842
+      RMSE=0.5461, MAE=0.4505, AbsRel=0.2023
+      Composite=6.3
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.7029, δ2=0.9707, δ3=0.9997
+      RMSE=0.5182, MAE=0.4167, AbsRel=0.1782
+      Composite=4.5
+
+    dav2-severe:
+      δ1=0.7226, δ2=0.9439, δ3=0.9853
+      RMSE=0.5453, MAE=0.4462, AbsRel=0.2003
+      Composite=6.3
+
+
+[118] 0650_0650
+------------------------------------------------------------
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav2-vitb:
+      δ1=0.8932, δ2=1.0000, δ3=1.0000
+      RMSE=0.2152, MAE=0.1652, AbsRel=0.1051
+      Composite=4.2
+
+    dav2-severe:
+      δ1=0.8895, δ2=1.0000, δ3=1.0000
+      RMSE=0.2152, MAE=0.1651, AbsRel=0.1051
+      Composite=4.1
+
+
+[119] 0420_0420
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.9363, δ2=0.9949, δ3=0.9999
+      RMSE=0.2908, MAE=0.2183, AbsRel=0.0878
+      Composite=5.7
+
+    marigold:
+      δ1=0.9242, δ2=0.9815, δ3=1.0000
+      RMSE=0.3118, MAE=0.2055, AbsRel=0.0866
+      Composite=5.3
+
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.9242, δ2=0.9815, δ3=1.0000
+      RMSE=0.3118, MAE=0.2055, AbsRel=0.0866
+      Composite=5.3
+
+    dav2-vitb:
+      δ1=0.9304, δ2=0.9868, δ3=0.9897
+      RMSE=0.3665, MAE=0.2792, AbsRel=0.1138
+      Composite=7.6
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.9242, δ2=0.9815, δ3=1.0000
+      RMSE=0.3118, MAE=0.2055, AbsRel=0.0866
+      Composite=5.3
+
+    dav2-severe:
+      δ1=0.9310, δ2=0.9875, δ3=0.9906
+      RMSE=0.3619, MAE=0.2755, AbsRel=0.1122
+      Composite=7.5
+
+
+[120] 0620_0620
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.8544, δ2=0.9991, δ3=0.9999
+      RMSE=0.2372, MAE=0.1875, AbsRel=0.1114
+      Composite=3.4
+
+    zoedepth-nk:
+      δ1=0.8581, δ2=0.9966, δ3=1.0000
+      RMSE=0.2958, MAE=0.2410, AbsRel=0.1322
+      Composite=5.3
+
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.8544, δ2=0.9991, δ3=0.9999
+      RMSE=0.2372, MAE=0.1875, AbsRel=0.1114
+      Composite=3.4
+
+    dav2-vitb:
+      δ1=0.8751, δ2=0.9809, δ3=0.9874
+      RMSE=0.2400, MAE=0.1846, AbsRel=0.1133
+      Composite=4.0
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.8544, δ2=0.9991, δ3=0.9999
+      RMSE=0.2372, MAE=0.1875, AbsRel=0.1114
+      Composite=3.4
+
+    dav2-severe:
+      δ1=0.8757, δ2=0.9801, δ3=0.9889
+      RMSE=0.2411, MAE=0.1862, AbsRel=0.1143
+      Composite=4.1
+
+
+  zoedepth-nk vs marigold:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.8581, δ2=0.9966, δ3=1.0000
+      RMSE=0.2958, MAE=0.2410, AbsRel=0.1322
+      Composite=5.3
+
+    marigold:
+      δ1=0.8543, δ2=0.9874, δ3=0.9950
+      RMSE=0.2898, MAE=0.2058, AbsRel=0.1255
+      Composite=4.6
+
+
+[121] 0455_0455
+------------------------------------------------------------
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav2-vitb:
+      δ1=0.3929, δ2=0.7831, δ3=0.9269
+      RMSE=0.9346, MAE=0.6717, AbsRel=0.3156
+      Composite=3.0
+
+    dav2-severe:
+      δ1=0.3943, δ2=0.7811, δ3=0.9275
+      RMSE=0.9366, MAE=0.6735, AbsRel=0.3168
+      Composite=3.1
+
+
+[122] 1165_1165
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9837, δ2=0.9996, δ3=1.0000
+      RMSE=0.2390, MAE=0.1965, AbsRel=0.0712
+      Composite=6.0
+
+    marigold:
+      δ1=0.9900, δ2=0.9994, δ3=1.0000
+      RMSE=0.2479, MAE=0.2013, AbsRel=0.0747
+      Composite=6.5
+
+
+[123] 0820_0820
+------------------------------------------------------------
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.5903, δ2=0.8998, δ3=0.9668
+      RMSE=0.8092, MAE=0.5053, AbsRel=0.2056
+      Composite=4.6
+
+    dav2-vitb:
+      δ1=0.6237, δ2=0.9080, δ3=0.9674
+      RMSE=0.7073, MAE=0.5276, AbsRel=0.2164
+      Composite=5.1
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.5903, δ2=0.8998, δ3=0.9668
+      RMSE=0.8092, MAE=0.5053, AbsRel=0.2056
+      Composite=4.6
+
+    dav2-severe:
+      δ1=0.6199, δ2=0.9083, δ3=0.9671
+      RMSE=0.7096, MAE=0.5307, AbsRel=0.2186
+      Composite=5.1
+
+
+[124] 0240_0240
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.8581, δ2=0.9957, δ3=1.0000
+      RMSE=0.6492, MAE=0.5195, AbsRel=0.1240
+      Composite=9.3
+
+    zoedepth-nk:
+      δ1=0.8726, δ2=0.9580, δ3=1.0000
+      RMSE=0.6791, MAE=0.5480, AbsRel=0.1357
+      Composite=10.2
+
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.8726, δ2=0.9580, δ3=1.0000
+      RMSE=0.6791, MAE=0.5480, AbsRel=0.1357
+      Composite=10.2
+
+    dav2-vitb:
+      δ1=0.8701, δ2=0.9585, δ3=0.9879
+      RMSE=0.6788, MAE=0.4804, AbsRel=0.1208
+      Composite=9.4
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.8726, δ2=0.9580, δ3=1.0000
+      RMSE=0.6791, MAE=0.5480, AbsRel=0.1357
+      Composite=10.2
+
+    dav2-severe:
+      δ1=0.8708, δ2=0.9586, δ3=0.9886
+      RMSE=0.6745, MAE=0.4775, AbsRel=0.1198
+      Composite=9.3
+
+
+[125] 1370_1370
+------------------------------------------------------------
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav2-vitb:
+      δ1=0.6247, δ2=0.8593, δ3=0.9250
+      RMSE=0.7547, MAE=0.5928, AbsRel=0.2592
+      Composite=7.1
+
+    dav2-severe:
+      δ1=0.6208, δ2=0.8612, δ3=0.9271
+      RMSE=0.7531, MAE=0.5915, AbsRel=0.2586
+      Composite=7.0
+
+
+[126] 0760_0760
+------------------------------------------------------------
+
+  zoedepth-nk vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.6669, δ2=0.9212, δ3=0.9889
+      RMSE=0.4612, MAE=0.3682, AbsRel=0.2085
+      Composite=3.3
+
+    marigold:
+      δ1=0.6903, δ2=0.8112, δ3=0.8890
+      RMSE=0.5679, MAE=0.4076, AbsRel=0.2662
+      Composite=6.7
+
+
+[127] 1180_1180
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.6434, δ2=0.8871, δ3=0.9465
+      RMSE=0.7572, MAE=0.5626, AbsRel=0.2140
+      Composite=6.0
+
+    zoedepth-nk:
+      δ1=0.6475, δ2=0.8681, δ3=0.9786
+      RMSE=1.0052, MAE=0.6647, AbsRel=0.2239
+      Composite=9.4
+
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.6434, δ2=0.8871, δ3=0.9465
+      RMSE=0.7572, MAE=0.5626, AbsRel=0.2140
+      Composite=6.0
+
+    dav2-vitb:
+      δ1=0.6356, δ2=0.9434, δ3=0.9767
+      RMSE=0.7719, MAE=0.5199, AbsRel=0.1910
+      Composite=5.6
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.6434, δ2=0.8871, δ3=0.9465
+      RMSE=0.7572, MAE=0.5626, AbsRel=0.2140
+      Composite=6.0
+
+    dav2-severe:
+      δ1=0.6348, δ2=0.9394, δ3=0.9738
+      RMSE=0.7785, MAE=0.5290, AbsRel=0.1944
+      Composite=5.8
+
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.6475, δ2=0.8681, δ3=0.9786
+      RMSE=1.0052, MAE=0.6647, AbsRel=0.2239
+      Composite=9.4
+
+    dav2-vitb:
+      δ1=0.6356, δ2=0.9434, δ3=0.9767
+      RMSE=0.7719, MAE=0.5199, AbsRel=0.1910
+      Composite=5.6
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.6475, δ2=0.8681, δ3=0.9786
+      RMSE=1.0052, MAE=0.6647, AbsRel=0.2239
+      Composite=9.4
+
+    dav2-severe:
+      δ1=0.6348, δ2=0.9394, δ3=0.9738
+      RMSE=0.7785, MAE=0.5290, AbsRel=0.1944
+      Composite=5.8
+
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.6429, δ2=0.9095, δ3=0.9545
+      RMSE=1.1387, MAE=0.6897, AbsRel=0.2332
+      Composite=12.0
+
+    dav2-vitb:
+      δ1=0.6356, δ2=0.9434, δ3=0.9767
+      RMSE=0.7719, MAE=0.5199, AbsRel=0.1910
+      Composite=5.6
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.6429, δ2=0.9095, δ3=0.9545
+      RMSE=1.1387, MAE=0.6897, AbsRel=0.2332
+      Composite=12.0
+
+    dav2-severe:
+      δ1=0.6348, δ2=0.9394, δ3=0.9738
+      RMSE=0.7785, MAE=0.5290, AbsRel=0.1944
+      Composite=5.8
+
+
+[128] 0705_0705
+------------------------------------------------------------
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.6670, δ2=0.8481, δ3=0.8824
+      RMSE=0.5154, MAE=0.3601, AbsRel=0.2561
+      Composite=5.3
+
+    dav2-vitb:
+      δ1=0.6416, δ2=0.8709, δ3=0.9511
+      RMSE=0.5129, MAE=0.4139, AbsRel=0.2519
+      Composite=4.5
+
+
+[129] 0025_0025
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9049, δ2=0.9865, δ3=0.9976
+      RMSE=0.3055, MAE=0.2233, AbsRel=0.0845
+      Composite=4.5
+
+    marigold:
+      δ1=0.9290, δ2=0.9766, δ3=0.9901
+      RMSE=0.3956, MAE=0.2705, AbsRel=0.1055
+      Composite=7.4
+
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9049, δ2=0.9865, δ3=0.9976
+      RMSE=0.3055, MAE=0.2233, AbsRel=0.0845
+      Composite=4.5
+
+    dav2-vitb:
+      δ1=0.9382, δ2=0.9731, δ3=0.9842
+      RMSE=0.3649, MAE=0.2558, AbsRel=0.0947
+      Composite=6.7
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9049, δ2=0.9865, δ3=0.9976
+      RMSE=0.3055, MAE=0.2233, AbsRel=0.0845
+      Composite=4.5
+
+    dav2-severe:
+      δ1=0.9355, δ2=0.9729, δ3=0.9852
+      RMSE=0.3658, MAE=0.2594, AbsRel=0.0960
+      Composite=6.7
+
+
+  zoedepth-nk vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.8748, δ2=0.9886, δ3=0.9965
+      RMSE=0.3152, MAE=0.2213, AbsRel=0.0945
+      Composite=4.1
+
+    marigold:
+      δ1=0.9290, δ2=0.9766, δ3=0.9901
+      RMSE=0.3956, MAE=0.2705, AbsRel=0.1055
+      Composite=7.4
+
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.8748, δ2=0.9886, δ3=0.9965
+      RMSE=0.3152, MAE=0.2213, AbsRel=0.0945
+      Composite=4.1
+
+    dav2-vitb:
+      δ1=0.9382, δ2=0.9731, δ3=0.9842
+      RMSE=0.3649, MAE=0.2558, AbsRel=0.0947
+      Composite=6.7
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.8748, δ2=0.9886, δ3=0.9965
+      RMSE=0.3152, MAE=0.2213, AbsRel=0.0945
+      Composite=4.1
+
+    dav2-severe:
+      δ1=0.9355, δ2=0.9729, δ3=0.9852
+      RMSE=0.3658, MAE=0.2594, AbsRel=0.0960
+      Composite=6.7
+
+
+[130] 1300_1300
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9716, δ2=1.0000, δ3=1.0000
+      RMSE=0.2308, MAE=0.1716, AbsRel=0.0681
+      Composite=5.3
+
+    dav2-vitb:
+      δ1=0.9813, δ2=0.9898, δ3=0.9920
+      RMSE=0.2961, MAE=0.1860, AbsRel=0.0738
+      Composite=6.6
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9716, δ2=1.0000, δ3=1.0000
+      RMSE=0.2308, MAE=0.1716, AbsRel=0.0681
+      Composite=5.3
+
+    dav2-severe:
+      δ1=0.9794, δ2=0.9902, δ3=0.9924
+      RMSE=0.2946, MAE=0.1889, AbsRel=0.0754
+      Composite=6.6
+
+
+[131] 0830_0830
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.6539, δ2=0.9199, δ3=0.9716
+      RMSE=0.5440, MAE=0.4192, AbsRel=0.2076
+      Composite=3.9
+
+    dav2-vitb:
+      δ1=0.6777, δ2=0.9132, δ3=0.9503
+      RMSE=0.5497, MAE=0.4300, AbsRel=0.2101
+      Composite=4.8
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.6539, δ2=0.9199, δ3=0.9716
+      RMSE=0.5440, MAE=0.4192, AbsRel=0.2076
+      Composite=3.9
+
+    dav2-severe:
+      δ1=0.6560, δ2=0.9139, δ3=0.9484
+      RMSE=0.5553, MAE=0.4341, AbsRel=0.2120
+      Composite=4.2
+
+
+[132] 1125_1125
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9939, δ2=1.0000, δ3=1.0000
+      RMSE=0.1708, MAE=0.1383, AbsRel=0.0735
+      Composite=5.6
+
+    zoedepth-nk:
+      δ1=0.9918, δ2=1.0000, δ3=1.0000
+      RMSE=0.1255, MAE=0.0969, AbsRel=0.0546
+      Composite=4.0
+
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9939, δ2=1.0000, δ3=1.0000
+      RMSE=0.1708, MAE=0.1383, AbsRel=0.0735
+      Composite=5.6
+
+    dav2-vitb:
+      δ1=0.9763, δ2=0.9903, δ3=0.9985
+      RMSE=0.1705, MAE=0.1140, AbsRel=0.0598
+      Composite=4.1
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.9939, δ2=1.0000, δ3=1.0000
+      RMSE=0.1708, MAE=0.1383, AbsRel=0.0735
+      Composite=5.6
+
+    dav2-severe:
+      δ1=0.9757, δ2=0.9914, δ3=0.9986
+      RMSE=0.1710, MAE=0.1168, AbsRel=0.0615
+      Composite=4.2
+
+
+[133] 0365_0365
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9851, δ2=1.0000, δ3=1.0000
+      RMSE=0.3084, MAE=0.2562, AbsRel=0.0831
+      Composite=7.5
+
+    zoedepth-nk:
+      δ1=0.9793, δ2=1.0000, δ3=1.0000
+      RMSE=0.2951, MAE=0.2341, AbsRel=0.0787
+      Composite=6.9
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    marigold:
+      δ1=0.9649, δ2=0.9919, δ3=1.0000
+      RMSE=0.3540, MAE=0.2600, AbsRel=0.0826
+      Composite=7.2
+
+    dav2-severe:
+      δ1=0.9714, δ2=0.9901, δ3=0.9994
+      RMSE=0.3325, MAE=0.2609, AbsRel=0.0835
+      Composite=7.2
+
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav2-vitb:
+      δ1=0.9703, δ2=0.9895, δ3=0.9995
+      RMSE=0.3321, MAE=0.2586, AbsRel=0.0825
+      Composite=7.1
+
+    dav2-severe:
+      δ1=0.9714, δ2=0.9901, δ3=0.9994
+      RMSE=0.3325, MAE=0.2609, AbsRel=0.0835
+      Composite=7.2
+
+
+[134] 1350_1350
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.9128, δ2=0.9882, δ3=0.9994
+      RMSE=0.3212, MAE=0.2628, AbsRel=0.1049
+      Composite=6.0
+
+    marigold:
+      δ1=0.9044, δ2=0.9869, δ3=0.9968
+      RMSE=0.3594, MAE=0.2430, AbsRel=0.0955
+      Composite=5.7
+
+
+[135] 1025_1025
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.7533, δ2=0.9652, δ3=0.9903
+      RMSE=0.5458, MAE=0.3952, AbsRel=0.1448
+      Composite=4.9
+
+    zoedepth-nk:
+      δ1=0.7630, δ2=0.9396, δ3=0.9942
+      RMSE=0.6196, MAE=0.4484, AbsRel=0.1586
+      Composite=6.5
+
+
+  zoedepth-nk vs marigold:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.7630, δ2=0.9396, δ3=0.9942
+      RMSE=0.6196, MAE=0.4484, AbsRel=0.1586
+      Composite=6.5
+
+    marigold:
+      δ1=0.7325, δ2=0.9835, δ3=0.9923
+      RMSE=0.5704, MAE=0.4024, AbsRel=0.1423
+      Composite=4.6
+
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav2-vitb:
+      δ1=0.8113, δ2=0.9658, δ3=0.9794
+      RMSE=0.5276, MAE=0.3645, AbsRel=0.1285
+      Composite=5.9
+
+    dav2-severe:
+      δ1=0.8169, δ2=0.9659, δ3=0.9804
+      RMSE=0.5267, MAE=0.3649, AbsRel=0.1288
+      Composite=6.1
+
+
+[136] 0275_0275
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.2364, δ2=0.7193, δ3=0.9126
+      RMSE=1.6223, MAE=1.4405, AbsRel=0.3771
+      Composite=8.2
+
+    marigold:
+      δ1=0.3212, δ2=0.6886, δ3=0.9574
+      RMSE=2.0384, MAE=1.5432, AbsRel=0.4108
+      Composite=17.1
+
+
+[137] 0670_0670
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.5221, δ2=0.9025, δ3=0.9559
+      RMSE=0.7214, MAE=0.5778, AbsRel=0.2471
+      Composite=3.2
+
+    marigold:
+      δ1=0.5876, δ2=0.9179, δ3=0.9742
+      RMSE=0.8391, MAE=0.6014, AbsRel=0.2549
+      Composite=7.6
+
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav2-vitb:
+      δ1=0.4025, δ2=0.9253, δ3=0.9654
+      RMSE=0.8407, MAE=0.6817, AbsRel=0.2744
+      Composite=2.2
+
+    dav2-severe:
+      δ1=0.3933, δ2=0.9233, δ3=0.9667
+      RMSE=0.8397, MAE=0.6816, AbsRel=0.2749
+      Composite=1.9
+
+
+[138] 1155_1155
+------------------------------------------------------------
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9393, δ2=0.9908, δ3=0.9942
+      RMSE=0.2381, MAE=0.1697, AbsRel=0.0892
+      Composite=5.2
+
+    dav2-vitb:
+      δ1=0.9423, δ2=0.9824, δ3=0.9879
+      RMSE=0.2735, MAE=0.1948, AbsRel=0.1069
+      Composite=6.5
+
+
+[139] 1005_1005
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.9651, δ2=0.9976, δ3=1.0000
+      RMSE=0.1990, MAE=0.1604, AbsRel=0.0858
+      Composite=5.5
+
+    dav2-vitb:
+      δ1=0.9605, δ2=0.9799, δ3=0.9953
+      RMSE=0.2063, MAE=0.1423, AbsRel=0.0770
+      Composite=4.7
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.9651, δ2=0.9976, δ3=1.0000
+      RMSE=0.1990, MAE=0.1604, AbsRel=0.0858
+      Composite=5.5
+
+    dav2-severe:
+      δ1=0.9550, δ2=0.9825, δ3=0.9956
+      RMSE=0.2094, MAE=0.1476, AbsRel=0.0798
+      Composite=4.8
+
+
+[140] 0980_0980
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.6613, δ2=0.7599, δ3=0.8783
+      RMSE=0.7339, MAE=0.5888, AbsRel=0.2709
+      Composite=7.3
+
+    dav2-vitb:
+      δ1=0.6541, δ2=0.9225, δ3=0.9489
+      RMSE=0.5667, MAE=0.4821, AbsRel=0.1955
+      Composite=3.6
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.6613, δ2=0.7599, δ3=0.8783
+      RMSE=0.7339, MAE=0.5888, AbsRel=0.2709
+      Composite=7.3
+
+    dav2-severe:
+      δ1=0.6575, δ2=0.9235, δ3=0.9508
+      RMSE=0.5753, MAE=0.4891, AbsRel=0.1987
+      Composite=4.0
+
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.7188, δ2=0.8839, δ3=0.9434
+      RMSE=0.7032, MAE=0.5203, AbsRel=0.2245
+      Composite=8.4
+
+    dav2-vitb:
+      δ1=0.6541, δ2=0.9225, δ3=0.9489
+      RMSE=0.5667, MAE=0.4821, AbsRel=0.1955
+      Composite=3.6
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.7188, δ2=0.8839, δ3=0.9434
+      RMSE=0.7032, MAE=0.5203, AbsRel=0.2245
+      Composite=8.4
+
+    dav2-severe:
+      δ1=0.6575, δ2=0.9235, δ3=0.9508
+      RMSE=0.5753, MAE=0.4891, AbsRel=0.1987
+      Composite=4.0
+
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav2-vitb:
+      δ1=0.6541, δ2=0.9225, δ3=0.9489
+      RMSE=0.5667, MAE=0.4821, AbsRel=0.1955
+      Composite=3.6
+
+    dav2-severe:
+      δ1=0.6575, δ2=0.9235, δ3=0.9508
+      RMSE=0.5753, MAE=0.4891, AbsRel=0.1987
+      Composite=4.0
+
+
+[141] 0245_0245
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.7077, δ2=0.8222, δ3=0.9679
+      RMSE=1.3190, MAE=1.0353, AbsRel=0.2534
+      Composite=16.3
+
+    marigold:
+      δ1=0.6813, δ2=0.8545, δ3=0.9587
+      RMSE=1.3150, MAE=0.9796, AbsRel=0.2498
+      Composite=15.6
+
+
+[142] 0860_0860
+------------------------------------------------------------
+
+  zoedepth-nk vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.5213, δ2=0.8463, δ3=0.9051
+      RMSE=0.9424, MAE=0.6458, AbsRel=0.3182
+      Composite=8.6
+
+    marigold:
+      δ1=0.5989, δ2=0.8726, δ3=0.9562
+      RMSE=1.1358, MAE=0.6799, AbsRel=0.3121
+      Composite=13.9
+
+
+[143] 0845_0845
+------------------------------------------------------------
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav2-vitb:
+      δ1=0.7757, δ2=0.9660, δ3=0.9823
+      RMSE=0.2247, MAE=0.1890, AbsRel=0.1552
+      Composite=2.2
+
+    dav2-severe:
+      δ1=0.7819, δ2=0.9671, δ3=0.9832
+      RMSE=0.2262, MAE=0.1910, AbsRel=0.1569
+      Composite=2.5
+
+
+[144] 0335_0335
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9780, δ2=1.0000, δ3=1.0000
+      RMSE=0.2253, MAE=0.1786, AbsRel=0.0738
+      Composite=5.7
+
+    zoedepth-nk:
+      δ1=0.9760, δ2=0.9999, δ3=1.0000
+      RMSE=0.2045, MAE=0.1453, AbsRel=0.0590
+      Composite=4.7
+
+
+[145] 1265_1265
+------------------------------------------------------------
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9083, δ2=0.9593, δ3=0.9737
+      RMSE=0.4281, MAE=0.3535, AbsRel=0.1534
+      Composite=9.2
+
+    dav2-severe:
+      δ1=0.9014, δ2=0.9396, δ3=0.9528
+      RMSE=0.4271, MAE=0.3314, AbsRel=0.1487
+      Composite=8.4
+
+
+[146] 0745_0745
+------------------------------------------------------------
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.7593, δ2=0.9790, δ3=0.9960
+      RMSE=0.7494, MAE=0.5520, AbsRel=0.1509
+      Composite=8.2
+
+    dav2-vitb:
+      δ1=0.7756, δ2=0.9636, δ3=0.9882
+      RMSE=0.7889, MAE=0.6124, AbsRel=0.1618
+      Composite=9.5
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.7593, δ2=0.9790, δ3=0.9960
+      RMSE=0.7494, MAE=0.5520, AbsRel=0.1509
+      Composite=8.2
+
+    dav2-severe:
+      δ1=0.7722, δ2=0.9632, δ3=0.9880
+      RMSE=0.7927, MAE=0.6172, AbsRel=0.1633
+      Composite=9.6
+
+
+[147] 0550_0550
+------------------------------------------------------------
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9148, δ2=0.9949, δ3=1.0000
+      RMSE=0.3011, MAE=0.2305, AbsRel=0.0984
+      Composite=5.6
+
+    dav2-vitb:
+      δ1=0.9260, δ2=0.9826, δ3=0.9872
+      RMSE=0.3836, MAE=0.2555, AbsRel=0.1081
+      Composite=7.3
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9148, δ2=0.9949, δ3=1.0000
+      RMSE=0.3011, MAE=0.2305, AbsRel=0.0984
+      Composite=5.6
+
+    dav2-severe:
+      δ1=0.9252, δ2=0.9830, δ3=0.9881
+      RMSE=0.3800, MAE=0.2547, AbsRel=0.1079
+      Composite=7.3
+
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    marigold:
+      δ1=0.8892, δ2=0.9784, δ3=1.0000
+      RMSE=0.3417, MAE=0.2485, AbsRel=0.1117
+      Composite=5.7
+
+    dav2-vitb:
+      δ1=0.9260, δ2=0.9826, δ3=0.9872
+      RMSE=0.3836, MAE=0.2555, AbsRel=0.1081
+      Composite=7.3
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    marigold:
+      δ1=0.8892, δ2=0.9784, δ3=1.0000
+      RMSE=0.3417, MAE=0.2485, AbsRel=0.1117
+      Composite=5.7
+
+    dav2-severe:
+      δ1=0.9252, δ2=0.9830, δ3=0.9881
+      RMSE=0.3800, MAE=0.2547, AbsRel=0.1079
+      Composite=7.3
+
+
+[148] 1195_1195
+------------------------------------------------------------
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.8211, δ2=0.9883, δ3=1.0000
+      RMSE=0.2523, MAE=0.1898, AbsRel=0.1261
+      Composite=3.0
+
+    dav2-vitb:
+      δ1=0.8833, δ2=0.9792, δ3=0.9869
+      RMSE=0.2798, MAE=0.2054, AbsRel=0.1245
+      Composite=5.3
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.8211, δ2=0.9883, δ3=1.0000
+      RMSE=0.2523, MAE=0.1898, AbsRel=0.1261
+      Composite=3.0
+
+    dav2-severe:
+      δ1=0.8773, δ2=0.9795, δ3=0.9875
+      RMSE=0.2791, MAE=0.2066, AbsRel=0.1256
+      Composite=5.2
+
+
+[149] 0255_0255
+------------------------------------------------------------
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav2-vitb:
+      δ1=0.3872, δ2=0.9370, δ3=0.9592
+      RMSE=0.7654, MAE=0.6047, AbsRel=0.2751
+      Composite=0.9
+
+    dav2-severe:
+      δ1=0.3800, δ2=0.9349, δ3=0.9594
+      RMSE=0.7616, MAE=0.6021, AbsRel=0.2738
+      Composite=0.5
+
+
+[150] 0095_0095
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.4293, δ2=0.8034, δ3=0.8777
+      RMSE=1.3148, MAE=1.0703, AbsRel=0.3652
+      Composite=11.8
+
+    dav2-vitb:
+      δ1=0.4334, δ2=0.7115, δ3=0.7949
+      RMSE=1.4503, MAE=1.2271, AbsRel=0.4713
+      Composite=17.5
+
+
+[151] 0395_0395
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.7001, δ2=0.9463, δ3=0.9801
+      RMSE=0.4496, MAE=0.3647, AbsRel=0.1802
+      Composite=3.3
+
+    dav2-vitb:
+      δ1=0.7310, δ2=0.9426, δ3=0.9703
+      RMSE=0.5048, MAE=0.3750, AbsRel=0.1867
+      Composite=5.4
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.7001, δ2=0.9463, δ3=0.9801
+      RMSE=0.4496, MAE=0.3647, AbsRel=0.1802
+      Composite=3.3
+
+    dav2-severe:
+      δ1=0.7270, δ2=0.9380, δ3=0.9699
+      RMSE=0.5047, MAE=0.3777, AbsRel=0.1882
+      Composite=5.2
+
+
+  zoedepth-nk vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.6122, δ2=0.9431, δ3=1.0000
+      RMSE=0.4581, MAE=0.3628, AbsRel=0.1908
+      Composite=0.8
+
+    marigold:
+      δ1=0.6461, δ2=0.9762, δ3=0.9901
+      RMSE=0.4918, MAE=0.3750, AbsRel=0.1912
+      Composite=3.0
+
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.6122, δ2=0.9431, δ3=1.0000
+      RMSE=0.4581, MAE=0.3628, AbsRel=0.1908
+      Composite=0.8
+
+    dav2-vitb:
+      δ1=0.7310, δ2=0.9426, δ3=0.9703
+      RMSE=0.5048, MAE=0.3750, AbsRel=0.1867
+      Composite=5.4
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.6122, δ2=0.9431, δ3=1.0000
+      RMSE=0.4581, MAE=0.3628, AbsRel=0.1908
+      Composite=0.8
+
+    dav2-severe:
+      δ1=0.7270, δ2=0.9380, δ3=0.9699
+      RMSE=0.5047, MAE=0.3777, AbsRel=0.1882
+      Composite=5.2
+
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    marigold:
+      δ1=0.6461, δ2=0.9762, δ3=0.9901
+      RMSE=0.4918, MAE=0.3750, AbsRel=0.1912
+      Composite=3.0
+
+    dav2-vitb:
+      δ1=0.7310, δ2=0.9426, δ3=0.9703
+      RMSE=0.5048, MAE=0.3750, AbsRel=0.1867
+      Composite=5.4
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    marigold:
+      δ1=0.6461, δ2=0.9762, δ3=0.9901
+      RMSE=0.4918, MAE=0.3750, AbsRel=0.1912
+      Composite=3.0
+
+    dav2-severe:
+      δ1=0.7270, δ2=0.9380, δ3=0.9699
+      RMSE=0.5047, MAE=0.3777, AbsRel=0.1882
+      Composite=5.2
+
+
+[152] 0965_0965
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9515, δ2=0.9910, δ3=0.9975
+      RMSE=0.1554, MAE=0.1091, AbsRel=0.0555
+      Composite=2.9
+
+    marigold:
+      δ1=0.9602, δ2=0.9868, δ3=0.9921
+      RMSE=0.2265, MAE=0.1220, AbsRel=0.0621
+      Composite=4.3
+
+
+[153] 0570_0570
+------------------------------------------------------------
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9046, δ2=0.9888, δ3=1.0000
+      RMSE=0.2385, MAE=0.1944, AbsRel=0.1109
+      Composite=5.0
+
+    dav2-vitb:
+      δ1=0.9016, δ2=0.9529, δ3=0.9851
+      RMSE=0.2655, MAE=0.1790, AbsRel=0.1090
+      Composite=4.6
+
+
+[154] 1310_1310
+------------------------------------------------------------
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    marigold:
+      δ1=0.8772, δ2=0.9454, δ3=0.9667
+      RMSE=1.0076, MAE=0.5121, AbsRel=0.1518
+      Composite=15.1
+
+    dav2-vitb:
+      δ1=0.8860, δ2=0.9546, δ3=0.9740
+      RMSE=0.9611, MAE=0.5541, AbsRel=0.1572
+      Composite=15.2
+
+
+[155] 0060_0060
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.9409, δ2=0.9992, δ3=1.0000
+      RMSE=0.2392, MAE=0.1908, AbsRel=0.0981
+      Composite=5.8
+
+    dav2-vitb:
+      δ1=0.9531, δ2=0.9977, δ3=1.0000
+      RMSE=0.2286, MAE=0.1914, AbsRel=0.1000
+      Composite=6.2
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.9409, δ2=0.9992, δ3=1.0000
+      RMSE=0.2392, MAE=0.1908, AbsRel=0.0981
+      Composite=5.8
+
+    dav2-severe:
+      δ1=0.9532, δ2=0.9973, δ3=1.0000
+      RMSE=0.2281, MAE=0.1912, AbsRel=0.0998
+      Composite=6.2
+
+
+[156] 0220_0220
+------------------------------------------------------------
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.8098, δ2=0.9714, δ3=0.9951
+      RMSE=0.5995, MAE=0.4082, AbsRel=0.1238
+      Composite=6.6
+
+    dav2-severe:
+      δ1=0.8669, δ2=0.9584, δ3=0.9760
+      RMSE=0.5678, MAE=0.4139, AbsRel=0.1389
+      Composite=8.8
+
+
+[157] 1015_1015
+------------------------------------------------------------
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.7320, δ2=0.9548, δ3=0.9934
+      RMSE=0.7599, MAE=0.5247, AbsRel=0.1802
+      Composite=8.5
+
+    dav2-severe:
+      δ1=0.7516, δ2=0.9396, δ3=0.9793
+      RMSE=0.7940, MAE=0.5320, AbsRel=0.1799
+      Composite=9.3
+
+
+[158] 0565_0565
+------------------------------------------------------------
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.8956, δ2=0.9786, δ3=0.9962
+      RMSE=0.2845, MAE=0.2096, AbsRel=0.1008
+      Composite=4.6
+
+    dav2-vitb:
+      δ1=0.9287, δ2=0.9816, δ3=0.9897
+      RMSE=0.3097, MAE=0.2395, AbsRel=0.1063
+      Composite=6.4
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.8956, δ2=0.9786, δ3=0.9962
+      RMSE=0.2845, MAE=0.2096, AbsRel=0.1008
+      Composite=4.6
+
+    dav2-severe:
+      δ1=0.9272, δ2=0.9812, δ3=0.9913
+      RMSE=0.3091, MAE=0.2393, AbsRel=0.1060
+      Composite=6.3
+
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav2-vitb:
+      δ1=0.9287, δ2=0.9816, δ3=0.9897
+      RMSE=0.3097, MAE=0.2395, AbsRel=0.1063
+      Composite=6.4
+
+    dav2-severe:
+      δ1=0.9272, δ2=0.9812, δ3=0.9913
+      RMSE=0.3091, MAE=0.2393, AbsRel=0.1060
+      Composite=6.3
+
+
+[159] 0795_0795
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.5892, δ2=0.9146, δ3=0.9686
+      RMSE=0.9551, MAE=0.7217, AbsRel=0.2179
+      Composite=7.2
+
+    marigold:
+      δ1=0.7182, δ2=0.9071, δ3=0.9713
+      RMSE=1.2240, MAE=0.7233, AbsRel=0.2107
+      Composite=14.6
+
+
+  zoedepth-nk vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.6855, δ2=0.9841, δ3=0.9994
+      RMSE=0.7165, MAE=0.5736, AbsRel=0.1774
+      Composite=6.6
+
+    marigold:
+      δ1=0.7182, δ2=0.9071, δ3=0.9713
+      RMSE=1.2240, MAE=0.7233, AbsRel=0.2107
+      Composite=14.6
+
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.6855, δ2=0.9841, δ3=0.9994
+      RMSE=0.7165, MAE=0.5736, AbsRel=0.1774
+      Composite=6.6
+
+    dav2-vitb:
+      δ1=0.7156, δ2=0.9363, δ3=0.9793
+      RMSE=0.8974, MAE=0.6590, AbsRel=0.1884
+      Composite=9.7
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.6855, δ2=0.9841, δ3=0.9994
+      RMSE=0.7165, MAE=0.5736, AbsRel=0.1774
+      Composite=6.6
+
+    dav2-severe:
+      δ1=0.6993, δ2=0.9351, δ3=0.9776
+      RMSE=0.9049, MAE=0.6637, AbsRel=0.1898
+      Composite=9.3
+
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.7182, δ2=0.9071, δ3=0.9713
+      RMSE=1.2240, MAE=0.7233, AbsRel=0.2107
+      Composite=14.6
+
+    dav2-vitb:
+      δ1=0.7156, δ2=0.9363, δ3=0.9793
+      RMSE=0.8974, MAE=0.6590, AbsRel=0.1884
+      Composite=9.7
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.7182, δ2=0.9071, δ3=0.9713
+      RMSE=1.2240, MAE=0.7233, AbsRel=0.2107
+      Composite=14.6
+
+    dav2-severe:
+      δ1=0.6993, δ2=0.9351, δ3=0.9776
+      RMSE=0.9049, MAE=0.6637, AbsRel=0.1898
+      Composite=9.3
+
+
+[160] 0265_0265
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.7145, δ2=0.9094, δ3=0.9518
+      RMSE=0.8409, MAE=0.6088, AbsRel=0.2070
+      Composite=9.5
+
+    dav2-vitb:
+      δ1=0.7203, δ2=0.8851, δ3=0.9192
+      RMSE=0.9463, MAE=0.6589, AbsRel=0.2426
+      Composite=12.4
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.7145, δ2=0.9094, δ3=0.9518
+      RMSE=0.8409, MAE=0.6088, AbsRel=0.2070
+      Composite=9.5
+
+    dav2-severe:
+      δ1=0.7168, δ2=0.8823, δ3=0.9231
+      RMSE=0.9540, MAE=0.6648, AbsRel=0.2438
+      Composite=12.4
+
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    marigold:
+      δ1=0.7048, δ2=0.8715, δ3=0.9428
+      RMSE=0.9792, MAE=0.6234, AbsRel=0.2354
+      Composite=11.8
+
+    dav2-vitb:
+      δ1=0.7203, δ2=0.8851, δ3=0.9192
+      RMSE=0.9463, MAE=0.6589, AbsRel=0.2426
+      Composite=12.4
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    marigold:
+      δ1=0.7048, δ2=0.8715, δ3=0.9428
+      RMSE=0.9792, MAE=0.6234, AbsRel=0.2354
+      Composite=11.8
+
+    dav2-severe:
+      δ1=0.7168, δ2=0.8823, δ3=0.9231
+      RMSE=0.9540, MAE=0.6648, AbsRel=0.2438
+      Composite=12.4
+
+
+[161] 0600_0600
+------------------------------------------------------------
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav2-vitb:
+      δ1=0.8366, δ2=0.9836, δ3=0.9863
+      RMSE=0.8156, MAE=0.5746, AbsRel=0.1600
+      Composite=12.2
+
+    dav2-severe:
+      δ1=0.8288, δ2=0.9830, δ3=0.9860
+      RMSE=0.8133, MAE=0.5706, AbsRel=0.1584
+      Composite=11.8
+
+
+[162] 0690_0690
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.8673, δ2=0.9604, δ3=0.9822
+      RMSE=0.2280, MAE=0.1742, AbsRel=0.1352
+      Composite=4.4
+
+    zoedepth-nk:
+      δ1=0.8704, δ2=0.9905, δ3=0.9997
+      RMSE=0.2456, MAE=0.1855, AbsRel=0.1362
+      Composite=5.2
+
+
+[163] 1130_1130
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.9472, δ2=0.9879, δ3=0.9975
+      RMSE=0.1805, MAE=0.1356, AbsRel=0.0711
+      Composite=3.8
+
+    marigold:
+      δ1=0.9811, δ2=0.9908, δ3=0.9948
+      RMSE=0.2204, MAE=0.1444, AbsRel=0.0680
+      Composite=5.4
+
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9411, δ2=0.9910, δ3=1.0000
+      RMSE=0.2485, MAE=0.1791, AbsRel=0.0817
+      Composite=5.0
+
+    dav2-vitb:
+      δ1=0.9219, δ2=0.9848, δ3=0.9914
+      RMSE=0.2259, MAE=0.1608, AbsRel=0.0826
+      Composite=4.0
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9411, δ2=0.9910, δ3=1.0000
+      RMSE=0.2485, MAE=0.1791, AbsRel=0.0817
+      Composite=5.0
+
+    dav2-severe:
+      δ1=0.9163, δ2=0.9832, δ3=0.9924
+      RMSE=0.2297, MAE=0.1656, AbsRel=0.0848
+      Composite=3.9
+
+
+[164] 0165_0165
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.8378, δ2=0.9559, δ3=0.9662
+      RMSE=0.5726, MAE=0.3179, AbsRel=0.1310
+      Composite=7.4
+
+    zoedepth-nk:
+      δ1=0.8332, δ2=0.9706, δ3=0.9926
+      RMSE=0.5409, MAE=0.3211, AbsRel=0.1184
+      Composite=6.4
+
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav2-vitb:
+      δ1=0.7758, δ2=0.9571, δ3=0.9635
+      RMSE=0.6687, MAE=0.3620, AbsRel=0.1541
+      Composite=7.6
+
+    dav2-severe:
+      δ1=0.7775, δ2=0.9526, δ3=0.9632
+      RMSE=0.6704, MAE=0.3658, AbsRel=0.1552
+      Composite=7.6
+
+
+[165] 0840_0840
+------------------------------------------------------------
+
+  zoedepth-nk vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.4630, δ2=0.9022, δ3=0.9684
+      RMSE=0.6430, MAE=0.4501, AbsRel=0.2638
+      Composite=1.0
+
+    marigold:
+      δ1=0.7820, δ2=0.8845, δ3=0.9194
+      RMSE=0.7711, MAE=0.4924, AbsRel=0.2631
+      Composite=13.4
+
+
+[166] 0020_0020
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.8670, δ2=0.9916, δ3=0.9992
+      RMSE=0.4352, MAE=0.3267, AbsRel=0.1285
+      Composite=7.1
+
+    dav2-vitb:
+      δ1=0.8862, δ2=0.9745, δ3=0.9787
+      RMSE=0.5213, MAE=0.3516, AbsRel=0.1341
+      Composite=8.9
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.8670, δ2=0.9916, δ3=0.9992
+      RMSE=0.4352, MAE=0.3267, AbsRel=0.1285
+      Composite=7.1
+
+    dav2-severe:
+      δ1=0.8857, δ2=0.9733, δ3=0.9802
+      RMSE=0.5220, MAE=0.3540, AbsRel=0.1353
+      Composite=8.9
+
+
+[167] 0505_0505
+------------------------------------------------------------
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9460, δ2=0.9918, δ3=0.9990
+      RMSE=0.1309, MAE=0.0942, AbsRel=0.0774
+      Composite=3.5
+
+    dav2-vitb:
+      δ1=0.9414, δ2=0.9924, δ3=1.0000
+      RMSE=0.1278, MAE=0.0944, AbsRel=0.0773
+      Composite=3.3
+
+
+[168] 1280_1280
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.7895, δ2=0.9536, δ3=0.9931
+      RMSE=0.8319, MAE=0.5839, AbsRel=0.1549
+      Composite=10.1
+
+    dav2-vitb:
+      δ1=0.8317, δ2=0.9423, δ3=0.9740
+      RMSE=0.9289, MAE=0.6405, AbsRel=0.1670
+      Composite=13.2
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.7895, δ2=0.9536, δ3=0.9931
+      RMSE=0.8319, MAE=0.5839, AbsRel=0.1549
+      Composite=10.1
+
+    dav2-severe:
+      δ1=0.8209, δ2=0.9424, δ3=0.9736
+      RMSE=0.9244, MAE=0.6412, AbsRel=0.1677
+      Composite=12.8
+
+
+[169] 0450_0450
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.9999, δ2=1.0000, δ3=1.0000
+      RMSE=0.1297, MAE=0.1079, AbsRel=0.0458
+      Composite=3.9
+
+    dav2-vitb:
+      δ1=0.9866, δ2=0.9970, δ3=1.0000
+      RMSE=0.1385, MAE=0.0876, AbsRel=0.0374
+      Composite=3.1
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.9999, δ2=1.0000, δ3=1.0000
+      RMSE=0.1297, MAE=0.1079, AbsRel=0.0458
+      Composite=3.9
+
+    dav2-severe:
+      δ1=0.9865, δ2=0.9976, δ3=1.0000
+      RMSE=0.1396, MAE=0.0909, AbsRel=0.0389
+      Composite=3.2
+
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9933, δ2=1.0000, δ3=1.0000
+      RMSE=0.2038, MAE=0.1598, AbsRel=0.0676
+      Composite=5.7
+
+    dav2-vitb:
+      δ1=0.9866, δ2=0.9970, δ3=1.0000
+      RMSE=0.1385, MAE=0.0876, AbsRel=0.0374
+      Composite=3.1
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9933, δ2=1.0000, δ3=1.0000
+      RMSE=0.2038, MAE=0.1598, AbsRel=0.0676
+      Composite=5.7
+
+    dav2-severe:
+      δ1=0.9865, δ2=0.9976, δ3=1.0000
+      RMSE=0.1396, MAE=0.0909, AbsRel=0.0389
+      Composite=3.2
+
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.9996, δ2=1.0000, δ3=1.0000
+      RMSE=0.1670, MAE=0.1350, AbsRel=0.0575
+      Composite=4.9
+
+    dav2-vitb:
+      δ1=0.9866, δ2=0.9970, δ3=1.0000
+      RMSE=0.1385, MAE=0.0876, AbsRel=0.0374
+      Composite=3.1
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.9996, δ2=1.0000, δ3=1.0000
+      RMSE=0.1670, MAE=0.1350, AbsRel=0.0575
+      Composite=4.9
+
+    dav2-severe:
+      δ1=0.9865, δ2=0.9976, δ3=1.0000
+      RMSE=0.1396, MAE=0.0909, AbsRel=0.0389
+      Composite=3.2
+
+
+[170] 0595_0595
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.8944, δ2=0.9817, δ3=0.9994
+      RMSE=0.3244, MAE=0.2633, AbsRel=0.1242
+      Composite=6.3
+
+    zoedepth-nk:
+      δ1=0.8680, δ2=0.9548, δ3=0.9987
+      RMSE=0.3379, MAE=0.2424, AbsRel=0.1183
+      Composite=4.8
+
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.8944, δ2=0.9817, δ3=0.9994
+      RMSE=0.3244, MAE=0.2633, AbsRel=0.1242
+      Composite=6.3
+
+    dav2-vitb:
+      δ1=0.8833, δ2=0.9490, δ3=0.9809
+      RMSE=0.3822, MAE=0.2537, AbsRel=0.1225
+      Composite=6.1
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.8944, δ2=0.9817, δ3=0.9994
+      RMSE=0.3244, MAE=0.2633, AbsRel=0.1242
+      Composite=6.3
+
+    dav2-severe:
+      δ1=0.8852, δ2=0.9502, δ3=0.9817
+      RMSE=0.3782, MAE=0.2515, AbsRel=0.1213
+      Composite=6.0
+
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.8680, δ2=0.9548, δ3=0.9987
+      RMSE=0.3379, MAE=0.2424, AbsRel=0.1183
+      Composite=4.8
+
+    dav2-vitb:
+      δ1=0.8833, δ2=0.9490, δ3=0.9809
+      RMSE=0.3822, MAE=0.2537, AbsRel=0.1225
+      Composite=6.1
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.8680, δ2=0.9548, δ3=0.9987
+      RMSE=0.3379, MAE=0.2424, AbsRel=0.1183
+      Composite=4.8
+
+    dav2-severe:
+      δ1=0.8852, δ2=0.9502, δ3=0.9817
+      RMSE=0.3782, MAE=0.2515, AbsRel=0.1213
+      Composite=6.0
+
+
+[171] 0375_0375
+------------------------------------------------------------
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav2-vitb:
+      δ1=0.8418, δ2=0.9685, δ3=0.9867
+      RMSE=0.2919, MAE=0.1985, AbsRel=0.1159
+      Composite=3.4
+
+    dav2-severe:
+      δ1=0.8458, δ2=0.9680, δ3=0.9855
+      RMSE=0.2896, MAE=0.1994, AbsRel=0.1163
+      Composite=3.6
+
+
+[172] 0630_0630
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.8217, δ2=0.9620, δ3=0.9741
+      RMSE=0.8047, MAE=0.5748, AbsRel=0.1533
+      Composite=10.9
+
+    zoedepth-nk:
+      δ1=0.8195, δ2=0.9761, δ3=0.9944
+      RMSE=0.6316, MAE=0.4221, AbsRel=0.1221
+      Composite=7.3
+
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.6576, δ2=0.9134, δ3=0.9965
+      RMSE=1.1465, MAE=0.8497, AbsRel=0.2051
+      Composite=11.3
+
+    dav2-vitb:
+      δ1=0.6502, δ2=0.9494, δ3=0.9625
+      RMSE=0.9935, MAE=0.6954, AbsRel=0.1839
+      Composite=8.6
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.6576, δ2=0.9134, δ3=0.9965
+      RMSE=1.1465, MAE=0.8497, AbsRel=0.2051
+      Composite=11.3
+
+    dav2-severe:
+      δ1=0.6555, δ2=0.9468, δ3=0.9649
+      RMSE=0.9947, MAE=0.6995, AbsRel=0.1851
+      Composite=8.8
+
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav2-vitb:
+      δ1=0.6502, δ2=0.9494, δ3=0.9625
+      RMSE=0.9935, MAE=0.6954, AbsRel=0.1839
+      Composite=8.6
+
+    dav2-severe:
+      δ1=0.6555, δ2=0.9468, δ3=0.9649
+      RMSE=0.9947, MAE=0.6995, AbsRel=0.1851
+      Composite=8.8
+
+
+[173] 0935_0935
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.9378, δ2=0.9856, δ3=0.9981
+      RMSE=0.2370, MAE=0.1901, AbsRel=0.0916
+      Composite=5.2
+
+    marigold:
+      δ1=0.9656, δ2=0.9773, δ3=0.9847
+      RMSE=0.3252, MAE=0.1906, AbsRel=0.0898
+      Composite=7.0
+
+
+  zoedepth-nk vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9575, δ2=0.9778, δ3=0.9927
+      RMSE=0.2476, MAE=0.1443, AbsRel=0.0671
+      Composite=4.6
+
+    marigold:
+      δ1=0.9656, δ2=0.9773, δ3=0.9847
+      RMSE=0.3252, MAE=0.1906, AbsRel=0.0898
+      Composite=7.0
+
+
+[174] 0700_0700
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.9588, δ2=1.0000, δ3=1.0000
+      RMSE=0.0754, MAE=0.0558, AbsRel=0.0575
+      Composite=2.4
+
+    zoedepth-nk:
+      δ1=0.9674, δ2=0.9999, δ3=1.0000
+      RMSE=0.0801, MAE=0.0568, AbsRel=0.0575
+      Composite=2.7
+
+
+[175] 1100_1100
+------------------------------------------------------------
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav2-vitb:
+      δ1=0.7316, δ2=0.9645, δ3=0.9731
+      RMSE=0.6398, MAE=0.4947, AbsRel=0.1962
+      Composite=7.9
+
+    dav2-severe:
+      δ1=0.7229, δ2=0.9596, δ3=0.9734
+      RMSE=0.6360, MAE=0.4938, AbsRel=0.1960
+      Composite=7.4
+
+
+[176] 1360_1360
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.8425, δ2=0.9649, δ3=0.9945
+      RMSE=0.7494, MAE=0.5409, AbsRel=0.1352
+      Composite=10.1
+
+    marigold:
+      δ1=0.8305, δ2=0.9625, δ3=1.0000
+      RMSE=0.7789, MAE=0.5091, AbsRel=0.1214
+      Composite=9.3
+
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.7766, δ2=0.9328, δ3=0.9777
+      RMSE=0.8801, MAE=0.6461, AbsRel=0.1675
+      Composite=10.6
+
+    dav2-vitb:
+      δ1=0.7622, δ2=0.9523, δ3=0.9915
+      RMSE=0.8156, MAE=0.6111, AbsRel=0.1573
+      Composite=9.0
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.7766, δ2=0.9328, δ3=0.9777
+      RMSE=0.8801, MAE=0.6461, AbsRel=0.1675
+      Composite=10.6
+
+    dav2-severe:
+      δ1=0.7618, δ2=0.9524, δ3=0.9918
+      RMSE=0.8144, MAE=0.6106, AbsRel=0.1570
+      Composite=9.0
+
+
+[177] 0035_0035
+------------------------------------------------------------
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.8775, δ2=0.9757, δ3=0.9890
+      RMSE=0.6337, MAE=0.4995, AbsRel=0.1300
+      Composite=9.8
+
+    dav2-vitb:
+      δ1=0.8756, δ2=0.9598, δ3=0.9819
+      RMSE=0.6609, MAE=0.4951, AbsRel=0.1263
+      Composite=9.6
+
+
+[178] 1020_1020
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.7114, δ2=0.8707, δ3=0.9210
+      RMSE=0.5344, MAE=0.4231, AbsRel=0.2253
+      Composite=5.9
+
+    zoedepth-nk:
+      δ1=0.6942, δ2=0.9220, δ3=0.9940
+      RMSE=0.5252, MAE=0.4060, AbsRel=0.1978
+      Composite=4.6
+
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.6942, δ2=0.9220, δ3=0.9940
+      RMSE=0.5252, MAE=0.4060, AbsRel=0.1978
+      Composite=4.6
+
+    dav2-vitb:
+      δ1=0.7836, δ2=0.8481, δ3=0.9430
+      RMSE=0.5791, MAE=0.3948, AbsRel=0.2089
+      Composite=7.8
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.6942, δ2=0.9220, δ3=0.9940
+      RMSE=0.5252, MAE=0.4060, AbsRel=0.1978
+      Composite=4.6
+
+    dav2-severe:
+      δ1=0.7768, δ2=0.8526, δ3=0.9416
+      RMSE=0.5775, MAE=0.3981, AbsRel=0.2101
+      Composite=7.7
+
+
+[179] 0105_0105
+------------------------------------------------------------
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.3810, δ2=0.6485, δ3=0.9250
+      RMSE=1.7845, MAE=1.3267, AbsRel=0.4356
+      Composite=17.1
+
+    dav2-vitb:
+      δ1=0.3490, δ2=0.8195, δ3=0.9166
+      RMSE=1.5087, MAE=1.1521, AbsRel=0.3238
+      Composite=9.6
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.3810, δ2=0.6485, δ3=0.9250
+      RMSE=1.7845, MAE=1.3267, AbsRel=0.4356
+      Composite=17.1
+
+    dav2-severe:
+      δ1=0.3470, δ2=0.8190, δ3=0.9151
+      RMSE=1.5116, MAE=1.1585, AbsRel=0.3273
+      Composite=9.7
+
+
+[180] 0895_0895
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.4080, δ2=0.6738, δ3=0.8345
+      RMSE=1.0588, MAE=0.8614, AbsRel=0.4113
+      Composite=8.2
+
+    dav2-vitb:
+      δ1=0.3196, δ2=0.7351, δ3=0.8864
+      RMSE=1.0531, MAE=0.8649, AbsRel=0.3949
+      Composite=5.1
+
+
+[181] 1240_1240
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.4176, δ2=0.7757, δ3=0.9557
+      RMSE=1.5252, MAE=1.2089, AbsRel=0.2933
+      Composite=10.0
+
+    zoedepth-nk:
+      δ1=0.4666, δ2=0.8127, δ3=0.9888
+      RMSE=1.6445, MAE=1.2214, AbsRel=0.2965
+      Composite=13.9
+
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.4176, δ2=0.7757, δ3=0.9557
+      RMSE=1.5252, MAE=1.2089, AbsRel=0.2933
+      Composite=10.0
+
+    marigold:
+      δ1=0.4413, δ2=0.7197, δ3=0.9152
+      RMSE=1.9265, MAE=1.3785, AbsRel=0.3478
+      Composite=17.7
+
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.4413, δ2=0.7197, δ3=0.9152
+      RMSE=1.9265, MAE=1.3785, AbsRel=0.3478
+      Composite=17.7
+
+    dav2-vitb:
+      δ1=0.4015, δ2=0.8550, δ3=0.9526
+      RMSE=1.5423, MAE=1.2738, AbsRel=0.3089
+      Composite=11.6
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.4413, δ2=0.7197, δ3=0.9152
+      RMSE=1.9265, MAE=1.3785, AbsRel=0.3478
+      Composite=17.7
+
+    dav2-severe:
+      δ1=0.3954, δ2=0.8408, δ3=0.9524
+      RMSE=1.5469, MAE=1.2762, AbsRel=0.3096
+      Composite=11.3
+
+
+[182] 1205_1205
+------------------------------------------------------------
+
+  zoedepth-nk vs marigold:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.8756, δ2=0.9902, δ3=0.9984
+      RMSE=0.7670, MAE=0.5471, AbsRel=0.1142
+      Composite=10.8
+
+    marigold:
+      δ1=0.8442, δ2=0.9847, δ3=0.9948
+      RMSE=0.6535, MAE=0.5150, AbsRel=0.1253
+      Composite=8.8
+
+
+[183] 1070_1070
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9658, δ2=0.9996, δ3=1.0000
+      RMSE=0.3937, MAE=0.3163, AbsRel=0.1043
+      Composite=8.9
+
+    zoedepth-nk:
+      δ1=0.9613, δ2=0.9943, δ3=1.0000
+      RMSE=0.3273, MAE=0.2628, AbsRel=0.0936
+      Composite=7.3
+
+
+  zoedepth-nk vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9613, δ2=0.9943, δ3=1.0000
+      RMSE=0.3273, MAE=0.2628, AbsRel=0.0936
+      Composite=7.3
+
+    marigold:
+      δ1=0.9775, δ2=0.9885, δ3=1.0000
+      RMSE=0.3641, MAE=0.2656, AbsRel=0.0875
+      Composite=8.0
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9613, δ2=0.9943, δ3=1.0000
+      RMSE=0.3273, MAE=0.2628, AbsRel=0.0936
+      Composite=7.3
+
+    dav2-severe:
+      δ1=0.9771, δ2=0.9887, δ3=0.9902
+      RMSE=0.4035, MAE=0.2657, AbsRel=0.0853
+      Composite=8.3
+
+
+[184] 1110_1110
+------------------------------------------------------------
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.8836, δ2=0.9819, δ3=0.9916
+      RMSE=0.4850, MAE=0.2930, AbsRel=0.1029
+      Composite=6.9
+
+    dav2-vitb:
+      δ1=0.8987, δ2=0.9710, δ3=0.9804
+      RMSE=0.5180, MAE=0.3374, AbsRel=0.1084
+      Composite=7.9
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.8836, δ2=0.9819, δ3=0.9916
+      RMSE=0.4850, MAE=0.2930, AbsRel=0.1029
+      Composite=6.9
+
+    dav2-severe:
+      δ1=0.8999, δ2=0.9709, δ3=0.9820
+      RMSE=0.5160, MAE=0.3382, AbsRel=0.1086
+      Composite=7.9
+
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav2-vitb:
+      δ1=0.8987, δ2=0.9710, δ3=0.9804
+      RMSE=0.5180, MAE=0.3374, AbsRel=0.1084
+      Composite=7.9
+
+    dav2-severe:
+      δ1=0.8999, δ2=0.9709, δ3=0.9820
+      RMSE=0.5160, MAE=0.3382, AbsRel=0.1086
+      Composite=7.9
+
+
+[185] 0435_0435
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9541, δ2=1.0000, δ3=1.0000
+      RMSE=0.3584, MAE=0.2631, AbsRel=0.0723
+      Composite=6.5
+
+    marigold:
+      δ1=0.9390, δ2=0.9946, δ3=1.0000
+      RMSE=0.3086, MAE=0.1948, AbsRel=0.0591
+      Composite=4.6
+
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9541, δ2=1.0000, δ3=1.0000
+      RMSE=0.3584, MAE=0.2631, AbsRel=0.0723
+      Composite=6.5
+
+    dav2-vitb:
+      δ1=0.9653, δ2=0.9843, δ3=0.9924
+      RMSE=0.4392, MAE=0.3029, AbsRel=0.0848
+      Composite=8.3
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9541, δ2=1.0000, δ3=1.0000
+      RMSE=0.3584, MAE=0.2631, AbsRel=0.0723
+      Composite=6.5
+
+    dav2-severe:
+      δ1=0.9651, δ2=0.9852, δ3=0.9925
+      RMSE=0.4387, MAE=0.3060, AbsRel=0.0858
+      Composite=8.3
+
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.9390, δ2=0.9946, δ3=1.0000
+      RMSE=0.3086, MAE=0.1948, AbsRel=0.0591
+      Composite=4.6
+
+    dav2-vitb:
+      δ1=0.9653, δ2=0.9843, δ3=0.9924
+      RMSE=0.4392, MAE=0.3029, AbsRel=0.0848
+      Composite=8.3
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.9390, δ2=0.9946, δ3=1.0000
+      RMSE=0.3086, MAE=0.1948, AbsRel=0.0591
+      Composite=4.6
+
+    dav2-severe:
+      δ1=0.9651, δ2=0.9852, δ3=0.9925
+      RMSE=0.4387, MAE=0.3060, AbsRel=0.0858
+      Composite=8.3
+
+
+[186] 0645_0645
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.8241, δ2=0.9601, δ3=0.9859
+      RMSE=0.1712, MAE=0.1215, AbsRel=0.1126
+      Composite=1.0
+
+    marigold:
+      δ1=0.9435, δ2=0.9831, δ3=0.9861
+      RMSE=0.2029, MAE=0.1242, AbsRel=0.1016
+      Composite=5.4
+
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.7679, δ2=0.9068, δ3=0.9555
+      RMSE=0.3351, MAE=0.2368, AbsRel=0.1925
+      Composite=4.3
+
+    dav2-vitb:
+      δ1=0.7392, δ2=0.9360, δ3=0.9640
+      RMSE=0.3003, MAE=0.2266, AbsRel=0.1833
+      Composite=2.8
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.7679, δ2=0.9068, δ3=0.9555
+      RMSE=0.3351, MAE=0.2368, AbsRel=0.1925
+      Composite=4.3
+
+    dav2-severe:
+      δ1=0.7370, δ2=0.9383, δ3=0.9652
+      RMSE=0.2992, MAE=0.2261, AbsRel=0.1831
+      Composite=2.8
+
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav2-vitb:
+      δ1=0.7392, δ2=0.9360, δ3=0.9640
+      RMSE=0.3003, MAE=0.2266, AbsRel=0.1833
+      Composite=2.8
+
+    dav2-severe:
+      δ1=0.7370, δ2=0.9383, δ3=0.9652
+      RMSE=0.2992, MAE=0.2261, AbsRel=0.1831
+      Composite=2.8
+
+
+[187] 1030_1030
+------------------------------------------------------------
+
+  zoedepth-nk vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9456, δ2=0.9642, δ3=0.9989
+      RMSE=0.5218, MAE=0.2410, AbsRel=0.0662
+      Composite=7.4
+
+    marigold:
+      δ1=0.9512, δ2=0.9627, δ3=0.9903
+      RMSE=0.5730, MAE=0.3015, AbsRel=0.0861
+      Composite=9.2
+
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav2-vitb:
+      δ1=0.8484, δ2=0.9610, δ3=0.9868
+      RMSE=0.6754, MAE=0.4329, AbsRel=0.1273
+      Composite=8.9
+
+    dav2-severe:
+      δ1=0.8502, δ2=0.9604, δ3=0.9872
+      RMSE=0.6758, MAE=0.4380, AbsRel=0.1292
+      Composite=9.1
+
+
+[188] 0110_0110
+------------------------------------------------------------
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.5464, δ2=0.8272, δ3=0.9307
+      RMSE=1.4190, MAE=1.1286, AbsRel=0.3102
+      Composite=14.8
+
+    dav2-vitb:
+      δ1=0.5008, δ2=0.8714, δ3=0.9618
+      RMSE=1.4131, MAE=1.1201, AbsRel=0.2561
+      Composite=11.1
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.5464, δ2=0.8272, δ3=0.9307
+      RMSE=1.4190, MAE=1.1286, AbsRel=0.3102
+      Composite=14.8
+
+    dav2-severe:
+      δ1=0.5055, δ2=0.8704, δ3=0.9619
+      RMSE=1.4135, MAE=1.1225, AbsRel=0.2573
+      Composite=11.3
+
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav2-vitb:
+      δ1=0.5008, δ2=0.8714, δ3=0.9618
+      RMSE=1.4131, MAE=1.1201, AbsRel=0.2561
+      Composite=11.1
+
+    dav2-severe:
+      δ1=0.5055, δ2=0.8704, δ3=0.9619
+      RMSE=1.4135, MAE=1.1225, AbsRel=0.2573
+      Composite=11.3
+
+
+[189] 0855_0855
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.3827, δ2=0.6891, δ3=0.8877
+      RMSE=1.0852, MAE=0.8062, AbsRel=0.3592
+      Composite=5.3
+
+    dav2-vitb:
+      δ1=0.4452, δ2=0.7041, δ3=0.9417
+      RMSE=1.1755, MAE=0.8209, AbsRel=0.3468
+      Composite=8.2
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.3827, δ2=0.6891, δ3=0.8877
+      RMSE=1.0852, MAE=0.8062, AbsRel=0.3592
+      Composite=5.3
+
+    dav2-severe:
+      δ1=0.4146, δ2=0.6921, δ3=0.9308
+      RMSE=1.1869, MAE=0.8413, AbsRel=0.3593
+      Composite=7.7
+
+
+[190] 0880_0880
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.1839, δ2=0.7445, δ3=0.9051
+      RMSE=1.1921, MAE=1.0735, AbsRel=0.3960
+      Composite=2.3
+
+    marigold:
+      δ1=0.1977, δ2=0.6752, δ3=0.9564
+      RMSE=1.4598, MAE=1.2210, AbsRel=0.4226
+      Composite=6.4
+
+
+[191] 0765_0765
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.5643, δ2=0.9509, δ3=0.9929
+      RMSE=0.8534, MAE=0.5975, AbsRel=0.1983
+      Composite=4.6
+
+    zoedepth-nk:
+      δ1=0.6679, δ2=0.9647, δ3=0.9951
+      RMSE=0.8267, MAE=0.6152, AbsRel=0.2034
+      Composite=8.4
+
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.7267, δ2=0.9617, δ3=0.9886
+      RMSE=0.7965, MAE=0.5831, AbsRel=0.1995
+      Composite=9.8
+
+    dav2-vitb:
+      δ1=0.6884, δ2=0.9464, δ3=0.9791
+      RMSE=0.7948, MAE=0.5385, AbsRel=0.1792
+      Composite=7.2
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    marigold:
+      δ1=0.7267, δ2=0.9617, δ3=0.9886
+      RMSE=0.7965, MAE=0.5831, AbsRel=0.1995
+      Composite=9.8
+
+    dav2-severe:
+      δ1=0.6835, δ2=0.9429, δ3=0.9798
+      RMSE=0.7996, MAE=0.5436, AbsRel=0.1810
+      Composite=7.1
+
+
+[192] 0970_0970
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9045, δ2=0.9915, δ3=0.9981
+      RMSE=0.3127, MAE=0.2219, AbsRel=0.0818
+      Composite=4.5
+
+    marigold:
+      δ1=0.9374, δ2=0.9844, δ3=0.9942
+      RMSE=0.4407, MAE=0.2908, AbsRel=0.0934
+      Composite=7.8
+
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.8648, δ2=0.9789, δ3=1.0000
+      RMSE=0.4283, MAE=0.3409, AbsRel=0.1241
+      Composite=6.5
+
+    dav2-vitb:
+      δ1=0.8260, δ2=0.9659, δ3=0.9880
+      RMSE=0.4569, MAE=0.2998, AbsRel=0.1103
+      Composite=4.6
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.8648, δ2=0.9789, δ3=1.0000
+      RMSE=0.4283, MAE=0.3409, AbsRel=0.1241
+      Composite=6.5
+
+    dav2-severe:
+      δ1=0.8260, δ2=0.9643, δ3=0.9887
+      RMSE=0.4575, MAE=0.3024, AbsRel=0.1110
+      Composite=4.6
+
+
+[193] 1405_1405
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.5921, δ2=0.8822, δ3=0.9515
+      RMSE=1.0542, MAE=0.8014, AbsRel=0.2254
+      Composite=8.4
+
+    marigold:
+      δ1=0.6032, δ2=0.9074, δ3=0.9804
+      RMSE=1.3197, MAE=0.9185, AbsRel=0.2452
+      Composite=13.5
+
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.5921, δ2=0.8822, δ3=0.9515
+      RMSE=1.0542, MAE=0.8014, AbsRel=0.2254
+      Composite=8.4
+
+    dav2-vitb:
+      δ1=0.6086, δ2=0.8916, δ3=0.9609
+      RMSE=1.2629, MAE=0.8921, AbsRel=0.2305
+      Composite=12.0
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.5921, δ2=0.8822, δ3=0.9515
+      RMSE=1.0542, MAE=0.8014, AbsRel=0.2254
+      Composite=8.4
+
+    dav2-severe:
+      δ1=0.6002, δ2=0.8889, δ3=0.9602
+      RMSE=1.2750, MAE=0.9057, AbsRel=0.2339
+      Composite=12.0
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    marigold:
+      δ1=0.6032, δ2=0.9074, δ3=0.9804
+      RMSE=1.3197, MAE=0.9185, AbsRel=0.2452
+      Composite=13.5
+
+    dav2-severe:
+      δ1=0.6002, δ2=0.8889, δ3=0.9602
+      RMSE=1.2750, MAE=0.9057, AbsRel=0.2339
+      Composite=12.0
+
+
+[194] 0780_0780
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.7978, δ2=0.8994, δ3=0.9530
+      RMSE=0.5718, MAE=0.3988, AbsRel=0.1855
+      Composite=7.8
+
+    zoedepth-nk:
+      δ1=0.8366, δ2=0.9126, δ3=0.9337
+      RMSE=0.6129, MAE=0.3999, AbsRel=0.1814
+      Composite=9.7
+
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.7978, δ2=0.8994, δ3=0.9530
+      RMSE=0.5718, MAE=0.3988, AbsRel=0.1855
+      Composite=7.8
+
+    dav2-vitb:
+      δ1=0.8443, δ2=0.9359, δ3=0.9677
+      RMSE=0.7736, MAE=0.4738, AbsRel=0.1675
+      Composite=11.6
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.7978, δ2=0.8994, δ3=0.9530
+      RMSE=0.5718, MAE=0.3988, AbsRel=0.1855
+      Composite=7.8
+
+    dav2-severe:
+      δ1=0.8229, δ2=0.9351, δ3=0.9668
+      RMSE=0.7747, MAE=0.4807, AbsRel=0.1705
+      Composite=11.0
+
+
+  zoedepth-nk vs marigold:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.8366, δ2=0.9126, δ3=0.9337
+      RMSE=0.6129, MAE=0.3999, AbsRel=0.1814
+      Composite=9.7
+
+    marigold:
+      δ1=0.8173, δ2=0.9062, δ3=0.9396
+      RMSE=0.5775, MAE=0.3486, AbsRel=0.1716
+      Composite=8.0
+
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.8366, δ2=0.9126, δ3=0.9337
+      RMSE=0.6129, MAE=0.3999, AbsRel=0.1814
+      Composite=9.7
+
+    dav2-vitb:
+      δ1=0.8443, δ2=0.9359, δ3=0.9677
+      RMSE=0.7736, MAE=0.4738, AbsRel=0.1675
+      Composite=11.6
+
+
+  marigold vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    marigold:
+      δ1=0.8173, δ2=0.9062, δ3=0.9396
+      RMSE=0.5775, MAE=0.3486, AbsRel=0.1716
+      Composite=8.0
+
+    dav2-vitb:
+      δ1=0.8443, δ2=0.9359, δ3=0.9677
+      RMSE=0.7736, MAE=0.4738, AbsRel=0.1675
+      Composite=11.6
+
+
+  marigold vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    marigold:
+      δ1=0.8173, δ2=0.9062, δ3=0.9396
+      RMSE=0.5775, MAE=0.3486, AbsRel=0.1716
+      Composite=8.0
+
+    dav2-severe:
+      δ1=0.8229, δ2=0.9351, δ3=0.9668
+      RMSE=0.7747, MAE=0.4807, AbsRel=0.1705
+      Composite=11.0
+
+
+[195] 0270_0270
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.8059, δ2=0.9025, δ3=0.9472
+      RMSE=0.5136, MAE=0.4180, AbsRel=0.1874
+      Composite=7.5
+
+    dav2-vitb:
+      δ1=0.8027, δ2=0.9254, δ3=0.9661
+      RMSE=0.4963, MAE=0.3911, AbsRel=0.1641
+      Composite=6.4
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.8059, δ2=0.9025, δ3=0.9472
+      RMSE=0.5136, MAE=0.4180, AbsRel=0.1874
+      Composite=7.5
+
+    dav2-severe:
+      δ1=0.8026, δ2=0.9276, δ3=0.9661
+      RMSE=0.5015, MAE=0.4003, AbsRel=0.1673
+      Composite=6.6
+
+
+[196] 0655_0655
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.8895, δ2=0.9991, δ3=1.0000
+      RMSE=0.2929, MAE=0.2147, AbsRel=0.0952
+      Composite=4.5
+
+    dav2-vitb:
+      δ1=0.9344, δ2=0.9778, δ3=0.9830
+      RMSE=0.3257, MAE=0.2241, AbsRel=0.1054
+      Composite=6.7
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.8895, δ2=0.9991, δ3=1.0000
+      RMSE=0.2929, MAE=0.2147, AbsRel=0.0952
+      Composite=4.5
+
+    dav2-severe:
+      δ1=0.9340, δ2=0.9787, δ3=0.9844
+      RMSE=0.3233, MAE=0.2239, AbsRel=0.1053
+      Composite=6.7
+
+
+[197] 0135_0135
+------------------------------------------------------------
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9920, δ2=1.0000, δ3=1.0000
+      RMSE=0.1135, MAE=0.0955, AbsRel=0.0666
+      Composite=4.5
+
+    dav2-vitb:
+      δ1=0.9833, δ2=0.9924, δ3=1.0000
+      RMSE=0.0988, MAE=0.0707, AbsRel=0.0498
+      Composite=3.0
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9920, δ2=1.0000, δ3=1.0000
+      RMSE=0.1135, MAE=0.0955, AbsRel=0.0666
+      Composite=4.5
+
+    dav2-severe:
+      δ1=0.9840, δ2=0.9934, δ3=1.0000
+      RMSE=0.0976, MAE=0.0701, AbsRel=0.0494
+      Composite=3.0
+
+
+[198] 1320_1320
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9294, δ2=0.9998, δ3=1.0000
+      RMSE=0.2819, MAE=0.2230, AbsRel=0.0941
+      Composite=5.8
+
+    zoedepth-nk:
+      δ1=0.9161, δ2=0.9973, δ3=1.0000
+      RMSE=0.2775, MAE=0.2063, AbsRel=0.0904
+      Composite=5.0
+
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.9294, δ2=0.9998, δ3=1.0000
+      RMSE=0.2819, MAE=0.2230, AbsRel=0.0941
+      Composite=5.8
+
+    marigold:
+      δ1=0.9199, δ2=0.9965, δ3=1.0000
+      RMSE=0.2821, MAE=0.2079, AbsRel=0.0913
+      Composite=5.2
+
+
+  zoedepth-nk vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9161, δ2=0.9973, δ3=1.0000
+      RMSE=0.2775, MAE=0.2063, AbsRel=0.0904
+      Composite=5.0
+
+    marigold:
+      δ1=0.9199, δ2=0.9965, δ3=1.0000
+      RMSE=0.2821, MAE=0.2079, AbsRel=0.0913
+      Composite=5.2
+
+
+[199] 1220_1220
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9663, δ2=1.0000, δ3=1.0000
+      RMSE=0.2868, MAE=0.2359, AbsRel=0.0671
+      Composite=5.8
+
+    marigold:
+      δ1=0.9733, δ2=0.9873, δ3=0.9993
+      RMSE=0.3617, MAE=0.2417, AbsRel=0.0717
+      Composite=7.0
+
+
+[200] 0540_0540
+------------------------------------------------------------
+
+  dav1-vits vs marigold:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.9844, δ2=1.0000, δ3=1.0000
+      RMSE=0.2029, MAE=0.1644, AbsRel=0.0648
+      Composite=5.2
+
+    marigold:
+      δ1=0.9739, δ2=0.9839, δ3=0.9960
+      RMSE=0.2538, MAE=0.1355, AbsRel=0.0546
+      Composite=4.7
+
+
+  zoedepth-nk vs marigold:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9843, δ2=0.9985, δ3=1.0000
+      RMSE=0.2307, MAE=0.1812, AbsRel=0.0720
+      Composite=5.9
+
+    marigold:
+      δ1=0.9739, δ2=0.9839, δ3=0.9960
+      RMSE=0.2538, MAE=0.1355, AbsRel=0.0546
+      Composite=4.7
+
+
+[201] 0325_0325
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.9068, δ2=0.9581, δ3=0.9747
+      RMSE=0.3992, MAE=0.3167, AbsRel=0.1185
+      Composite=7.0
+
+    dav2-vitb:
+      δ1=0.9082, δ2=0.9694, δ3=0.9804
+      RMSE=0.5371, MAE=0.3822, AbsRel=0.1321
+      Composite=9.6
+
+
+[202] 0800_0800
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.2922, δ2=0.6420, δ3=0.7879
+      RMSE=1.7014, MAE=1.4075, AbsRel=0.4553
+      Composite=13.9
+
+    dav2-vitb:
+      δ1=0.3336, δ2=0.6677, δ3=0.8872
+      RMSE=1.8151, MAE=1.4143, AbsRel=0.4245
+      Composite=15.6
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.2922, δ2=0.6420, δ3=0.7879
+      RMSE=1.7014, MAE=1.4075, AbsRel=0.4553
+      Composite=13.9
+
+    dav2-severe:
+      δ1=0.3320, δ2=0.6480, δ3=0.8792
+      RMSE=1.8308, MAE=1.4277, AbsRel=0.4273
+      Composite=15.6
+
+
+[203] 0990_0990
+------------------------------------------------------------
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.8484, δ2=0.9313, δ3=0.9811
+      RMSE=0.4816, MAE=0.3571, AbsRel=0.1574
+      Composite=7.6
+
+    dav2-severe:
+      δ1=0.8453, δ2=0.9059, δ3=0.9450
+      RMSE=0.5192, MAE=0.3283, AbsRel=0.1542
+      Composite=7.4
+
+
+[204] 0945_0945
+------------------------------------------------------------
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.9767, δ2=0.9982, δ3=0.9999
+      RMSE=0.2347, MAE=0.1866, AbsRel=0.0815
+      Composite=6.2
+
+    dav2-vitb:
+      δ1=0.9587, δ2=0.9802, δ3=0.9909
+      RMSE=0.2810, MAE=0.1741, AbsRel=0.0773
+      Composite=5.6
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.9767, δ2=0.9982, δ3=0.9999
+      RMSE=0.2347, MAE=0.1866, AbsRel=0.0815
+      Composite=6.2
+
+    dav2-severe:
+      δ1=0.9557, δ2=0.9815, δ3=0.9902
+      RMSE=0.2803, MAE=0.1780, AbsRel=0.0794
+      Composite=5.6
+
+
+  zoedepth-nk vs marigold:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.8566, δ2=0.9973, δ3=0.9999
+      RMSE=0.2963, MAE=0.2293, AbsRel=0.1093
+      Composite=4.1
+
+    marigold:
+      δ1=0.9088, δ2=0.9862, δ3=0.9946
+      RMSE=0.3249, MAE=0.2413, AbsRel=0.1147
+      Composite=6.4
+
+
+[205] 0850_0850
+------------------------------------------------------------
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.5828, δ2=0.8733, δ3=0.9740
+      RMSE=0.9034, MAE=0.6357, AbsRel=0.2450
+      Composite=7.0
+
+    dav2-vitb:
+      δ1=0.5454, δ2=0.8667, δ3=0.9440
+      RMSE=0.8208, MAE=0.6256, AbsRel=0.2511
+      Composite=4.9
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 2/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.5828, δ2=0.8733, δ3=0.9740
+      RMSE=0.9034, MAE=0.6357, AbsRel=0.2450
+      Composite=7.0
+
+    dav2-severe:
+      δ1=0.5433, δ2=0.8685, δ3=0.9461
+      RMSE=0.8198, MAE=0.6274, AbsRel=0.2523
+      Composite=4.9
+
+
+[206] 0530_0530
+------------------------------------------------------------
+
+  dav1-vits vs zoedepth-nk:
+    Problem: Inconsistent: B has higher δ1 but 2/3 errors higher
+
+    dav1-vits:
+      δ1=0.8753, δ2=0.9820, δ3=0.9971
+      RMSE=0.2345, MAE=0.1758, AbsRel=0.0967
+      Composite=3.1
+
+    zoedepth-nk:
+      δ1=0.9056, δ2=0.9964, δ3=1.0000
+      RMSE=0.2546, MAE=0.1794, AbsRel=0.0921
+      Composite=4.4
+
+
+  dav1-vits vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.8753, δ2=0.9820, δ3=0.9971
+      RMSE=0.2345, MAE=0.1758, AbsRel=0.0967
+      Composite=3.1
+
+    dav2-vitb:
+      δ1=0.9470, δ2=0.9721, δ3=0.9811
+      RMSE=0.2998, MAE=0.2194, AbsRel=0.1118
+      Composite=7.1
+
+
+  dav1-vits vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    dav1-vits:
+      δ1=0.8753, δ2=0.9820, δ3=0.9971
+      RMSE=0.2345, MAE=0.1758, AbsRel=0.0967
+      Composite=3.1
+
+    dav2-severe:
+      δ1=0.9314, δ2=0.9735, δ3=0.9819
+      RMSE=0.2989, MAE=0.2212, AbsRel=0.1132
+      Composite=6.6
+
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9056, δ2=0.9964, δ3=1.0000
+      RMSE=0.2546, MAE=0.1794, AbsRel=0.0921
+      Composite=4.4
+
+    dav2-vitb:
+      δ1=0.9470, δ2=0.9721, δ3=0.9811
+      RMSE=0.2998, MAE=0.2194, AbsRel=0.1118
+      Composite=7.1
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.9056, δ2=0.9964, δ3=1.0000
+      RMSE=0.2546, MAE=0.1794, AbsRel=0.0921
+      Composite=4.4
+
+    dav2-severe:
+      δ1=0.9314, δ2=0.9735, δ3=0.9819
+      RMSE=0.2989, MAE=0.2212, AbsRel=0.1132
+      Composite=6.6
+
+
+[207] 1260_1260
+------------------------------------------------------------
+
+  zoedepth-nk vs dav2-vitb:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.7133, δ2=0.9022, δ3=0.9886
+      RMSE=0.7743, MAE=0.5511, AbsRel=0.1941
+      Composite=7.9
+
+    dav2-vitb:
+      δ1=0.7413, δ2=0.9043, δ3=0.9618
+      RMSE=0.7845, MAE=0.5897, AbsRel=0.2072
+      Composite=9.7
+
+
+  zoedepth-nk vs dav2-severe:
+    Problem: Inconsistent: B has higher δ1 but 3/3 errors higher
+
+    zoedepth-nk:
+      δ1=0.7133, δ2=0.9022, δ3=0.9886
+      RMSE=0.7743, MAE=0.5511, AbsRel=0.1941
+      Composite=7.9
+
+    dav2-severe:
+      δ1=0.7340, δ2=0.9000, δ3=0.9609
+      RMSE=0.7807, MAE=0.5890, AbsRel=0.2071
+      Composite=9.3
+
+
+  dav2-vitb vs dav2-severe:
+    Problem: Inconsistent: A has higher δ1 but 3/3 errors higher
+
+    dav2-vitb:
+      δ1=0.7413, δ2=0.9043, δ3=0.9618
+      RMSE=0.7845, MAE=0.5897, AbsRel=0.2072
+      Composite=9.7
+
+    dav2-severe:
+      δ1=0.7340, δ2=0.9000, δ3=0.9609
+      RMSE=0.7807, MAE=0.5890, AbsRel=0.2071
+      Composite=9.3
+
