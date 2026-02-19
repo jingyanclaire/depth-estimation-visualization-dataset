@@ -25,7 +25,7 @@ Inside each directory, you'll find visualizations from different models:
 
 ## Organization Mode
 
-Files were organized using: symlink
+Files were organized using: copy
 
 ## Example
 
