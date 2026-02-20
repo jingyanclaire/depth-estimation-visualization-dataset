@@ -28,6 +28,7 @@ Images grouped by source image, containing visualizations from multiple models:
 ├── model_b.png
 ├── model_c.png
 └── model_d.png
+```
 
 ## Models Included
 
