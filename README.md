@@ -53,3 +53,7 @@ Each visualization includes:
 - Ground truth depth
 - Error map
 - Metrics overlay (δ1 score, category, depth ranges)
+
+## npy Format
+
+Stored correspond to Visualization Format, use **python convert_npy.py** to output
